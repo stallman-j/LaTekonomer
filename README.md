@@ -34,20 +34,22 @@
 <h3 align="center">LaTekonomer</h3>
 
   <p align="left">
-    LaTekonomer provides the Overleaf/LaTex templates that economists (ekonomer in Swedish) wish someone else would make and maintain. 
+    LaTekonomer provides the Overleaf/LaTex templates that economists (ekonomer in Swedish) wish someone else would make and maintain.
      <br />
      <br />
-    The templates include: professional but simple dark and light Beamer templates; tables (including three-part tables with fancy footnotes); figures; and a number of research exercises for ECON 412 International Environmental Economics, taught at Yale University by Sam Kortum (for which Jillian Stallman has been teaching assistant in Fall 2023 and Fall 2024).
+    The templates include but are not limited to: professional but simple dark and light Beamer templates; tables (including three-part tables with fancy footnotes); figures; and a number of research exercises for ECON 412 International Environmental Economics, taught at Yale University by Sam Kortum (for which Jillian Stallman has been teaching assistant in Fall 2023 and Fall 2024).
       <br />
       <br />
-    Many of the tables and figures here are outputs of vignettes and code provided in the R package  <a href="https://github.com/stallman-j/ekonomR"><strong>ekonomR</strong></a>. These are designed to be complementary research templates, but use of LaTekonomer does not require ekonomR and vice versa.
+    Many of these tables and figures are outputs of vignettes and code provided in the R package  <a href="https://github.com/stallman-j/ekonomR"><strong>ekonomR</strong></a>. These are designed to be complementary research templates and if you're starting a new project I highly recommend checking out <strong>ekonomR</strong>, but use of LaTekonomer does not require ekonomR or vice versa.
     <br />
     <br />
+    <!--
     <a href="https://github.com/stallman-j/LaTekonomer"><strong>Explore the docs »</strong></a>
     <br />
     <br />
     <a href="https://github.com/stallman-j/LaTekonomer">View Demo</a>
     ·
+      --->
     <a href="https://github.com/stallman-j/LaTekonomer/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
     ·
     <a href="https://github.com/stallman-j/LaTekonomer/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
@@ -93,7 +95,9 @@ Rather than carrying along a hodgepodge of LaTex files with all those settings t
 
 The goal of LaTekonomer is to provide, for me, for you, for your students, for your collaborators, a place to store that code that you spent hours searching StackExchange to finally finagle a three-part long table that stretched across multiple pages with footnotes at the very end. 
 
-Many economists end up requiring the same type of output, though. You want two figures that you outputted from R to go left and right with captions on your Beamer slides? You're not the only one. This syntax is obviously available, for any individual use, through some sort of Google or ChatGPT search. Sometimes it would be really nice if they were all together, though. Now they are!
+
+Have you ever thought, as you looked back through your old Overleaf projects or Dropbox tex files, that it would be really nice if you just had the syntax for all those tables or side-by-side figures or Beamer templates all in one place? Well, now you do!
+
 
 
 
@@ -120,8 +124,8 @@ Many economists end up requiring the same type of output, though. You want two f
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This is an example of how you may give instructions on setting up your project locally.
-To get a local copy up and running follow these simple example steps.
+This repository is linked with an Overleaf Project, so there are a few ways you could go about this. 
+
 
 ### Prerequisites
 
