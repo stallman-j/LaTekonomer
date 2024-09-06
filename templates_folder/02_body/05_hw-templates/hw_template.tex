@@ -1,0 +1,195 @@
+\documentclass{article} % can also have "report", "book", and others. Note that "article" doesn't accept chapters.
+
+% Packages:
+%% Language and font encodings
+\usepackage[english]{babel}
+\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+\usepackage{palatino}
+
+%% Page-Format-Related Packages
+\usepackage{lscape} % allows you to have landscape pages in a portrait document
+% Load the parskip package with skip and indent options
+\usepackage{pdflscape} % for tables to be landscape
+
+\usepackage[skip=10pt plus1pt, indent=15pt]{parskip}
+
+%% Sets page size and margins
+\usepackage[a4paper,top=3cm,bottom=2cm,left=3cm,right=3cm,marginparwidth=1.75cm,margin=1in]{geometry}
+\linespread{1.2} %1.2 spacing
+
+
+%% Graphics Packages
+\usepackage{graphicx,pstricks}
+\usepackage{graphics}
+\usepackage{float} % allows [H] to specify the exact location of graphics
+\usepackage{subfigure}
+\graphicspath{{figures/}} % tells latex that pics are in the figures folder
+\usepackage{verbatim} % inputting directly verbatim
+\usepackage{listings} % input from txt
+\lstset{
+basicstyle=\scriptsize\tt,
+}
+
+%% Tables Packages
+\usepackage{dcolumn} % aligns decimals in table columns
+\usepackage{booktabs} % Common for publishing-ready tables, necessary.
+\usepackage{tabularx} % more table customization, also necessary if you want to change column size
+\usepackage{array} % Necessary for general but pretty tables.
+\usepackage{threeparttable} % allows for captions and notes to be the same width. 
+\usepackage{multirow} % another customization package
+\usepackage{longtable} % for multi-page tables
+\usepackage{threeparttablex} % for longtable plus threeparttable. Note that notes formatting is finicky.
+
+
+
+%% Math-Related Packages
+\usepackage{amssymb,amsmath,amsthm}  % math environments
+%\usepackage[mathscr]{eucal}
+\DeclareMathOperator*{\argmax}{arg\,max} % define a particular math command
+\DeclareMathOperator*{\argmin}{arg\,min}
+\newtheorem{theorem}{Theorem}[section] % allows you to say \begin{theorem} and it numbers them accordingly, restarting at each new section.
+\newtheorem{corollary}{Corollary}[theorem] % restarts the counter of corollary with each new theorem
+\newtheorem{lemma}[theorem]{Lemma} % uses the same counter as the "theorem" environment
+\newtheorem{assumption}{Assumption}[section] % restarts the counter with each new section
+\usepackage[nosolutionfiles]{answers} % also allows for putting solutions within solutions say for an answer key, can print 2 versions
+\Newassociation{sol}{Solution}{ans}
+\newtheorem*{definition}{Definition}
+\newtheoremstyle{mystyle}% name
+  {\topsep}% Space above
+  {\topsep}% Space below
+  {\normalfont}% Body font
+  {}% Indent amount
+  {\bfseries}% Theorem head font
+  {}%Punctuation after theorem head
+  {.5em}%Space after theorem head
+  {}% theorem head spec
+\theoremstyle{mystyle}
+\newtheorem{ex}{}
+\newenvironment{Exercise}[1]
+{\item #1
+\begin{enumerate}
+}
+{
+\end{enumerate}
+}
+
+\newcommand{\Question}[1]{%
+\item #1
+}
+
+
+\newtheorem{hyp}{Hypothesis}[section] % check this, should be that it starts over the counter with each new section
+\usepackage{thmtools} % used to customize theorem styles
+\declaretheoremstyle[
+spaceabove=6pt, spacebelow=6pt,
+headfont=\normalfont\bfseries,
+notefont=\mdseries, notebraces={(}{)},
+bodyfont=\normalfont,
+postheadspace=0.6em,
+headpunct=:
+]{hypstyle}
+%\declaretheorem[style=hypstyle, name=Hypothesis, preheadhook={\renewcommand{\thehyp}{(H\arabic{hyp})}}]{hyp}
+
+\usepackage{pdfpages}
+
+
+
+% Cross-Referencing Packages
+\usepackage{xurl} % specifically created to allow urls to break across lines
+\usepackage[hidelinks]{hyperref} % if you're using this, remember to mention to Jillian and she'll get you set up. hidelinks option makes it so there isn't an annoying colored box around the links. Pro tip that's what noobs always miss.
+\usepackage{cleveref} % used for particularly fancy cross-referencing styles. %% IMPORTANT: make sure cleverref is the LAST cross-referencing package you load, otherwise it can cause some conflicts.
+\crefname{hyp}{hypothesis}{hypotheses}
+\Crefname{hyp}{Hypothesis}{Hypotheses}
+
+
+
+% Environment Packages
+\usepackage{enumitem} %nice for making lists/outlines from scratch.
+\usepackage{tasks} % for allowing HW questions in multiple columns and rows
+\usepackage{comment} % enables blocking out comments
+\usepackage[toc]{appendix} % for appendices. toc adds appendix to TOC and [page] puts a page in between the text and it, common options [toc,page]
+%\renewcommand{\appendixname}{Annex} % if you wanted to rename what the appendix was called
+
+
+
+% Bibliography Packages
+\usepackage{natbib} % this is one of the citation-specific packages
+\bibliographystyle{apalike}
+\setcitestyle{authoryear,open={(},close={)}}
+
+%\bibliographystyle{aomart}
+%\bibliographystyle{ksfh_nat}
+%\setcitestyle{authoryear,open={(},close={)}}
+%\bibliographystyle{IEEEbib}
+
+
+
+
+
+
+% Title page
+\title {Your Title Goes Here}
+\author {John Doe}
+\date{\today}
+
+%-------------------------------------------------------------%
+% This is the master document that houses the homework solutions
+
+
+% Last edited: 2022-11-29 by Jillian Stallman
+% ------------------------------------------------------------%
+
+
+
+
+\begin{document}
+
+
+
+
+% ------%
+% Template
+% ------%
+
+% new homework solutions template
+%\include{hw-solution-guides/hw-solutions-template}
+
+
+
+% ----------------------------%
+% Problem Set Files
+% ----------------------------%
+
+
+% --------------%
+% First-round Solutions
+% --------------%
+% Currently revising the following file:
+\input{templates_folder/02_body/05_hw-templates/hw-body/hw_xx_template.tex}
+
+% --------------%
+% Template Solutions
+% --------------%
+% Currently revising the following file:
+
+
+% Past solutions to be commented out
+\begin{comment} % comment out past solutions
+\include{hw-solution-guides/hw-01/hw-01_solutions_final}
+\include{templates_folder/02_body/05_hw-templates/hw-body/hw-05_solutions_final.tex}
+\include{templates_folder/02_body/05_hw-templates/hw-body/hw-05_appendix.tex}
+
+\end{comment}
+
+
+
+%% Bibliography
+
+%\bibliography{bibliography/causal-inference.bib}
+
+
+
+\end{document}
+
+

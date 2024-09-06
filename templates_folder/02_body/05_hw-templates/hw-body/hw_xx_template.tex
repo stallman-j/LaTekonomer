@@ -1,0 +1,88 @@
+\noindent
+\Large SDS x17  
+ 	\large Problem Set 03  
+ 	\large Due April 11, 2022 
+ 	\large Jillian Stallman 
+ 	\today  [1.5em] % today's date, then gives a little space below
+ 	
+
+I'd like to express my deep gratitude to Rachel Renne, Seung Min Kim, Weining Fang, and Yihong Wang for collaboration and support. 
+
+My code assumes that you have installed the \verb+causalToolbox+ and \verb+rForestry+ and some other packages that are common.
+
+\section{Problem 1 Transphobia 1}
+
+
+\subsection{Pre-Processing}
+
+    Given that door-to-door canvassing is not an area of expertise for me, I follow the authors' rationales as indicated in their supplementary materials to select outcome variables \citep[p.6-10]{broockmanSupplementaryMaterialsDurably2016}. The transphobia literature at this time lacked widely accepted measures to measure anti-transgender prejudice, so the authors constructed several indices in an attempt to measure negative attitudes more broadly. 
+    
+   
+    
+    Consider \verb+gender\_norm\_moral\_t\#+  I find the \verb+gender\_norm\_looks\_t\#+ to be an interesting question: 
+    \begin{quote}
+    To keep children from being confused, it's better when men look and act like men, and women look and act like women.    
+    \end{quote} 
+    
+    
+    \textbf{Covariates to Include:}
+    
+    The authors describe their preferred covariates in their Supplementary Materials, although I don't necessarily share their priors. They suggest that Democrats will be more responsive to treatment than Republicans:
+    \begin{itemize}
+        \item \verb+vf\_racename+ (possibly different cultural experiences or personal experience with different gender expression, and variation in social desirability of certain views)
+        \item \verb+vf\_party+ (may pick up differences in social desirability)
+    \end{itemize}
+    
+    \textbf{Preliminary Data Processing:}
+    Figures~\ref{fig:hw-04_q-01a_data-skim_keepvars-01} and ~\ref{fig:hw-04_q-01a_data-skim_keepvars-02} present an initial look at the data with \verb+skim+. I have included additional outcomes for the purposes of missing data analysis, to which we now turn. 
+    
+
+    \begin{figure}[H]
+	\centering % centers
+	\includegraphics[width=.8\linewidth]{figures/frog.jpg}
+	\caption{An Initial Look at the Data} 
+	\label{fig:hw-04_q-01a_data-skim_keepvars-01}
+    \end{figure}
+    
+        \begin{figure}[H]
+	\centering % centers
+	\includegraphics[width=.8\linewidth]{figures/frog.jpg}
+	\caption{An Initial Look at the Data} 
+	\label{fig:hw-04_q-01a_data-skim_keepvars-02}
+    \end{figure}
+
+   
+            
+
+\input{tables/tables-from-stata/estout-sumstats_template.tex}
+
+   
+    
+
+    \begin{figure}
+    \centering
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/frog.jpg} % first figure itself
+        \caption{Forest as Ntree grows}
+       \label{fig:hw-04_q-01e_forest}
+    \end{minipage}\hfill
+    \begin{minipage}{0.45\textwidth}
+        \centering
+        \includegraphics[width=\textwidth]{figures/frog.jpg} % second figure itself
+        \caption{Xgboost as Nrounds Grows}
+    \end{minipage}
+    \label{fig:hw-04_q-01e_xg}
+\end{figure}
+
+
+
+
+
+
+\section{Asymptotic Properties of the AIPW Estimator}
+
+    Please see the attached pages for my work regarding these problems. 
+    
+    \includepdf[pages={1-9}]{included-pdfs/hw-04/sds-x17_hw-04_stallman_q-03.pdf} 
+
