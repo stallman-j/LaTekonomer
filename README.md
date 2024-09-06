@@ -35,10 +35,13 @@
 
   <p align="left">
     LaTekonomer provides the Overleaf/LaTex templates that economists (ekonomer in Swedish) wish someone else would make and maintain. 
-      <br />
+     <br />
+     <br />
     The templates include: professional but simple dark and light Beamer templates; tables (including three-part tables with fancy footnotes); figures; and a number of research exercises for ECON 412 International Environmental Economics, taught at Yale University by Sam Kortum (for which Jillian Stallman has been teaching assistant in Fall 2023 and Fall 2024).
       <br />
+      <br />
     Many of the tables and figures here are outputs of vignettes and code provided in the R package  <a href="https://github.com/stallman-j/ekonomR"><strong>ekonomR</strong></a>. These are designed to be complementary research templates, but use of LaTekonomer does not require ekonomR and vice versa.
+    <br />
     <br />
     <a href="https://github.com/stallman-j/LaTekonomer"><strong>Explore the docs »</strong></a>
     <br />
@@ -86,7 +89,14 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Here's a blank template to get started: To avoid retyping too much info. 
+Rather than carrying along a hodgepodge of LaTex files with all those settings that you got just right, or trying to figure out how to ask ChatGPT how to do it all over again, why not have a template that you can use to start off any new project that contains the LaTex syntax for the stuff you use?
+
+The goal of LaTekonomer is to provide, for me, for you, for your students, for your collaborators, a place to store that code that you spent hours searching StackExchange to finally finagle a three-part long table that stretched across multiple pages with footnotes at the very end. 
+
+Many economists end up requiring the same type of output, though. You want two figures that you outputted from R to go left and right with captions on your Beamer slides? You're not the only one. This syntax is obviously available, for any individual use, through some sort of Google or ChatGPT search. Sometimes it would be really nice if they were all together, though. Now they are!
+
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
