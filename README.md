@@ -18,7 +18,7 @@
 *** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
 *** https://www.markdownguide.org/basic-syntax/#reference-style-links
 -->
-[![Contributors][stallman-j]][https://github.com/stallman-j]
+[![Contributors][contributors-shield]][https://github.com/stallman-j]
 [![Issues][issues-shield]][issues-url]
 [![MIT License][license-shield]][license-url]
 
@@ -34,7 +34,12 @@
 <h3 align="center">LaTekonomer</h3>
 
   <p align="center">
-    Overleaf/LaTex templates economists (ekonomer in Swedish) wish someone else would make and maintain. The templates include: dark and light Beamer templates, tables and figures, and a number of research exercises for ECON 412 International Environmental Economics, taught at Yale University by Sam Kortum (for which Jillian Stallman has been teaching assistant in Fall 2023 and Fall 2024).
+    LaTekonomer provides the Overleaf/LaTex templates that economists (ekonomer in Swedish) wish someone else would make and maintain. 
+      
+    The templates include: professional but simple dark and light Beamer templates; tables (including three-part tables with fancy footnotes); figures; and a number of research exercises for ECON 412 International Environmental Economics, taught at Yale University by Sam Kortum (for which Jillian Stallman has been teaching assistant in Fall 2023 and Fall 2024).
+
+    Many of the tables and figures here are outputs of vignettes and code provided in the R package  <a href="https://github.com/stallman-j/ekonomR"><strong>ekonomR</strong></a>. These are designed to be complementary research templates, but use of LaTekonomer does not require ekonomR and vice versa.
+    
     <br />
     <a href="https://github.com/stallman-j/LaTekonomer"><strong>Explore the docs »</strong></a>
     <br />
