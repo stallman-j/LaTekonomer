@@ -160,7 +160,7 @@ b. What about making other branches with Git?
 
 Your prerequisites and installation steps will depend on how you're anticipating you'll use these templates. Let's go through the setup from least to most overhead.
 
-<strong> Copying the <a href="https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598">LaTekonomer Overleaf Template</a> </ strong>
+<strong> Copying the <a href="https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598">LaTekonomer Overleaf Template</a>  </strong>
 
 1. You'll need an <a href = "https://www.overleaf.com/" > Overleaf account </a>. If you're at a university, your university email might give you access to Overleaf premium, which would allow you to sync with GitHub fairly easily. Try using the SSO option with your university domain if you have that.
 
@@ -170,15 +170,15 @@ Your prerequisites and installation steps will depend on how you're anticipating
 
 4. Click "Menu" on the top left of the screen with the project showing in Overleaf, and then "Copy Project"
 
-<div class="figure">
-<img src="figures/vignette-figs/README/README_overleaf-copy_01.png" alt="copy overleaf project" width="200" />
+<div class="figure" align="center">
+<img src="figures/vignette-figs/README/README_overleaf-copy_01.png" alt="copy overleaf project" width="50%" />
 <p class="caption">Copy the Overleaf Project</p>
 </div>
 
 5. Rename to something like "my-awesome-project." If this is for a class, something like "ECON-412" would be good.
 
-<div class="figure">
-<img src="figures/vignette-figs/README/README_overleaf-copy_02.png" alt="rename project" width="300" />
+<div class="figure" align="center">
+<img src="figures/vignette-figs/README/README_overleaf-copy_02.png" alt="rename project" width="80%" />
 <p class="caption">Rename your project</p>
 </div>
 
