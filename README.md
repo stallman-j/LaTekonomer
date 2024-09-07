@@ -34,20 +34,20 @@
 <h3 align="center">LaTekonomer</h3>
 
   <p align="left">
-    LaTekonomer strives to provide the Overleaf/LaTex templates that many economists wish someone else would make and maintain.
+    LaTekonomer aims to provide those Overleaf/LaTex templates that many economists wish someone else would make and maintain.
      <br />
      <br />
-    The templates include but are not limited to: professional but simple dark and light Beamer templates; tables (including three-part tables with footnotes); figures; and a number of research exercises.
+    The templates include but are not limited to: general math writing; homework write-ups; article write-ups with bibliographies; professional but simple dark and light Beamer templates; tables (including three-part tables with footnotes); figures; and a few research project assignments.
     <br />
       <br />
-    These research exercises come from ECON 412 International Environmental Economics, a course taught at Yale University by Sam Kortum, for which Jillian Stallman has been teaching assistant in Fall 2023 and Fall 2024.
+    The research project assignments come from ECON 412 International Environmental Economics, a course taught at Yale University by Sam Kortum, for which Jillian Stallman has been teaching assistant in Fall 2023 and Fall 2024.
       <br />
       <br />
-    Many of these tables and figures are outputs of vignettes and code provided in the R package  <a href="https://github.com/stallman-j/ekonomR"><strong>ekonomR</strong></a>. <strong>ekonomR</strong> and <strong>LaTekonomer</strong>  are designed to be complementary research templates. If you're starting a new project I highly recommend checking out <strong>ekonomR</strong>. Use of LaTekonomer does not require ekonomR or vice versa.
+    Many of these tables and figures are outputs of vignettes and code provided in the R package  <a href="https://github.com/stallman-j/ekonomR">**ekonomR**</a>. **ekonomR** and **LaTekonomer**  are designed to be complementary research templates. If you're starting a new project I highly recommend checking out **ekonomR**, but the use of **LaTekonomer** does not require **ekonomR** or vice versa.
     <br />
     <br />
     <!--
-    <a href="https://github.com/stallman-j/LaTekonomer"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/stallman-j/LaTekonomer">**Explore the docs »**</a>
     <br />
     <br />
     <a href="https://github.com/stallman-j/LaTekonomer">View Demo</a>
@@ -201,17 +201,30 @@ I recommend trying this out if you're new to GitHub and you want to start gettin
         * As you're going through the guide, you might get into the question of which LaTex installation to download.
             - For Mac, you'll want to download Mactex.
             - For Windows, download MikTex if you want LaTex taking up a little less space on your machine. Remember to allow it to download packages on the fly, though, and allow it to add itself to your paths. Download TexLive if you never want to worry about a missing package or think about LaTex again once you've downloaded it, but are willing to devote some 5G of your computer storage to LaTex. If you're indifferent, go with TexLive. More people maintain it.
-        * To get a dark mode that feels a bit like Overleaf, follow <a href = "https://medium.com/@iitrabhi/how-to-setup-sublime-as-a-beautiful-latex-editor-dark-mode-windows-7ec5e0a24878"> this tutorial </a> and then navigate to `File` -> `Open Folder` and open your project folder (for me, that's `LaTekonomer` itself). If it's still not working, go to `View`-> `Sidebar` and click `Show Sidebar.`
+        * To get a dark mode that feels a bit like Overleaf, follow [this tutorial](https://medium.com/@iitrabhi/how-to-setup-sublime-as-a-beautiful-latex-editor-dark-mode-windows-7ec5e0a24878) and then navigate to `File` -> `Open Folder` and open your project folder (for me, that's `LaTekonomer` itself). If it's still not working, go to `View`-> `Sidebar` and click `Show Sidebar.`
         * For a light theme, check out <a href = "https://github.com/dempfi/ayu"> AYU </a>. I won't wade into the light-theme, dark-theme debate, but I personally use this one.
+              * To make the pdf viewer match, I also change the following Sumatra settings (`Settings`->`Advanced Options`) replacing the settings of `FixedPageUI` with the following (colors obtained from [https://github.com/ayu-theme/ayu-colors](https://github.com/ayu-theme/ayu-colors))
+
+          ```
+          FixedPageUI [
+	TextColor = #5C6166
+	BackgroundColor = #FCFCFC
+	SelectionColor = #035BD6
+	WindowMargin = 2 4 2 4
+	PageSpacing = 4 4
+	InvertColors = false
+	HideScrollbars = false
+]
+          ```
 3. You'll need to set Git up on your device.
    - I set up my GitHub originally to let it version control with R, so followed the book <a href = "https://happygitwithr.com/"> <em> Happy Git and GitHub for the useR </em> </a>.
-       * If you're thinking of using the complementary <a href = "https://github.com/stallman-j/ekonomR" ><strong> ekonomR </strong> </a> R package, I highly recommend following the <strong> Happy Git </strong> book first, and then coming back here to set up <em> this </em> repository through the Git command line. You'll have installed the Git terminal in <strong> Ch. 6: Install Git </strong> when you're following this book, and that's where you'll learn what the Git command line is if you don't already know.
+       * If you're thinking of using the complementary <a href = "https://github.com/stallman-j/ekonomR" >** ekonomR ** </a> R package, I highly recommend following the ** Happy Git ** book first, and then coming back here to set up <em> this </em> repository through the Git command line. You'll have installed the Git terminal in ** Ch. 6: Install Git ** when you're following this book, and that's where you'll learn what the Git command line is if you don't already know.
        * Getting GitHub to link to your computer securely can take a little effort, so give yourself a weekend on the off chance that you need to go deep into the troubleshooting help. Do <em> not </em> try to do any of this late at night when you're tired. You'll make yourself miserable and there are lots of little things that can go wrong.
-       * <strong> Happy Git </strong> is supremely well written. Start at the beginning and go through chapter 12, "Connect RStudio to Git and GitHub."
+       * ** Happy Git ** is supremely well written. Start at the beginning and go through chapter 12, "Connect RStudio to Git and GitHub."
     - If you haven't done this before and are using this project as an excuse to learn some GitHub but aren't planning on using this with R, the <a href = "https://docs.github.com/en/get-started/start-your-journey/about-github-and-git" > GitHub docs </a> are a good place to get started. I occasionally use <a href = "https://www.sublimemerge.com/" > Sublime Merge </a> as a Git client. 
-4. Assuming you've either gone off to <strong> Happy Git </strong> and come back or figured out your Gitting on your own, you're ready to fork the <strong> LaTekonomer </strong> repository using your Git bash terminal. If you don't know what the Git bash terminal is, you did not successfully complete Step 2.
+4. Assuming you've either gone off to ** Happy Git ** and come back or figured out your Gitting on your own, you're ready to fork the ** LaTekonomer ** repository using your Git bash terminal. If you don't know what the Git bash terminal is, you did not successfully complete Step 2.
    - You can bring up the Git terminal either in RStudio -> Terminal (next to the "Console" tab), or in your Applications go to Git and click on Git Bash, which should open up a free-floating terminal.
-   - You do <strong> NOT </strong> want the Windows PowerShell terminal or whatever it is that Mac uses (I think? To do: Ask Mac users who use Git how they use the terminal).
+   - You do ** NOT ** want the Windows PowerShell terminal or whatever it is that Mac uses (I think? To do: Ask Mac users who use Git how they use the terminal).
 5. Go to the <a href="https://github.com/stallman-j/LaTekonomer"> repository page for LaTekonomer. </a>
 6. Under the "Fork" option, click "Create a new fork"
 
@@ -228,7 +241,7 @@ I recommend trying this out if you're new to GitHub and you want to start gettin
 </div>
 
 8. On the new repository page that pops up in your own repository and click on the green "Code" button. If you're using HTTPS protocol, click the "copy" icon to copy to URL for your newly created repository.
-    - If you followed <strong> Happy Git </strong>, you should be using the HTTPS protocol. If you're using SSH, you're on your own!
+    - If you followed ** Happy Git **, you should be using the HTTPS protocol. If you're using SSH, you're on your own!
 
 
 <div class="figure" align="center">
