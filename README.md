@@ -145,11 +145,11 @@ This repository is linked with an Overleaf Project, so there are a few ways you 
 
 <a id="installation"></a>
 
-### Installation
+## Installation
 
 Your prerequisites and installation steps will depend on how you're anticipating you'll use these templates. Let's go through the setup from least to most overhead.
 
-<strong> Copying the LaTekonomer Overleaf Template </strong>
+### Copying the LaTekonomer Overleaf Template
 
 1. You'll need an <a href = "https://www.overleaf.com/" > Overleaf account </a>.
 
@@ -177,7 +177,7 @@ You're set up! Easy as that.
 
 [To add and link here: Vignette for "Getting started with writing up homework" that's linked to the "Copy the LaTekonomer Overleaf Template"]
 
-<strong> Forking the Git Repository </strong>
+### Forking the Git Repository
 
 1. You'll need a <a href = "https://github.com/" > GitHub account. </a>. I haven't found there to be an advantage to using an institutional email at this point.
 2. You'll need either an <a href = "https://www.overleaf.com/" > Overleaf account </a> or a LaTex installation on your local machine.
@@ -289,8 +289,8 @@ Pull the changes.
 git pull
 ```
 
-Good to go.
 
+### Downloading the files to your local system
 [To add: Straight-up downloading steps and recommendations]
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
