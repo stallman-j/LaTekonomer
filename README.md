@@ -157,7 +157,7 @@ What do I do these days?
 
 ## Installation
 
-Your prerequisites and installation steps will depend on how you're anticipating you'll use these templates. Let's go through the 
+Your prerequisites and installation steps will depend on how you're anticipating you'll use these templates. Let's go through the three main ways of doing this. There are tons of tutorials out there. This is just what has worked well for me.
 
 ### Copying the LaTekonomer Overleaf Template
 
@@ -211,7 +211,7 @@ I recommend trying this out if you're new to GitHub and you want to start gettin
     - If you haven't done this before and are using this project as an excuse to learn some GitHub but aren't planning on using this with R, the <a href = "https://docs.github.com/en/get-started/start-your-journey/about-github-and-git" > GitHub docs </a> are a good place to get started. I occasionally use <a href = "https://www.sublimemerge.com/" > Sublime Merge </a> as a Git client. 
 4. Assuming you've either gone off to <strong> Happy Git </strong> and come back or figured out your Gitting on your own, you're ready to fork the <strong> LaTekonomer </strong> repository using your Git bash terminal. If you don't know what the Git bash terminal is, you did not successfully complete Step 2.
    - You can bring up the Git terminal either in RStudio -> Terminal (next to the "Console" tab), or in your Applications go to Git and click on Git Bash, which should open up a free-floating terminal.
-   - You do <strong> NOT </strong> want the Windows PowerShell terminal or whatever it is that Mac uses.
+   - You do <strong> NOT </strong> want the Windows PowerShell terminal or whatever it is that Mac uses (I think? To do: Ask Mac users who use Git how they use the terminal).
 5. Go to the <a href="https://github.com/stallman-j/LaTekonomer"> repository page for LaTekonomer. </a>
 6. Under the "Fork" option, click "Create a new fork"
 
@@ -238,7 +238,7 @@ I recommend trying this out if you're new to GitHub and you want to start gettin
 
 9. In your Git Bash (or RStudio Git) terminal, change the working directory to the folder in which you would like to create this new project.
     * Putting your project in a folder which is also synced to a cloud (like OneDrive or Dropbox) doubly backs your stuff up and allows you do make local changes from multiple devices. I've read that doing this might cause syncing issues but have never run into any myself.
-    * I use the cloud <a href = "https://www.pcloud.com/" > pCloud </a>, which is like Dropbox but with lifetime subscriptions and some other fun bells and whistles.
+    * I use the cloud <a href = "https://www.pcloud.com/" > pCloud </a>, which is like Dropbox but with lifetime subscriptions rather than annual, and some other fun bells and whistles.
     * If you're at Yale, you have free storage with OneDrive. If you're doing this in OneDrive, make sure that you've opened up the OneDrive app so that your folders register the correct paths.
     * If you're on a Windows system, the command might look like the following, where you change ```[your-username]``` to be whatever your username on your PC is. 
 
