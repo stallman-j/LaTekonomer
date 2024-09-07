@@ -20,7 +20,7 @@
 -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+[![GNU GPLv3 License][license-shield]][license-url]
 
 
 
@@ -34,20 +34,20 @@
 <h3 align="center">LaTekonomer</h3>
 
   <p align="left">
-    LaTekonomer strives to provide the Overleaf/LaTex templates that many economists wish someone else would make and maintain.
+    LaTekonomer aims to provide those Overleaf/LaTex templates that many economists wish someone else would make and maintain.
      <br />
      <br />
-    The templates include but are not limited to: professional but simple dark and light Beamer templates; tables (including three-part tables with footnotes); figures; and a number of research exercises.
+    The templates include but are not limited to: general math writing; homework write-ups; article write-ups with bibliographies; professional but simple dark and light Beamer templates; tables (including three-part tables with footnotes); figures; and a few research project assignments.
     <br />
       <br />
-    These research exercises come from ECON 412 International Environmental Economics, a course taught at Yale University by Sam Kortum, for which Jillian Stallman has been teaching assistant in Fall 2023 and Fall 2024.
+    The research project assignments come from ECON 412 International Environmental Economics, a course taught at Yale University by Sam Kortum, for which Jillian Stallman has been teaching assistant in Fall 2023 and Fall 2024.
       <br />
       <br />
-    Many of these tables and figures are outputs of vignettes and code provided in the R package  <a href="https://github.com/stallman-j/ekonomR"><strong>ekonomR</strong></a>. <strong>ekonomR</strong> and <strong>LaTekonomer</strong>  are designed to be complementary research templates. If you're starting a new project I highly recommend checking out <strong>ekonomR</strong>. Use of LaTekonomer does not require ekonomR or vice versa.
+    Many of these tables and figures are outputs of vignettes and code provided in the R package  <a href="https://github.com/stallman-j/ekonomR">**ekonomR**</a>. **ekonomR** and **LaTekonomer**  are designed to be complementary research templates. If you're starting a new project I highly recommend checking out **ekonomR**, but the use of **LaTekonomer** does not require **ekonomR** or vice versa.
     <br />
     <br />
     <!--
-    <a href="https://github.com/stallman-j/LaTekonomer"><strong>Explore the docs »</strong></a>
+    <a href="https://github.com/stallman-j/LaTekonomer">**Explore the docs »**</a>
     <br />
     <br />
     <a href="https://github.com/stallman-j/LaTekonomer">View Demo</a>
@@ -113,13 +113,14 @@ Have you ever thought, as you looked back through your old Overleaf projects or 
 
 ## Getting Started
 
-This repository is linked with an Overleaf Project, so there are a few ways you might want to use it on your own machine. I'll go over the steps for each of these.
+This repository is linked with an Overleaf Project, so there are many ways you might want to use it on your own machine. I'll go over the steps for each of the below, each of which comes its pros and cons.
 
 1. Copying the <a href="https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598">LaTekonomer Overleaf Template</a>
    - Do this if the following seem to apply to you:
-      * You've never used LaTex before (but want to learn) and have not used GitHub before (and don't feel a need to learn just yet) or the word "GitHub" means little to you and LaTex already seems a little intimidating.
+      * You've never used LaTex before (but want to learn) and have not used GitHub before (and don't feel a need to learn just yet).
       * You use Overleaf but don't keep a local LaTex installation on your computer.
-            - Installing LaTex locally can be a pain. If you're not sure how much you'll use LaTex even with all these templates, try the Overleaf route first.
+    - Installing LaTex locally can be a pain. If you're not sure which to do, try the Overleaf route first. You can always install LaTex locally later.
+    - Once you have an Overleaf project, you can also sync it online with GitHub. You can also start with Overleaf and do this later. This is what I recommend if you're new to GitHub but you want a soft introduction to using it.
 2. Forking the Git Repository
    - <a href = "https://docs.github.com/en/get-started/start-your-journey/downloading-files-from-github" > Forking </a> means that you copy this LaTekonomer Github repository to your own Github repository with a (hopefully) different name, which you then take as the foundation for your own project.
    - Do this if you:
@@ -128,45 +129,47 @@ This repository is linked with an Overleaf Project, so there are a few ways you 
    - Why would you want to start using GitHub?
         * GitHub is a standard method for making research code, inputs, and outputs transparent, replicable, and sharable among many fields. Economics is catching up in this trend.
         * If you're just starting a research project, starting it with Github allows you to maintain version control throughout your project without having to do something like Dropbox rewind. Your future self will thank you.
-        * If you have any collaborators (or end up getting any collaborators), it'll allow them to join your project, and you can work together on the project without stepping on each others' toes and keep track of each other's contributions.
+        * If you have any collaborators (or end up getting any collaborators), it'll allow them to join your project. You can work together on the project without stepping on each others' toes and keep track of each other's contributions.
         * You'll save yourself from possibly losing all your code or output if you run into tech problems
-   - You can fork and sync either with your own Overleaf or on your local system
+   - If you're planning to just use this with Overleaf and not planning on having the files on your local system, instead follow the steps for **copying the Latekonomer Overleaf Template.** From there, it's really easy to set up Overleaf with GitHub and you don't have to bother with Git bash and the Git terminal.
 3. Downloading the files into your local system
    - You can download either from the <a href="https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598">LaTekonomer Overleaf Template</a> or from Github.
    - To use these with LaTex, though, you'll need a local LaTex installation.
-   - Do this if you already use LaTex locally and you've already got some way of backing up your files (e.g. all your files live in Dropbox anyways and you don't plan on having collaborators for this project).
-   - If you do _not_ have a way of backing up your files and you want to download locally just because it's temporarily easier, I highly recommend that you reconsider investing some time into Git, or at the very least building up the practice of starting all your projects in folders that sync automatically to the cloud. Ideally, you would have for all your files three different versions:
+   - Do this if you already use LaTex locally and you've already got some way of backing up your files (e.g. all your files live in Dropbox anyways and you don't plan on having collaborators for this project) and don't want to invest in GitHub.
+   - If you do _not_ have a way of backing up your files and you want to download locally just because it's temporarily easier, I highly recommend that you reconsider investing some time into Git, or at the very least building up the practice of starting all your projects in folders that sync automatically to a cloud. Ideally, you would have for all your important files at least three different versions:
      1) a local version,
      2) a cloud version,
      3) an external physical version (e.g. an external hard drive backup).
-   Technical issues happen all the time, and writing out in LaTex can take a long time. Not having backups means you're potentially throwing away hours, days, or even months of work if your computer gives up on you.
+   
+   Technical issues happen all the time, and writing in LaTex can be time intensive. Not having backups means you're potentially throwing away hours, days, or even months of work if your computer gives up on you.
 
-You may be wondering:
-a. What if I want to edit the source files?
-   - <a href="#contributing">Become a contributor! </a>
-b. What about making other branches with Git?
-   - Overleaf says it <a href="https://www.overleaf.com/learn/how-to/GitHub_Synchronization" > doesn't play nicely with branching </a>, but <a href="https://stackoverflow.com/questions/61242083/git-push-of-an-overleaf-project-to-a-different-branch-other-than-master">of course people have figured out workarounds.</a> 
+What do I do these days? 
 
+ - A combination of all the above: I have Overleaf sync with Github _and_ a local repository on my computer that automatically syncs with my cloud and which has Git set up to also push and pull changes from my local copy to my GitHub repository. Plus an external hard drive that backs the local copy up every night. I once lost a whole semester's worth of manual inputting work because I didn't sync correctly to Dropbox. Don't be me. Learn the easy way.
+
+ - If I have a lot of images or tables to change or add, I tend to use the local repository to avoid having to drag and drop files into Overleaf. If I'm mostly editing text, I tend to use Overleaf because it compiles so quickly, the interface is pretty, and it doesn't generate tons of aux files. You have to be mindful about where you're pushing and pulling from, though, otherwise you can end up with conflicting files. 
+
+ - GitHub is great about recognizing what lines specifically have changed (this is what makes it such a good collaboration tool!), so I just make sure I keep up on my pushes and pulls when I switch between the Overleaf and local copy. I don't tend to edit the files directly in GitHub.
 
 <!-- Installation -->
 
 <a id="installation"></a>
 
-### Installation
+## Installation
 
-Your prerequisites and installation steps will depend on how you're anticipating you'll use these templates. Let's go through the setup from least to most overhead.
+Your prerequisites and installation steps will depend on how you're anticipating you'll use these templates. Let's go through the three main ways of doing this. There are tons of tutorials out there. This is just what has worked well for me.
 
-<strong> Copying the LaTekonomer Overleaf Template </strong>
+### Copying the LaTekonomer Overleaf Template
 
 1. You'll need an <a href = "https://www.overleaf.com/" > Overleaf account </a>.
 
 If you're at a university, your university email will likely give you access to Overleaf premium, which would allow you to sync Overleaf directly to GitHub.
 
-4. Once you have your account, log into Overleaf.
+2. Once you have your account, log into Overleaf.
 
-5. Click on this <a href = "https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598" > LaTekonomer share link </a>.
+3. Click on this <a href = "https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598" > LaTekonomer share link </a>.
 
-6. Click "Menu" on the top left of the screen with the project showing in Overleaf, and then "Copy Project"
+4. Click "Menu" on the top left of the screen with the project showing in Overleaf, and then "Copy Project"
 
 <div class="figure" align="center">
 <img src="figures/vignette-figs/README/README_overleaf-copy_01.png" alt="copy overleaf project" width="50%" />
@@ -180,33 +183,54 @@ If you're at a university, your university email will likely give you access to 
 <p class="caption">Rename your project</p>
 </div>
 
-You're set up! Easy as that.
+You're set up! Easy as that. 
+
+Now that you've got your project in Overleaf, if you have an Overleaf premium account, you can also <a href = "https://www.overleaf.com/learn/how-to/GitHub_Synchronization"> set it up to sync with GitHub. </a> 
+
+I recommend trying this out if you're new to GitHub and you want to start getting used to it without having to learn about coding from the command line or dealing with a finicky installation just yet.
 
 [To add and link here: Vignette for "Getting started with writing up homework" that's linked to the "Copy the LaTekonomer Overleaf Template"]
 
-<strong> Forking the Git Repository </strong>
+### Forking the Git Repository
 
-1. You'll need a <a href = "https://github.com/" > GitHub account. </a>. I haven't found there to be an advantage to using an institutional email here (at this point).
-2. You'll need either an <a href = "https://www.overleaf.com/" > Overleaf account </a> or a LaTex installation on your local machine.
-   - If this is your first time with both LaTex and GitHub, I recommend going through Overleaf. It allows you to collaborate easily, and you don't have to worry about figuring out all the installation nuances of LaTex.
+1. You'll need a <a href = "https://github.com/" > GitHub account. </a>. I haven't found there to be an advantage to using an institutional email at this point.
+2. You'll need a LaTex installation on your local machine.
+   - If this is your first time with both LaTex and GitHub, I recommend going through Overleaf with the first option above. It allows you to collaborate easily and learn the ropes without worrying about figuring out all the installation nuances of LaTex or GitBash just yet.
    - If you really like the idea of having a local copy without needing the internet and you're willing to spend some time tinkering with the installation, then there are a lot of ways you can set up LaTex on your local machine.
         * I use Sublime Tools (a speedy text editor that's a lot like VisualStudio) with LaTexTools. You can follow the installation <a href = "https://latextools.readthedocs.io/en/latest/install/" > here </a>.
-        * For Mac, you'll want to download Mactex.
-        * For Windows, download MikTex if you want LaTex taking up a little less space on your machine. Remember to allow it to download packages on the fly, though. Download TexLive if you never want to worry about a missing package or think about LaTex again once you've downloaded it.
+        * As you're going through the guide, you might get into the question of which LaTex installation to download.
+            - For Mac, you'll want to download Mactex.
+            - For Windows, download MikTex if you want LaTex taking up a little less space on your machine. Remember to allow it to download packages on the fly, though, and allow it to add itself to your paths. Download TexLive if you never want to worry about a missing package or think about LaTex again once you've downloaded it, but are willing to devote some 5G of your computer storage to LaTex. If you're indifferent, go with TexLive. More people maintain it.
+        * To get a dark mode that feels a bit like Overleaf, follow [this tutorial](https://medium.com/@iitrabhi/how-to-setup-sublime-as-a-beautiful-latex-editor-dark-mode-windows-7ec5e0a24878) and then navigate to `File` -> `Open Folder` and open your project folder (for me, that's `LaTekonomer` itself). If it's still not working, go to `View`-> `Sidebar` and click `Show Sidebar.`
+        * For a light theme, start out following the tutorial for the above (which installs the theme AYU along with setting some other nice settings). I like [AYU light](https://github.com/dempfi/ayu)>, which you can install by using `ctrl`+`shift`+`p` (to open the package manager), then typing `ayu: activate theme` -> `ayu light`.
+            * To make the pdf viewer match, I also change a few Sumatra settings (`Settings`->`Advanced Options`). First, I set `MainWindowBackground = #828c99`, and then replace the settings of `FixedPageUI` with the following (colors obtained from [https://github.com/ayu-theme/ayu-colors](https://github.com/ayu-theme/ayu-colors))
+
+          ```
+          FixedPageUI [
+          TextColor = #5C6166
+          BackgroundColor = #FCFCFC
+          SelectionColor = #035BD6
+          WindowMargin = 2 4 2 4
+          PageSpacing = 4 4
+          InvertColors = false
+          HideScrollbars = false
+          ]
+          ```
+          *[Here's](https://www.sumatrapdfreader.org/settings/settings3-0) how to customize more Sumatra settings.
 3. You'll need to set Git up on your device.
    - I set up my GitHub originally to let it version control with R, so followed the book <a href = "https://happygitwithr.com/"> <em> Happy Git and GitHub for the useR </em> </a>.
-       * If you're thinking of using the complementary <a href = "https://github.com/stallman-j/ekonomR" ><strong> ekonomR </strong> </a> R package, I highly recommend following the <strong> Happy Git </strong> book first, and then coming back here to set up <em> this </em> repository through the Git command line. You'll have installed the Git terminal in <strong> Ch. 6: Install Git </strong> when you're following this book, and that's where you'll learn what the Git command line is if you don't already know.
+       * If you're thinking of using the complementary <a href = "https://github.com/stallman-j/ekonomR" >** ekonomR ** </a> R package, I highly recommend following the ** Happy Git ** book first, and then coming back here to set up <em> this </em> repository through the Git command line. You'll have installed the Git terminal in ** Ch. 6: Install Git ** when you're following this book, and that's where you'll learn what the Git command line is if you don't already know.
        * Getting GitHub to link to your computer securely can take a little effort, so give yourself a weekend on the off chance that you need to go deep into the troubleshooting help. Do <em> not </em> try to do any of this late at night when you're tired. You'll make yourself miserable and there are lots of little things that can go wrong.
-       * <strong> Happy Git </strong> is supremely well written. Start at the beginning and go through chapter 12, "Connect RStudio to Git and GitHub."
-    - If you haven't done this before and are using this project as an excuse to learn some GitHub but aren't planning on using this with R, the <a href = "https://docs.github.com/en/get-started/start-your-journey/about-github-and-git" > GitHub docs </a> are a good place to get started.
-4. Assuming you've either gone off to <strong> Happy Git </strong> and come back or figured out your Gitting on your own, you're ready to fork the <strong> LaTekonomer </strong> repository using your Git bash terminal. If you don't know what the Git bash terminal is, you did not successfully complete Step 2.
+       * ** Happy Git ** is supremely well written. Start at the beginning and go through chapter 12, "Connect RStudio to Git and GitHub."
+    - If you haven't done this before and are using this project as an excuse to learn some GitHub but aren't planning on using this with R, the <a href = "https://docs.github.com/en/get-started/start-your-journey/about-github-and-git" > GitHub docs </a> are a good place to get started. I occasionally use <a href = "https://www.sublimemerge.com/" > Sublime Merge </a> as a Git client. 
+4. Assuming you've either gone off to ** Happy Git ** and come back or figured out your Gitting on your own, you're ready to fork the ** LaTekonomer ** repository using your Git bash terminal. If you don't know what the Git bash terminal is, you did not successfully complete Step 2.
    - You can bring up the Git terminal either in RStudio -> Terminal (next to the "Console" tab), or in your Applications go to Git and click on Git Bash, which should open up a free-floating terminal.
-   - You do <strong> NOT </strong> want the Windows PowerShell terminal or whatever it is that Mac uses.
+   - You do ** NOT ** want the Windows PowerShell terminal or whatever it is that Mac uses (I think? To do: Ask Mac users who use Git how they use the terminal).
 5. Go to the <a href="https://github.com/stallman-j/LaTekonomer"> repository page for LaTekonomer. </a>
 6. Under the "Fork" option, click "Create a new fork"
 
 <div class="figure" align="center">
-<img src="figures/vignette-figs/README/README_github_fork-01.png" alt="fork LaTekonomer repository" width="50%" />
+<img src="figures/vignette-figs/README/README_github_fork-01.png" alt="fork LaTekonomer repository" width="100%" />
 <p class="caption">Fork the repository</p>
 </div>
 
@@ -218,17 +242,17 @@ You're set up! Easy as that.
 </div>
 
 8. On the new repository page that pops up in your own repository and click on the green "Code" button. If you're using HTTPS protocol, click the "copy" icon to copy to URL for your newly created repository.
-    - If you followed <strong> Happy Git </strong>, you should be using the HTTPS protocol. If you're using SSH, you're on your own!
+    - If you followed ** Happy Git **, you should be using the HTTPS protocol. If you're using SSH, you're on your own!
 
 
 <div class="figure" align="center">
-<img src="figures/vignette-figs/README/README_github_fork-03.png" alt="copy new repository URL" width="50%" />
+<img src="figures/vignette-figs/README/README_github_fork-03.png" alt="copy new repository URL" width="100%" />
 <p class="caption">copy new repository URL</p>
 </div>
 
 9. In your Git Bash (or RStudio Git) terminal, change the working directory to the folder in which you would like to create this new project.
     * Putting your project in a folder which is also synced to a cloud (like OneDrive or Dropbox) doubly backs your stuff up and allows you do make local changes from multiple devices. I've read that doing this might cause syncing issues but have never run into any myself.
-    * I use the cloud <a href = "https://www.pcloud.com/" > pCloud </a>, which is like Dropbox but with lifetime subscriptions and some other fun bells and whistles.
+    * I use the cloud <a href = "https://www.pcloud.com/" > pCloud </a>, which is like Dropbox but with lifetime subscriptions rather than annual, and some other fun bells and whistles.
     * If you're at Yale, you have free storage with OneDrive. If you're doing this in OneDrive, make sure that you've opened up the OneDrive app so that your folders register the correct paths.
     * If you're on a Windows system, the command might look like the following, where you change ```[your-username]``` to be whatever your username on your PC is. 
 
@@ -236,7 +260,7 @@ You're set up! Easy as that.
    cd "C:\Users\[your-username]\OneDrive - Yale University"
    ```
 
-    *[To confirm: What's the relevant directory for a Mac? Try ```"~/OneDrive - Yale University"``` ]
+*[To confirm: What's the relevant directory for a Mac? Try ```"~/OneDrive - Yale University"``` ]
 
 10. Now clone your newly forked repository with the URL you copied in Step 8. In the Git terminal you'll do it like this (changing the ```your-github-username``` and ```your-new-project-name``` as appropriate).
 
@@ -259,7 +283,7 @@ If this isn't the place where you put your fork, then do
     cd "path-to-fork"
 ```
 
-where ```"path-to-fork"``` is something like "C:/Users/stallman/Projects" or "C:/Users/stallman/OneDrive - Yale University."
+where `"path-to-fork"` is something like `"C:/Users/stallman/Projects"` or `"C:/Users/stallman/OneDrive - Yale University"`
 
 Tell git to add everything to the roster of things to update:
 
@@ -295,7 +319,13 @@ Pull the changes.
 git pull
 ```
 
-Good to go.
+[To add: Now the LaTekonomer repository has been updated, but I've already made a fork. Can I do another pull?]
+
+### Downloading the files to your local system
+
+I've put this last because if you're not going to Git, you're not going to Git, but you should really consider it. 
+
+Downloading the raw files is super easy. You can either do this via Overleaf or from GitHub.
 
 [To add: Straight-up downloading steps and recommendations]
 
@@ -332,10 +362,9 @@ See the [open issues](https://github.com/stallman-j/LaTekonomer/issues) for a fu
 <a id="contributing"></a>
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are the foundation of the open source community. It's how we get nice things. Any contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also open an issue with the tag "enhancement".
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -356,7 +385,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the GNU General Public License v3.0. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
