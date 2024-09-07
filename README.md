@@ -171,14 +171,14 @@ Your prerequisites and installation steps will depend on how you're anticipating
 4. Click "Menu" on the top left of the screen with the project showing in Overleaf, and then "Copy Project"
 
 <div class="figure">
-<img src="figures/vignette-figs/README/README_overleaf-copy_01.png" alt="copy overleaf project" width="50" height="50" />
+<img src="figures/vignette-figs/README/README_overleaf-copy_01.png" alt="copy overleaf project" width="200" />
 <p class="caption">Copy the Overleaf Project</p>
 </div>
 
 5. Rename to something like "my-awesome-project." If this is for a class, something like "ECON-412" would be good.
 
 <div class="figure">
-<img src="figures/vignette-figs/README/README_overleaf-copy_02.png" alt="rename project" width="80" height="80" />
+<img src="figures/vignette-figs/README/README_overleaf-copy_02.png" alt="rename project" width="300" />
 <p class="caption">Rename your project</p>
 </div>
 
