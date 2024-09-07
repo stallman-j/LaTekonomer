@@ -145,11 +145,11 @@ This repository is linked with an Overleaf Project, so there are many ways you m
 
 What do I do these days? 
 
-A combination of all the above: I have Overleaf sync with Github _and_ a local repository on my computer that automatically syncs with my cloud and which has Git set up to also push and pull changes from my local copy to my GitHub repository. Plus an external hard drive that backs the local copy up every night.
+     A combination of all the above: I have Overleaf sync with Github _and_ a local repository on my computer that automatically syncs with my cloud and which has Git set up to also push and pull changes from my local copy to my GitHub repository. Plus an external hard drive that backs the local copy up every night.
 
-If I have a lot of images or tables to change or add, I tend to use the local repository to avoid having to drag and drop files into Overleaf. If I'm mostly editing text, I tend to use Overleaf because it compiles so quickly, the interface is pretty, and it doesn't generate tons of aux files. You have to be mindful about where you're pushing and pulling from, though, otherwise you can end up with conflicting files. 
+     If I have a lot of images or tables to change or add, I tend to use the local repository to avoid having to drag and drop files into Overleaf. If I'm mostly editing text, I tend to use Overleaf because it compiles so quickly, the interface is pretty, and it doesn't generate tons of aux files. You have to be mindful about where you're pushing and pulling from, though, otherwise you can end up with conflicting files. 
 
-GitHub is great about recognizing what lines specifically have changed (this is what makes it such a good collaboration tool!), so I just make sure I keep up on my pushes and pulls when I switch between the Overleaf and local copy. I don't tend to edit the files directly in GitHub.
+     GitHub is great about recognizing what lines specifically have changed (this is what makes it such a good collaboration tool!), so I just make sure I keep up on my pushes and pulls when I switch between the Overleaf and local copy. I don't tend to edit the files directly in GitHub.
 
 <!-- Installation -->
 
@@ -194,15 +194,15 @@ I recommend trying this out if you're new to GitHub and you want to start gettin
 ### Forking the Git Repository
 
 1. You'll need a <a href = "https://github.com/" > GitHub account. </a>. I haven't found there to be an advantage to using an institutional email at this point.
-2. You'll need either a LaTex installation on your local machine.
+2. You'll need a LaTex installation on your local machine.
    - If this is your first time with both LaTex and GitHub, I recommend going through Overleaf with the first option above. It allows you to collaborate easily and learn the ropes without worrying about figuring out all the installation nuances of LaTex or GitBash just yet.
    - If you really like the idea of having a local copy without needing the internet and you're willing to spend some time tinkering with the installation, then there are a lot of ways you can set up LaTex on your local machine.
         * I use Sublime Tools (a speedy text editor that's a lot like VisualStudio) with LaTexTools. You can follow the installation <a href = "https://latextools.readthedocs.io/en/latest/install/" > here </a>.
         * As you're going through the guide, you might get into the question of which LaTex installation to download.
-        * For Mac, you'll want to download Mactex.
-        * For Windows, download MikTex if you want LaTex taking up a little less space on your machine. Remember to allow it to download packages on the fly, though, and allow it to add itself to your paths. Download TexLive if you never want to worry about a missing package or think about LaTex again once you've downloaded it, but are willing to devote some 5G of your computer storage to LaTex. If you're indifferent, go with TexLive. More people maintain it.
+            - For Mac, you'll want to download Mactex.
+            - For Windows, download MikTex if you want LaTex taking up a little less space on your machine. Remember to allow it to download packages on the fly, though, and allow it to add itself to your paths. Download TexLive if you never want to worry about a missing package or think about LaTex again once you've downloaded it, but are willing to devote some 5G of your computer storage to LaTex. If you're indifferent, go with TexLive. More people maintain it.
         * To get a dark mode that feels a bit like Overleaf, follow <a href = "https://medium.com/@iitrabhi/how-to-setup-sublime-as-a-beautiful-latex-editor-dark-mode-windows-7ec5e0a24878"> this tutorial </a> and then navigate to `File` -> `Open Folder` and open your project folder (for me, that's `LaTekonomer` itself). If it's still not working, go to `View`-> `Sidebar` and click `Show Sidebar.`
-        * For a pretty light theme, check out <a href = "https://github.com/dempfi/ayu"> AYU </a>. I won't wade into the light-theme, dark-theme debate, but I personally use this one.
+        * For a light theme, check out <a href = "https://github.com/dempfi/ayu"> AYU </a>. I won't wade into the light-theme, dark-theme debate, but I personally use this one.
 3. You'll need to set Git up on your device.
    - I set up my GitHub originally to let it version control with R, so followed the book <a href = "https://happygitwithr.com/"> <em> Happy Git and GitHub for the useR </em> </a>.
        * If you're thinking of using the complementary <a href = "https://github.com/stallman-j/ekonomR" ><strong> ekonomR </strong> </a> R package, I highly recommend following the <strong> Happy Git </strong> book first, and then coming back here to set up <em> this </em> repository through the Git command line. You'll have installed the Git terminal in <strong> Ch. 6: Install Git </strong> when you're following this book, and that's where you'll learn what the Git command line is if you don't already know.
