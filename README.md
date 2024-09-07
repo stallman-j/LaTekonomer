@@ -156,26 +156,37 @@ b. What about making other branches with Git?
 
 
 
-### Prerequisites
+### Prerequisites and Installation
 
-Your prerequisites depend on how you're anticipating you'll use these templates. Let's go through the setup from least to most overhead.
+Your prerequisites and installation steps will depend on how you're anticipating you'll use these templates. Let's go through the setup from least to most overhead.
 
 <strong> Copying the <a href="https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598">LaTekonomer Overleaf Template</a> </ strong>
 
-1. You'll need an <a href = "https://www.overleaf.com/" > Overleaf account </a>. If you're at a university, your university email might give you access to Overleaf premium, which would allow you to sync with GitHub fairly easily.
+1. You'll need an <a href = "https://www.overleaf.com/" > Overleaf account </a>. If you're at a university, your university email might give you access to Overleaf premium, which would allow you to sync with GitHub fairly easily. Try using the SSO option with your university domain if you have that.
 
 2. Once you have your account, log into Overleaf.
 
 3. Click on this <a href = "https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598" > LaTekonomer share link </a>.https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598
 
-4. Click "Menu" on the top left of the screen, and then "Copy Project"
+4. Click "Menu" on the top left of the screen with the project showing in Overleaf, and then "Copy Project"
 
 <div class="figure">
-<img src="man/figures/README-pressure-1.png" alt="plot of chunk pressure" width="100%" />
-<p class="caption">plot of chunk pressure</p>
+<img src="vignette-figs/README/README_overleaf-copy_01.png" alt="copy overleaf project" width="100%" />
+<p class="caption">Copy the Overleaf Project</p>
 </div>
 
-5. 
+5. Rename to something like "my-awesome-project." If this is for a class, something like "ECON-412" would be good.
+
+<div class="figure">
+<img src="vignette-figs/README/README_overleaf-copy_02.png" alt="rename project" width="100%" />
+<p class="caption">Rename your project</p>
+</div>
+
+You're set up! Easy as that.
+
+[To add and link here: Vignette for "Getting started with writing up homework" that's linked to the "Copy the LaTekonomer Overleaf Template"]
+
+
 
 
 * npm
@@ -223,7 +234,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 <!-- ROADMAP -->
 ## Roadmap
 
-- [ ] Feature 1
+- [ ] Add vignette for "Getting started with writing up homework" that's linked to the "Copy the LaTekonomer Overleaf Template"
 - [ ] Feature 2
 - [ ] Feature 3
     - [ ] Nested Feature
