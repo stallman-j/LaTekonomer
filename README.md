@@ -207,14 +207,14 @@ I recommend trying this out if you're new to GitHub and you want to start gettin
 
           ```
           FixedPageUI [
-        TextColor = #5C6166
-        BackgroundColor = #FCFCFC
-        SelectionColor = #035BD6
-        WindowMargin = 2 4 2 4
-        PageSpacing = 4 4
-        InvertColors = false
-        HideScrollbars = false
-         ]
+          TextColor = #5C6166
+          BackgroundColor = #FCFCFC
+          SelectionColor = #035BD6
+          WindowMargin = 2 4 2 4
+          PageSpacing = 4 4
+          InvertColors = false
+          HideScrollbars = false
+          ]
           ```
 3. You'll need to set Git up on your device.
    - I set up my GitHub originally to let it version control with R, so followed the book <a href = "https://happygitwithr.com/"> <em> Happy Git and GitHub for the useR </em> </a>.
