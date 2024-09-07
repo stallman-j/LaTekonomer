@@ -216,7 +216,7 @@ I recommend trying this out if you're new to GitHub and you want to start gettin
           HideScrollbars = false
           ]
           ```
-          *[Here's](https://www.sumatrapdfreader.org/settings/settings3-0) how to customize more Sumatra settings.
+              *[Here's](https://www.sumatrapdfreader.org/settings/settings3-0) how to customize more Sumatra settings.
 3. You'll need to set Git up on your device.
    - I set up my GitHub originally to let it version control with R, so followed the book <a href = "https://happygitwithr.com/"> <em> Happy Git and GitHub for the useR </em> </a>.
        * If you're thinking of using the complementary <a href = "https://github.com/stallman-j/ekonomR" >** ekonomR ** </a> R package, I highly recommend following the ** Happy Git ** book first, and then coming back here to set up <em> this </em> repository through the Git command line. You'll have installed the Git terminal in ** Ch. 6: Install Git ** when you're following this book, and that's where you'll learn what the Git command line is if you don't already know.
