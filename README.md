@@ -20,7 +20,7 @@
 -->
 [![Contributors][contributors-shield]][contributors-url]
 [![Issues][issues-shield]][issues-url]
-[![MIT License][license-shield]][license-url]
+[![GNU GPLv3 License][license-shield]][license-url]
 
 
 
@@ -186,7 +186,7 @@ You're set up! Easy as that.
         * I use Sublime Tools (a speedy text editor that's a lot like VisualStudio) with LaTexTools. You can follow the installation <a href = "https://latextools.readthedocs.io/en/latest/install/" > here </a>.
         * As you're going through the guide, you might get into the question of which LaTex installation to download.
         * For Mac, you'll want to download Mactex.
-        * For Windows, download MikTex if you want LaTex taking up a little less space on your machine. Remember to allow it to download packages on the fly, though, and allow it to add itself to your paths. Download TexLive if you never want to worry about a missing package or think about LaTex again once you've downloaded it, but are willing to devote some 5G of your computer storage to LaTex.
+        * For Windows, download MikTex if you want LaTex taking up a little less space on your machine. Remember to allow it to download packages on the fly, though, and allow it to add itself to your paths. Download TexLive if you never want to worry about a missing package or think about LaTex again once you've downloaded it, but are willing to devote some 5G of your computer storage to LaTex. If you're indifferent, go with TexLive. More people maintain it.
 3. You'll need to set Git up on your device.
    - I set up my GitHub originally to let it version control with R, so followed the book <a href = "https://happygitwithr.com/"> <em> Happy Git and GitHub for the useR </em> </a>.
        * If you're thinking of using the complementary <a href = "https://github.com/stallman-j/ekonomR" ><strong> ekonomR </strong> </a> R package, I highly recommend following the <strong> Happy Git </strong> book first, and then coming back here to set up <em> this </em> repository through the Git command line. You'll have installed the Git terminal in <strong> Ch. 6: Install Git </strong> when you're following this book, and that's where you'll learn what the Git command line is if you don't already know.
@@ -207,7 +207,7 @@ You're set up! Easy as that.
 7. Change the name of the repository to something for your new project (like ECON 412), edit the description to match your new project, and click the "Create fork" button.
 
 <div class="figure" align="center">
-<img src="figures/vignette-figs/README/README_github_fork-02.png" alt="edit fork details" width="100%" />
+<img src="figures/vignette-figs/README/README_github_fork-02.png" alt="edit fork details" width="50%" />
 <p class="caption">Edit fork details</p>
 </div>
 
@@ -230,7 +230,7 @@ You're set up! Easy as that.
    cd "C:\Users\[your-username]\OneDrive - Yale University"
    ```
 
-    *[To confirm: What's the relevant directory for a Mac? Try ```"~/OneDrive - Yale University"``` ]
+*[To confirm: What's the relevant directory for a Mac? Try ```"~/OneDrive - Yale University"``` ]
 
 10. Now clone your newly forked repository with the URL you copied in Step 8. In the Git terminal you'll do it like this (changing the ```your-github-username``` and ```your-new-project-name``` as appropriate).
 
@@ -253,7 +253,7 @@ If this isn't the place where you put your fork, then do
     cd "path-to-fork"
 ```
 
-where ```"path-to-fork"``` is something like "C:/Users/stallman/Projects" or "C:/Users/stallman/OneDrive - Yale University."
+where `"path-to-fork"` is something like `"C:/Users/stallman/Projects"` or `"C:/Users/stallman/OneDrive - Yale University"`
 
 Tell git to add everything to the roster of things to update:
 
@@ -326,10 +326,9 @@ See the [open issues](https://github.com/stallman-j/LaTekonomer/issues) for a fu
 <a id="contributing"></a>
 ## Contributing
 
-Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
+Contributions are the foundation of the open source community. It's how we get nice things. Any contributions you make are **greatly appreciated**.
 
-If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also simply open an issue with the tag "enhancement".
-Don't forget to give the project a star! Thanks again!
+If you have a suggestion that would make this better, please fork the repo and create a pull request. You can also open an issue with the tag "enhancement".
 
 1. Fork the Project
 2. Create your Feature Branch (`git checkout -b feature/AmazingFeature`)
@@ -350,7 +349,7 @@ Don't forget to give the project a star! Thanks again!
 <!-- LICENSE -->
 ## License
 
-Distributed under the MIT License. See `LICENSE.txt` for more information.
+Distributed under the GNU General Public License v3.0. See `LICENSE.txt` for more information.
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
