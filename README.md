@@ -202,8 +202,8 @@ I recommend trying this out if you're new to GitHub and you want to start gettin
             - For Mac, you'll want to download Mactex.
             - For Windows, download MikTex if you want LaTex taking up a little less space on your machine. Remember to allow it to download packages on the fly, though, and allow it to add itself to your paths. Download TexLive if you never want to worry about a missing package or think about LaTex again once you've downloaded it, but are willing to devote some 5G of your computer storage to LaTex. If you're indifferent, go with TexLive. More people maintain it.
         * To get a dark mode that feels a bit like Overleaf, follow [this tutorial](https://medium.com/@iitrabhi/how-to-setup-sublime-as-a-beautiful-latex-editor-dark-mode-windows-7ec5e0a24878) and then navigate to `File` -> `Open Folder` and open your project folder (for me, that's `LaTekonomer` itself). If it's still not working, go to `View`-> `Sidebar` and click `Show Sidebar.`
-        * For a light theme, check out <a href = "https://github.com/dempfi/ayu"> AYU </a>. I won't wade into the light-theme, dark-theme debate, but I personally use this one.
-              * To make the pdf viewer match, I also change the following Sumatra settings (`Settings`->`Advanced Options`) replacing the settings of `FixedPageUI` with the following (colors obtained from [https://github.com/ayu-theme/ayu-colors](https://github.com/ayu-theme/ayu-colors))
+        * For a light theme, start out following the tutorial for the above (which installs the theme AYU along with setting some other nice settings). I like [AYU light](https://github.com/dempfi/ayu)>, which you can install by using `ctrl`+`shift`+`p` (to open the package manager), then typing `ayu: activate theme` -> `ayu light`.
+            * To make the pdf viewer match, I also change a few Sumatra settings (`Settings`->`Advanced Options`). First, I set `MainWindowBackground = #828c99`, and then replace the settings of `FixedPageUI` with the following (colors obtained from [https://github.com/ayu-theme/ayu-colors](https://github.com/ayu-theme/ayu-colors))
 
           ```
           FixedPageUI [
@@ -216,6 +216,7 @@ I recommend trying this out if you're new to GitHub and you want to start gettin
           HideScrollbars = false
           ]
           ```
+          *[https://www.sumatrapdfreader.org/settings/settings3-0](Here's) how to customize more Sumatra settings.
 3. You'll need to set Git up on your device.
    - I set up my GitHub originally to let it version control with R, so followed the book <a href = "https://happygitwithr.com/"> <em> Happy Git and GitHub for the useR </em> </a>.
        * If you're thinking of using the complementary <a href = "https://github.com/stallman-j/ekonomR" >** ekonomR ** </a> R package, I highly recommend following the ** Happy Git ** book first, and then coming back here to set up <em> this </em> repository through the Git command line. You'll have installed the Git terminal in ** Ch. 6: Install Git ** when you're following this book, and that's where you'll learn what the Git command line is if you don't already know.
