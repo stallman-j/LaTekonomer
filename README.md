@@ -124,7 +124,21 @@ Have you ever thought, as you looked back through your old Overleaf projects or 
 <!-- GETTING STARTED -->
 ## Getting Started
 
-This repository is linked with an Overleaf Project, so there are a few ways you could go about this. 
+This repository is linked with an Overleaf Project, so there are a few ways you might want to use it on your own machine. I'll go over the steps for each of these.
+
+1. Forking the Git Repository
+   - Do this if you already use Github or want an excuse to start using Github for your own version control
+   - <a href = "https://docs.github.com/en/get-started/start-your-journey/downloading-files-from-github" > Forking </a> means that you sync my LaTekonomer Github repository to your own Github repository with a (hopefully) different name, which you then edit and sync on your own.
+2. Copying the <a href="https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598">LaTekonomer Overleaf Template</a>
+   - Do this if you use Overleaf yourself. It's basically a fork but operates via Overleaf.
+3. Downloading the files into your local system
+   - You can download either from the <a href="https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598">LaTekonomer Overleaf Template</a> or from Github.
+You may be wondering:
+1. What if I want to edit the source files?
+   - <a href="#contributing">Become a contributor! </a> 
+2. What about making other branches with Git?
+   - Overleaf says it <a href="https://www.overleaf.com/learn/how-to/GitHub_Synchronization" > doesn't play nicely with branching </a>, but <a href="https://stackoverflow.com/questions/61242083/git-push-of-an-overleaf-project-to-a-different-branch-other-than-master">of course people have figured out workarounds.</a> 
+
 
 
 ### Prerequisites
@@ -186,6 +200,7 @@ See the [open issues](https://github.com/stallman-j/LaTekonomer/issues) for a fu
 
 
 <!-- CONTRIBUTING -->
+<a id="contributing"></a>
 ## Contributing
 
 Contributions are what make the open source community such an amazing place to learn, inspire, and create. Any contributions you make are **greatly appreciated**.
