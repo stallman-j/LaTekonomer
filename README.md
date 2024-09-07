@@ -130,16 +130,22 @@ Have you ever thought, as you looked back through your old Overleaf projects or 
 This repository is linked with an Overleaf Project, so there are a few ways you might want to use it on your own machine. I'll go over the steps for each of these.
 
 1. Copying the <a href="https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598">LaTekonomer Overleaf Template</a>
-   - Do this if you use Overleaf yourself -or-
-   - If you've never used LaTex before (but want to learn) and have never used GitHub before (and don't want to learn)
+   - Do this if the following seem to apply to you:
+      * You've never used LaTex before (but want to learn) and have never used GitHub before (and don't feel a need to learn just yet) or the word "GitHub" means nothing to you.
+      * You use Overleaf but don't keep a local LaTex installation on your computer.
+            - Installing LaTex locally can be a pain. If you're not sure how much you'll use LaTex even with all these templates, try the Overleaf route first.
 2. Forking the Git Repository
-   - Do this if you already use Github or want an excuse to start using Github for your own version control
-        * I highly recommend this if you're just starting a research project.
-        * This will allow you to have a record of what you're doing. If you have any collaborators (or end up getting any collaborators), it'll allow them to join your project fairly easily.
-        * GitHub is becoming more and more frequently used as a way to make research replicable and transparent. Why not start now?
-   - <a href = "https://docs.github.com/en/get-started/start-your-journey/downloading-files-from-github" > Forking </a> means that you sync my LaTekonomer Github repository to your own Github repository with a (hopefully) different name, which you then edit and sync on your own.
+   - <a href = "https://docs.github.com/en/get-started/start-your-journey/downloading-files-from-github" > Forking </a> means that you copy this LaTekonomer Github repository to your own Github repository with a (hopefully) different name, which you then take as the foundation for your own project.
+   - Do this if you:
+        * Already use Github or
+        * Want an excuse to start using Github
+   - Why would you want to start using GitHub?
+        * GitHub is a standard method for making research code, inputs, and outputs transparent, replicable, and sharable among many fields. Economics is catching up in this trend.
+        * If you're just starting a research project, starting it with Github allows you to maintain version control throughout your project without having to do something like Dropbox rewind. Your future self will thank you.
+        * If you have any collaborators (or end up getting any collaborators), it'll allow them to join your project fairly easily.
+        * You'll save yourself from possibly losing all your code or output if you run into tech problems
    - You can fork and sync either with your own Overleaf or on your local system
-3. Downloading the files into your local system
+4. Downloading the files into your local system
    - You can download either from the <a href="https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598">LaTekonomer Overleaf Template</a> or from Github.
 
 You may be wondering:
@@ -154,7 +160,22 @@ b. What about making other branches with Git?
 
 Your prerequisites depend on how you're anticipating you'll use these templates. Let's go through the setup from least to most overhead.
 
-1. Copying the <a href="https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598">LaTekonomer Overleaf Template</a>
+<strong> Copying the <a href="https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598">LaTekonomer Overleaf Template</a> </ strong>
+
+1. You'll need an <a href = "https://www.overleaf.com/" > Overleaf account </a>. If you're at a university, your university email might give you access to Overleaf premium, which would allow you to sync with GitHub fairly easily.
+
+2. Once you have your account, log into Overleaf.
+
+3. Click on this <a href = "https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598" > LaTekonomer share link </a>.https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598
+
+4. Click "Menu" on the top left of the screen, and then "Copy Project"
+
+<div class="figure">
+<img src="man/figures/README-pressure-1.png" alt="plot of chunk pressure" width="100%" />
+<p class="caption">plot of chunk pressure</p>
+</div>
+
+5. 
 
 
 * npm
