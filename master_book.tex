@@ -1,0 +1,39 @@
+\documentclass[12pt,openany]{book}      % paper size is in preamble.sty
+
+% This template is adapted from
+% https://www.overleaf.com/latex/templates/fiction-novel-template/wsbhgwncfczy
+
+%\usepackage[utf8x]{inputenc}
+\usepackage[T1]{fontenc}
+
+%%%%%%%%%% BOOK INFORMATION %%%%%%%%%%
+\newcommand{\authorname}{Your name}
+\newcommand{\booktitle}{Book title}
+\newcommand{\subtitle}{}
+\newcommand{\publisher}{Your Publisher}
+\newcommand{\editionyear}{2020}
+\newcommand{\isbn}{978-3-16-148410-0}   % replace this with your own ISBN
+\title{\booktitle}
+\author{\authorname}
+
+\usepackage{preambles/preamble_book}
+
+
+\begin{document}
+% \frontmatter puts the pages numbered in lowercase roman, doesn't number chapters
+% https://latexref.xyz/_005cfrontmatter-_0026-_005cmainmatter-_0026-_005cbackmatter.html
+
+\frontmatter
+\input{templates_folder/01_front-matter/title-page}
+\input{templates_folder/01_front-matter/copyright-page}
+\input{templates_folder/01_front-matter/preface}
+\input{templates_folder/01_front-matter/toc-page}
+
+% \mainmatter changes the behavior back to expected and resets the pagenumber
+\mainmatter
+\pagestyle{fancy}
+
+\input{templates_folder/02_body/01_general-writing/book-chapter-template}
+
+
+\end{document}

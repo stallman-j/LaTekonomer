@@ -34,13 +34,16 @@
 <h3 align="center">LaTekonomer</h3>
 
   <p align="left">
-    LaTekonomer provides the Overleaf/LaTex templates that economists (ekonomer in Swedish) wish someone else would make and maintain.
+    LaTekonomer strives to provide the Overleaf/LaTex templates that many economists wish someone else would make and maintain.
      <br />
      <br />
-    The templates include but are not limited to: professional but simple dark and light Beamer templates; tables (including three-part tables with fancy footnotes); figures; and a number of research exercises for ECON 412 International Environmental Economics, taught at Yale University by Sam Kortum (for which Jillian Stallman has been teaching assistant in Fall 2023 and Fall 2024).
+    The templates include but are not limited to: professional but simple dark and light Beamer templates; tables (including three-part tables with footnotes); figures; and a number of research exercises.
+    <br />
+      <br />
+    These research exercises come from ECON 412 International Environmental Economics, a course taught at Yale University by Sam Kortum, for which Jillian Stallman has been teaching assistant in Fall 2023 and Fall 2024.
       <br />
       <br />
-    Many of these tables and figures are outputs of vignettes and code provided in the R package  <a href="https://github.com/stallman-j/ekonomR"><strong>ekonomR</strong></a>. These are designed to be complementary research templates and if you're starting a new project I highly recommend checking out <strong>ekonomR</strong>, but use of LaTekonomer does not require ekonomR or vice versa.
+    Many of these tables and figures are outputs of vignettes and code provided in the R package  <a href="https://github.com/stallman-j/ekonomR"><strong>ekonomR</strong></a>. <strong>ekonomR</strong> and <strong>LaTekonomer</strong>  are designed to be complementary research templates. If you're starting a new project I highly recommend checking out <strong>ekonomR</strong>. Use of LaTekonomer does not require ekonomR or vice versa.
     <br />
     <br />
     <!--
@@ -91,9 +94,9 @@
 
 [![Product Name Screen Shot][product-screenshot]](https://example.com)
 
-Rather than carrying along a hodgepodge of LaTex files with all those settings that you got just right, or trying to figure out how to ask ChatGPT how to do it all over again, why not have a template that you can use to start off any new project that contains the LaTex syntax for the stuff you use?
+Rather than carrying along a hodgepodge of LaTex files with all those settings that you got just right, or trying to figure out how to ask ChatGPT how to do it all over again, why not have a template that you can use to start off any new project that contains the LaTex syntax for the stuff you tend to use?
 
-The goal of LaTekonomer is to provide, for me, for you, for your students, for your collaborators, a place to store that code that you spent hours searching StackExchange to finally finagle a three-part long table that stretched across multiple pages with footnotes at the very end. 
+The goal of LaTekonomer is to provide, for me, for you, for your students, for your collaborators, a place to store that code that you spent hours searching StackExchange to finally finagle just right. This is where you can find the basic code for a three-part long table that stretched across multiple pages with footnotes at the very end. This is where your students can find 
 
 
 Have you ever thought, as you looked back through your old Overleaf projects or Dropbox tex files, that it would be really nice if you just had the syntax for all those tables or side-by-side figures or Beamer templates all in one place? Well, now you do!
