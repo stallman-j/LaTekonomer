@@ -145,11 +145,11 @@ This repository is linked with an Overleaf Project, so there are many ways you m
 
 What do I do these days? 
 
-     - A combination of all the above: I have Overleaf sync with Github _and_ a local repository on my computer that automatically syncs with my cloud and which has Git set up to also push and pull changes from my local copy to my GitHub repository. Plus an external hard drive that backs the local copy up every night.
+ - A combination of all the above: I have Overleaf sync with Github _and_ a local repository on my computer that automatically syncs with my cloud and which has Git set up to also push and pull changes from my local copy to my GitHub repository. Plus an external hard drive that backs the local copy up every night.
 
-     - If I have a lot of images or tables to change or add, I tend to use the local repository to avoid having to drag and drop files into Overleaf. If I'm mostly editing text, I tend to use Overleaf because it compiles so quickly, the interface is pretty, and it doesn't generate tons of aux files. You have to be mindful about where you're pushing and pulling from, though, otherwise you can end up with conflicting files. 
+ - If I have a lot of images or tables to change or add, I tend to use the local repository to avoid having to drag and drop files into Overleaf. If I'm mostly editing text, I tend to use Overleaf because it compiles so quickly, the interface is pretty, and it doesn't generate tons of aux files. You have to be mindful about where you're pushing and pulling from, though, otherwise you can end up with conflicting files. 
 
-     - GitHub is great about recognizing what lines specifically have changed (this is what makes it such a good collaboration tool!), so I just make sure I keep up on my pushes and pulls when I switch between the Overleaf and local copy. I don't tend to edit the files directly in GitHub.
+ - GitHub is great about recognizing what lines specifically have changed (this is what makes it such a good collaboration tool!), so I just make sure I keep up on my pushes and pulls when I switch between the Overleaf and local copy. I don't tend to edit the files directly in GitHub.
 
 <!-- Installation -->
 
