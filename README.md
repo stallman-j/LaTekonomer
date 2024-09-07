@@ -119,7 +119,7 @@ This repository is linked with an Overleaf Project, so there are a few ways you 
    - Do this if the following seem to apply to you:
       * You've never used LaTex before (but want to learn) and have not used GitHub before (and don't feel a need to learn just yet) or the word "GitHub" means little to you and LaTex already seems a little intimidating.
       * You use Overleaf but don't keep a local LaTex installation on your computer.
-            - Installing LaTex locally can be a pain. If you're not sure how much you'll use LaTex even with all these templates, try the Overleaf route first.
+      * Installing LaTex locally can be a pain. If you're not sure which to do, try the Overleaf route first.
 2. Forking the Git Repository
    - <a href = "https://docs.github.com/en/get-started/start-your-journey/downloading-files-from-github" > Forking </a> means that you copy this LaTekonomer Github repository to your own Github repository with a (hopefully) different name, which you then take as the foundation for your own project.
    - Do this if you:
@@ -141,13 +141,6 @@ This repository is linked with an Overleaf Project, so there are a few ways you 
      3) an external physical version (e.g. an external hard drive backup).
    Technical issues happen all the time, and writing out in LaTex can take a long time. Not having backups means you're potentially throwing away hours, days, or even months of work if your computer gives up on you.
 
-You may be wondering:
-a. What if I want to edit the source files?
-   - <a href="#contributing">Become a contributor! </a>
-b. What about making other branches with Git?
-   - Overleaf says it <a href="https://www.overleaf.com/learn/how-to/GitHub_Synchronization" > doesn't play nicely with branching </a>, but <a href="https://stackoverflow.com/questions/61242083/git-push-of-an-overleaf-project-to-a-different-branch-other-than-master">of course people have figured out workarounds.</a> 
-
-
 <!-- Installation -->
 
 <a id="installation"></a>
@@ -162,11 +155,11 @@ Your prerequisites and installation steps will depend on how you're anticipating
 
 If you're at a university, your university email will likely give you access to Overleaf premium, which would allow you to sync Overleaf directly to GitHub.
 
-4. Once you have your account, log into Overleaf.
+2. Once you have your account, log into Overleaf.
 
-5. Click on this <a href = "https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598" > LaTekonomer share link </a>.
+3. Click on this <a href = "https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598" > LaTekonomer share link </a>.
 
-6. Click "Menu" on the top left of the screen with the project showing in Overleaf, and then "Copy Project"
+4. Click "Menu" on the top left of the screen with the project showing in Overleaf, and then "Copy Project"
 
 <div class="figure" align="center">
 <img src="figures/vignette-figs/README/README_overleaf-copy_01.png" alt="copy overleaf project" width="50%" />
@@ -186,19 +179,20 @@ You're set up! Easy as that.
 
 <strong> Forking the Git Repository </strong>
 
-1. You'll need a <a href = "https://github.com/" > GitHub account. </a>. I haven't found there to be an advantage to using an institutional email here (at this point).
+1. You'll need a <a href = "https://github.com/" > GitHub account. </a>. I haven't found there to be an advantage to using an institutional email at this point.
 2. You'll need either an <a href = "https://www.overleaf.com/" > Overleaf account </a> or a LaTex installation on your local machine.
    - If this is your first time with both LaTex and GitHub, I recommend going through Overleaf. It allows you to collaborate easily, and you don't have to worry about figuring out all the installation nuances of LaTex.
    - If you really like the idea of having a local copy without needing the internet and you're willing to spend some time tinkering with the installation, then there are a lot of ways you can set up LaTex on your local machine.
         * I use Sublime Tools (a speedy text editor that's a lot like VisualStudio) with LaTexTools. You can follow the installation <a href = "https://latextools.readthedocs.io/en/latest/install/" > here </a>.
+        * As you're going through the guide, you might get into the question of which LaTex installation to download.
         * For Mac, you'll want to download Mactex.
-        * For Windows, download MikTex if you want LaTex taking up a little less space on your machine. Remember to allow it to download packages on the fly, though. Download TexLive if you never want to worry about a missing package or think about LaTex again once you've downloaded it.
+        * For Windows, download MikTex if you want LaTex taking up a little less space on your machine. Remember to allow it to download packages on the fly, though, and allow it to add itself to your paths. Download TexLive if you never want to worry about a missing package or think about LaTex again once you've downloaded it, but are willing to devote some 5G of your computer storage to LaTex.
 3. You'll need to set Git up on your device.
    - I set up my GitHub originally to let it version control with R, so followed the book <a href = "https://happygitwithr.com/"> <em> Happy Git and GitHub for the useR </em> </a>.
        * If you're thinking of using the complementary <a href = "https://github.com/stallman-j/ekonomR" ><strong> ekonomR </strong> </a> R package, I highly recommend following the <strong> Happy Git </strong> book first, and then coming back here to set up <em> this </em> repository through the Git command line. You'll have installed the Git terminal in <strong> Ch. 6: Install Git </strong> when you're following this book, and that's where you'll learn what the Git command line is if you don't already know.
        * Getting GitHub to link to your computer securely can take a little effort, so give yourself a weekend on the off chance that you need to go deep into the troubleshooting help. Do <em> not </em> try to do any of this late at night when you're tired. You'll make yourself miserable and there are lots of little things that can go wrong.
        * <strong> Happy Git </strong> is supremely well written. Start at the beginning and go through chapter 12, "Connect RStudio to Git and GitHub."
-    - If you haven't done this before and are using this project as an excuse to learn some GitHub but aren't planning on using this with R, the <a href = "https://docs.github.com/en/get-started/start-your-journey/about-github-and-git" > GitHub docs </a> are a good place to get started.
+    - If you haven't done this before and are using this project as an excuse to learn some GitHub but aren't planning on using this with R, the <a href = "https://docs.github.com/en/get-started/start-your-journey/about-github-and-git" > GitHub docs </a> are a good place to get started. I occasionally use <a href = "https://www.sublimemerge.com/" > Sublime Merge </a> as a Git client. 
 4. Assuming you've either gone off to <strong> Happy Git </strong> and come back or figured out your Gitting on your own, you're ready to fork the <strong> LaTekonomer </strong> repository using your Git bash terminal. If you don't know what the Git bash terminal is, you did not successfully complete Step 2.
    - You can bring up the Git terminal either in RStudio -> Terminal (next to the "Console" tab), or in your Applications go to Git and click on Git Bash, which should open up a free-floating terminal.
    - You do <strong> NOT </strong> want the Windows PowerShell terminal or whatever it is that Mac uses.
@@ -206,14 +200,14 @@ You're set up! Easy as that.
 6. Under the "Fork" option, click "Create a new fork"
 
 <div class="figure" align="center">
-<img src="figures/vignette-figs/README/README_github_fork-01.png" alt="fork LaTekonomer repository" width="50%" />
+<img src="figures/vignette-figs/README/README_github_fork-01.png" alt="fork LaTekonomer repository" width="100%" />
 <p class="caption">Fork the repository</p>
 </div>
 
 7. Change the name of the repository to something for your new project (like ECON 412), edit the description to match your new project, and click the "Create fork" button.
 
 <div class="figure" align="center">
-<img src="figures/vignette-figs/README/README_github_fork-02.png" alt="edit fork details" width="50%" />
+<img src="figures/vignette-figs/README/README_github_fork-02.png" alt="edit fork details" width="100%" />
 <p class="caption">Edit fork details</p>
 </div>
 
@@ -222,7 +216,7 @@ You're set up! Easy as that.
 
 
 <div class="figure" align="center">
-<img src="figures/vignette-figs/README/README_github_fork-03.png" alt="copy new repository URL" width="50%" />
+<img src="figures/vignette-figs/README/README_github_fork-03.png" alt="copy new repository URL" width="100%" />
 <p class="caption">copy new repository URL</p>
 </div>
 
