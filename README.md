@@ -39,6 +39,7 @@ If you're starting a new project I highly recommend checking out **ekonomR**, bu
 
 I should note that LaTex isn't the only way to produce figures, tables, and commentary. Code doesn't work great with Word, but the obvious competitor to LaTex is Markdown. If you're interested in exploring the Markdown world, check out [The Markdown Guide](https://www.markdownguide.org/book/), which integrates sublimely with R and GitHub. This README, for instance, is composed with Markdown.
 
+View [the GitHub Pages website](https://stallman-j.github.io/LaTekonomer) or directly on [GitHub](https://github.com/stallman-j/LaTekonomer)
 
 [Explore the docs](https://github.com/stallman-j/LaTekonomer)
 [View Demo](https://github.com/stallman-j/LaTekonomer)
@@ -436,6 +437,13 @@ Project Link: [https://github.com/stallman-j/LaTekonomer](https://github.com/sta
 - [GitHub Pages](https://pages.github.com)
 - [Font Awesome](https://fontawesome.com)
 - [React Icons](https://react-icons.github.io/react-icons/search)
+
+### GitHub Pages Links
+- [The Least You Need to Know About GitHub Pages](https://tomcam.github.io/least-github-pages)
+- [Setting up GitHub Pages with Jekyll](https://www.stephaniehicks.com/githubPages_tutorial/pages/githubpages-jekyll.html)
+- [Simple Static Websites with GitHub Pages](https://blog.dave.org.uk/2018/08/simple-static-websites-with-github-pages.html)
+
+
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
