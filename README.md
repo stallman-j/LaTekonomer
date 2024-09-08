@@ -216,7 +216,7 @@ I recommend trying this out if you're new to GitHub and you want to start gettin
           HideScrollbars = false
           ]
           ```
-    * <a href = "https://www.sumatrapdfreader.org/settings/settings3-0" target = "_blank"> Here's </a> how to customize more Sumatra settings. And [here's what to do if your compilation is creating an "untitled" pdf](https://stackoverflow.com/questions/68548517/sublime-text-3-latextool-unintentional-new-window-after-compilation).
+    * <a target="_blank" rel="noopener" href = "https://www.sumatrapdfreader.org/settings/settings3-0"> Here's </a> how to customize more Sumatra settings. And [here's what to do if your compilation is creating an "untitled" pdf](https://stackoverflow.com/questions/68548517/sublime-text-3-latextool-unintentional-new-window-after-compilation).
     * There's a keyboard shortcut that can help keep your project directory from getting cluttered with aux files, but the default is a little clunky. In Sublime, go to `Preferences-> Package Settings -> LaTeXTools -> Key Bindings - Default.` Search for `delete_temp_files`, and you should see that the default shortcut is `["ctrl+l","backspace"]`. In order to activate this shortcut, you need to 1) compile your .tex file (with `ctrl+b`), and then 2) _while_ your cursor is still focused on that file, hit `ctrl+l`, then release it, then hit `backspace`.
     * If that's an annoyance, you can change this keybinding, replacing for instance `["ctrl+l","backspace"]` with `["f5"]`. You still have to make sure your cursor is focused on the window of the main `.tex` file you want to delete.
         * For example, to delete `master_article.aux`, you would want to have your window open to `master_article.tex` and then hit `F5`.
