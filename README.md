@@ -27,22 +27,18 @@
 
 ### LaTekonomer
 
-    LaTekonomer aims to provide those Overleaf/LaTex templates that many economists wish someone else would make and maintain.
+LaTekonomer aims to provide those Overleaf/LaTex templates that many economists wish someone else would make and maintain.
 
-    The templates include but are not limited to: general math writing; homework write-ups; article write-ups with bibliographies; professional but simple dark and light Beamer templates; tables (including three-part tables with footnotes); figures; and a few research project assignments.
+The templates include but are not limited to: general math writing; homework write-ups; article write-ups with bibliographies; professional but simple dark and light Beamer templates; tables (including three-part tables with footnotes); figures; and a few research project assignments.
 
-    The research project assignments come from ECON 412 International Environmental Economics, a course taught at Yale University by Sam Kortum, for which Jillian Stallman has been teaching assistant in Fall 2023 and Fall 2024.
+The research project assignments come from ECON 412 International Environmental Economics, a course taught at Yale University by Sam Kortum, for which Jillian Stallman has been teaching assistant in Fall 2023 and Fall 2024.
 
-    Many of these tables and figures are outputs of vignettes and code provided in the R package [**ekonomR**](https://github.com/stallman-j/ekonomR)  **ekonomR** and **LaTekonomer**  are designed to be complementary research templates. If you're starting a new project I highly recommend checking out **ekonomR**, but the use of **LaTekonomer** does not require **ekonomR** or vice versa.
+Many of these tables and figures are outputs of vignettes and code provided in the R package [**ekonomR**](https://github.com/stallman-j/ekonomR)  **ekonomR** and **LaTekonomer**  are designed to be complementary research templates. If you're starting a new project I highly recommend checking out **ekonomR**, but the use of **LaTekonomer** does not require **ekonomR** or vice versa.
 
-    [Explore the docs](https://github.com/stallman-j/LaTekonomer)
-
-    <a href="https://github.com/stallman-j/LaTekonomer">View Demo</a>
-
-    <a href="https://github.com/stallman-j/LaTekonomer/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    <a href="https://github.com/stallman-j/LaTekonomer/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
-
-
+[Explore the docs](https://github.com/stallman-j/LaTekonomer)
+[View Demo](https://github.com/stallman-j/LaTekonomer)
+[Report Bug](https://github.com/stallman-j/LaTekonomer/issues/new?labels=bug&template=bug-report---.md)
+[Request Feature](https://github.com/stallman-j/LaTekonomer/issues/new?labels=enhancement&template=feature-request---.md)
 
 <!-- TABLE OF CONTENTS -->
 <details>
