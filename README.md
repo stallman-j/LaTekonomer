@@ -197,7 +197,7 @@ I recommend trying this out if you're new to GitHub and you want to start gettin
 2. You'll need a LaTex installation on your local machine.
    - If this is your first time with both LaTex and GitHub, I recommend going through Overleaf with the first option above. It allows you to collaborate easily and learn the ropes without worrying about figuring out all the installation nuances of LaTex or GitBash just yet.
    - If you really like the idea of having a local copy without needing the internet and you're willing to spend some time tinkering with the installation, then there are a lot of ways you can set up LaTex on your local machine.
-        * I use Sublime Tools (a speedy text editor that's a lot like VisualStudio) with LaTexTools. You can follow the installation <a href ="https://latextools.readthedocs.io/en/latest/install" target="_blank"> here </a>.
+        * I use Sublime Tools (a speedy text editor that's a lot like VisualStudio) with LaTexTools. You can follow the installation [here](https://latextools.readthedocs.io/en/latest/install).
         * As you're going through the guide, you might get into the question of which LaTex installation to download.
             - For Mac, you'll want to download Mactex.
             - For Windows, download MikTex if you want LaTex taking up a little less space on your machine. Remember to allow it to download packages on the fly, though, and allow it to add itself to your paths. Download TexLive if you never want to worry about a missing package or think about LaTex again once you've downloaded it, but are willing to devote some 5G of your computer storage to LaTex. If you're indifferent, go with TexLive. More people maintain it.
@@ -216,7 +216,7 @@ I recommend trying this out if you're new to GitHub and you want to start gettin
           HideScrollbars = false
           ]
           ```
-    * <a target="_blank" rel="noopener" href = "https://www.sumatrapdfreader.org/settings/settings3-0"> Here's </a> how to customize more Sumatra settings. And [here's what to do if your compilation is creating an "untitled" pdf](https://stackoverflow.com/questions/68548517/sublime-text-3-latextool-unintentional-new-window-after-compilation).
+    * [Here's](https://www.sumatrapdfreader.org/settings/settings3-0) how to customize more Sumatra settings. And [here's what to do if your compilation is creating an "untitled" pdf](https://stackoverflow.com/questions/68548517/sublime-text-3-latextool-unintentional-new-window-after-compilation).
     * There's a keyboard shortcut that can help keep your project directory from getting cluttered with aux files, but the default is a little clunky. In Sublime, go to `Preferences-> Package Settings -> LaTeXTools -> Key Bindings - Default.` Search for `delete_temp_files`, and you should see that the default shortcut is `["ctrl+l","backspace"]`. In order to activate this shortcut, you need to 1) compile your .tex file (with `ctrl+b`), and then 2) _while_ your cursor is still focused on that file, hit `ctrl+l`, then release it, then hit `backspace`.
     * If that's an annoyance, you can change this keybinding, replacing for instance `["ctrl+l","backspace"]` with `["f5"]`. You still have to make sure your cursor is focused on the window of the main `.tex` file you want to delete.
         * For example, to delete `master_article.aux`, you would want to have your window open to `master_article.tex` and then hit `F5`.
