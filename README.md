@@ -33,7 +33,9 @@ The templates include but are not limited to: general math writing; homework wri
 
 The research project assignments come from ECON 412 International Environmental Economics, a course taught at Yale University by Sam Kortum, for which Jillian Stallman has been teaching assistant in Fall 2023 and Fall 2024.
 
-Many of these tables and figures are outputs of vignettes and code provided in the R package [**ekonomR**](https://github.com/stallman-j/ekonomR)  **ekonomR** and **LaTekonomer**  are designed to be complementary research templates. If you're starting a new project I highly recommend checking out **ekonomR**, but the use of **LaTekonomer** does not require **ekonomR** or vice versa.
+Many of these tables and figures are outputs of vignettes and code provided in the R package [**ekonomR**](https://github.com/stallman-j/ekonomR).  **ekonomR** and **LaTekonomer**  are designed to be complementary research templates, getting you moving forward on your project whether you're at the stage of tinkering with your final figure captions or figuring out what Overleaf even is. 
+
+If you're starting a new project I highly recommend checking out **ekonomR**, but the use of **LaTekonomer** does not require **ekonomR** or vice versa.
 
 [Explore the docs](https://github.com/stallman-j/LaTekonomer)
 [View Demo](https://github.com/stallman-j/LaTekonomer)
@@ -70,14 +72,15 @@ Many of these tables and figures are outputs of vignettes and code provided in t
 <!-- ABOUT THE PROJECT -->
 ## About The Project
 
-[![Product Name Screen Shot][product-screenshot]](https://example.com)
+<!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
-Rather than carrying along a hodgepodge of LaTex files with all those settings that you got just right, or trying to figure out how to ask ChatGPT how to do it all over again, why not have a template that you can use to start off any new project that contains the LaTex syntax for the stuff you tend to use?
+Tired of carrying along a hodgepodge of LaTex files with all those settings that you got just right, or wishing ChatGPT could just read your mind? Why not have a template that you can build off for whatever new project you've got that contains most of the stuff you reference anyways?
 
-The goal of LaTekonomer is to provide, for me, for you, for your students, for your collaborators, a place to store that code that you spent hours searching StackExchange to finally finagle just right. This is where you can find the basic code for a three-part long table that stretched across multiple pages with footnotes at the very end. This is where your students can find 
+The goal of LaTekonomer is to provide, for me, for you, for your students, for your collaborators, a place to store that code that you spent hours searching StackExchange to finally finagle just right, with pretty default formatting that'll let your output look nice right from the start.
 
+This is where you can find that code for that three-part long table that stretched across multiple pages with footnotes at the very end with the PDF for just those pages shifted to landscape mode. 
 
-Have you ever thought, as you looked back through your old Overleaf projects or Dropbox tex files, that it would be really nice if you just had the syntax for all those tables or side-by-side figures or Beamer templates all in one place? Well, now you do!
+This is where students new to LaTex and R and GitHub and research can find easy templates to get going on their homework, so that they're spending their time thinking about interesting economics rather than playing the eye-watering game of "Where's the dollar sign I'm missing that's keeping my LaTex from compiling?" at 11:43pm.
 
 
 
@@ -92,15 +95,17 @@ Have you ever thought, as you looked back through your old Overleaf projects or 
 
 ## Getting Started
 
-This repository is linked with an Overleaf Project, so there are many ways you might want to use it on your own machine. I'll go over the steps for each of the below, each of which comes its pros and cons.
+This repository is linked with an Overleaf Project, so there are many ways you might want to use it on your own machine. I'll go over the steps for each of the below, each of which comes its pros and cons. There are a bunch of ways to go about this. This is what has worked well for me. 
+
+Please note that while I've linked to Mac-specific procedures where I know it's different, my workflow's mostly in Windows so you might have to make platform-specific adjustments.
 
 1. Copying the <a href="https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598">LaTekonomer Overleaf Template</a>
    - Do this if the following seem to apply to you:
       * You've never used LaTex before (but want to learn) and have not used GitHub before (and don't feel a need to learn just yet).
       * You use Overleaf but don't keep a local LaTex installation on your computer.
     - Installing LaTex locally can be a pain. If you're not sure which to do, try the Overleaf route first. You can always install LaTex locally later.
-    - Once you have an Overleaf project, you can also sync it online with GitHub. You can also start with Overleaf and do this later. This is what I recommend if you're new to GitHub but you want a soft introduction to using it.
-2. Forking the Git Repository
+    - Once you have an Overleaf project, you can also sync it online with GitHub. You can also start with Overleaf and do this later. This is what I recommend if you're new to GitHub. Ease your way in first, then start building out your Git skills when the limitations of an online-only repository start to bug you.
+2. Forking the Git Repository (to your local machine)
    - <a href = "https://docs.github.com/en/get-started/start-your-journey/downloading-files-from-github" > Forking </a> means that you copy this LaTekonomer Github repository to your own Github repository with a (hopefully) different name, which you then take as the foundation for your own project.
    - Do this if you:
         * Already use Github or
@@ -122,13 +127,13 @@ This repository is linked with an Overleaf Project, so there are many ways you m
    
    Technical issues happen all the time, and writing in LaTex can be time intensive. Not having backups means you're potentially throwing away hours, days, or even months of work if your computer gives up on you.
 
-What do I do? 
+Eventually, you might want to mix and match the above solutions.
 
- - A combination of all the above: I have Overleaf sync with Github _and_ a local repository on my computer that automatically syncs with my cloud and which has Git set up to also push and pull changes from my local copy to my GitHub repository. Plus an external hard drive that backs the local copy up every night. I once lost a whole semester's worth of manual inputting work because I didn't sync correctly to Dropbox. Don't be me. Learn the easy way.
+ - I use a combination of the above. I have Overleaf sync with Github _and_ a local repository on my computer that automatically syncs with my cloud and which has Git set up to also push and pull changes from my local copy to my GitHub repository. Plus an external hard drive that backs the local copy up every night. You may think this is overkill, but I once lost a semester's worth of manual inputting work because I didn't sync correctly to Dropbox. Don't be me. Learn the easy way.
 
  - If I have a lot of images or tables to change or add, I tend to use the local repository to avoid having to drag and drop files into Overleaf. If I'm mostly editing text, I tend to use Overleaf because it compiles so quickly, the interface is pretty, and it doesn't generate tons of aux files. You have to be mindful about where you're pushing and pulling from, though, otherwise you can end up with conflicting files. 
 
- - GitHub is great about recognizing what lines specifically have changed (this is what makes it such a good collaboration tool!), so I just make sure I keep up on my pushes and pulls when I switch between the Overleaf and local copy. I don't tend to edit the files directly in GitHub.
+ - GitHub is great about recognizing what lines specifically have changed (this is what makes it such a good collaboration tool!). I just make sure I keep up to date on my pushes and pulls when I switch between the Overleaf and local copy. I don't tend to edit the files directly in GitHub. There are ways you can set up Overleaf so that it automatically syncs with GitHub, but clicking `Menu->GitHub->Push` or `Menu->GitHub->Pull` hasn't thus far been a great hardship.
 
 <!-- Installation -->
 
@@ -136,7 +141,7 @@ What do I do?
 
 ## Installation
 
-Your prerequisites and installation steps will depend on how you're anticipating you'll use these templates. Let's go through the three main ways of doing this. There are tons of tutorials out there. This is just what has worked well for me.
+Your prerequisites and installation steps will depend on how you're anticipating you'll use these templates. Let's go through the three main ways of doing this. There are tons of tutorials out there; this is just what has worked well for me.
 
 ### Copying the LaTekonomer Overleaf Template
 
@@ -168,7 +173,8 @@ Now that you've got your project in Overleaf, if you have an Overleaf premium ac
 
 I recommend trying this out if you're new to GitHub and you want to start getting used to it without having to learn about coding from the command line or dealing with a finicky installation just yet.
 
-[To add and link here: Vignette for "Getting started with writing up homework" that's linked to the "Copy the LaTekonomer Overleaf Template"]
+**To add: Vignette for "Getting started with writing up homework" that's linked to the "Copy the LaTekonomer Overleaf Template"**
+**To add: pulling a LaTekonomer repository that's been updated externally when you've already made a copy of your awesome project on your own Overleaf.**
 
 ### Forking the Git Repository
 
@@ -331,7 +337,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 ## Roadmap
 
 - [ ] Add vignette for "Getting started with writing up homework" that's linked to the "Copy the LaTekonomer Overleaf Template"
-- [ ] Feature 2
+- [ ] Pulling a LaTekonomer repository that's been updated externally when you've already made a copy of your awesome project on your own Overleaf
 - [ ] Feature 3
     - [ ] Nested Feature
 
