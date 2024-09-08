@@ -182,11 +182,12 @@ Your prerequisites and installation steps will depend on how you're anticipating
 <p class="caption">Rename your project</p>
 </div>
 
-    You're set up! Easy as that. 
 
-    Now that you've got your project in Overleaf, if you have an Overleaf premium account, you can also <a href = "https://www.overleaf.com/learn/how-to/GitHub_Synchronization"> set it up to sync with GitHub. </a> 
+You're set up! Easy as that. 
 
-    I recommend trying this out if you're new to GitHub and you want to start getting used to it without having to learn about coding from the command line or dealing with a finicky installation just yet.
+Now that you've got your project in Overleaf, if you have an Overleaf premium account, you can also <a href = "https://www.overleaf.com/learn/how-to/GitHub_Synchronization"> set it up to sync with GitHub. </a> 
+
+I recommend trying this out if you're new to GitHub and you want to start getting used to it without having to learn about coding from the command line or dealing with a finicky installation just yet.
 
 **To add: Vignette for "Getting started with writing up homework" that's linked to the "Copy the LaTekonomer Overleaf Template"**
 
@@ -204,6 +205,8 @@ Your prerequisites and installation steps will depend on how you're anticipating
     If you really like the idea of having a local copy without needing the internet and you're willing to spend some time tinkering with the installation, then there are a lot of ways you can set up LaTex on your local machine.
 
     I use Sublime Tools (a speedy text editor that's a lot like VisualStudio) with LaTexTools. You can follow the installation [here](https://latextools.readthedocs.io/en/latest/install).
+
+    You can find more information about how to set up sublime [here](#using-sublime)
 
 **Add link to sublime directions**
 
@@ -235,10 +238,8 @@ Your prerequisites and installation steps will depend on how you're anticipating
 
 6. Under the "Fork" option, click "Create a new fork"
 
-<div class="figure" align="center">
-<img src="figures/vignette-figs/README/README_github_fork-01.png" alt="fork LaTekonomer repository" width="100%" />
-<p class="caption">Fork the repository</p>
-</div>
+![Fork the repository](figures/vignette-figs/README/README_github_fork-01.png)
+
 
 7. Change the name of the repository to something for your new project (like ECON 412), edit the description to match your new project, and click the "Create fork" button.
 
