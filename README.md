@@ -223,13 +223,13 @@ I recommend trying this out if you're new to GitHub and you want to start gettin
         * If there's a type of file that you want to be deleted which isn't getting done, go to `Preferences-> Package Settings -> LaTeXTools -> Settings - User` and search `temp_files_exts`. Add the extension of the type of file (e.g. `".synctex"`) to the list.
 3. You'll need to set Git up on your device.
    - I set up my GitHub originally to let it version control with R, so followed the book [__Happy Git and GitHub for the useR__](https://happygitwithr.com/).
-       * If you're thinking of using the complementary [** ekonomR **](https://github.com/stallman-j/ekonomR) R package, I highly recommend following the ** Happy Git ** book first, and then coming back here to set up <em> this </em> repository through the Git command line. You'll have installed the Git terminal in ** Ch. 6: Install Git ** when you're following this book, and that's where you'll learn what the Git command line is if you don't already know.
+       * If you're thinking of using the complementary [**ekonomR**](https://github.com/stallman-j/ekonomR) R package, I highly recommend following the **Happy Git** book first, and then coming back here to set up <em> this </em> repository through the Git command line. You'll have installed the Git terminal in **Ch. 6: Install Git** when you're following this book, and that's where you'll learn what the Git command line is if you don't already know.
        * Getting GitHub to link to your computer securely can take a little effort, so give yourself a weekend on the off chance that you need to go deep into the troubleshooting help. Do *not* try to do any of this late at night when you're tired. You'll make yourself miserable and there are lots of little things that can go wrong.
        * **Happy Git** is very well written. Start at the beginning and go through chapter 12, "Connect RStudio to Git and GitHub."
     - If you haven't done this before and are using this project as an excuse to learn some GitHub but aren't planning on using this with R, the [Github docs](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git) are a good place to get started. I occasionally use [Sublime Merge](https://www.sublimemerge.com/) as a Git client. 
-4. Assuming you've either gone off to ** Happy Git ** and come back or figured out your Gitting on your own, you're ready to fork the ** LaTekonomer ** repository using your Git bash terminal. If you don't know what the Git bash terminal is, you did not successfully complete Step 2.
+4. Assuming you've either gone off to **Happy Git** and come back or figured out your Gitting on your own, you're ready to fork the **LaTekonomer** repository using your Git bash terminal. If you don't know what the Git bash terminal is, you did not successfully complete Step 2.
    - You can bring up the Git terminal either in RStudio -> Terminal (next to the "Console" tab), or in your Applications go to Git and click on Git Bash, which should open up a free-floating terminal.
-   - You do ** NOT ** want the Windows PowerShell terminal or whatever it is that Mac uses (I think? To do: Ask Mac users who use Git how they use the terminal).
+   - You do **NOT** want the Windows PowerShell terminal or whatever it is that Mac uses (I think? To do: Ask Mac users who use Git how they use the terminal).
 5. Go to the [repository page for LaTekonomer](https://github.com/stallman-j/LaTekonomer).
 6. Under the "Fork" option, click "Create a new fork"
 
@@ -246,7 +246,7 @@ I recommend trying this out if you're new to GitHub and you want to start gettin
 </div>
 
 8. On the new repository page that pops up in your own repository and click on the green "Code" button. If you're using HTTPS protocol, click the "copy" icon to copy to URL for your newly created repository.
-    - If you followed ** Happy Git **, you should be using the HTTPS protocol. If you're using SSH, you're on your own!
+    - If you followed **Happy Git**, you should be using the HTTPS protocol. If you're using SSH, you're on your own!
 
 
 <div class="figure" align="center">
