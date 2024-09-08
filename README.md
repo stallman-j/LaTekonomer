@@ -1,13 +1,5 @@
 <!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
 <a id="readme-top"></a>
-<!--
-*** Thanks for checking out the Best-README-Template. If you have a suggestion
-*** that would make this better, please fork the repo and create a pull request
-*** or simply open an issue with the tag "enhancement".
-*** Don't forget to give the project a star!
-*** Thanks again! Now go create something AMAZING! :D
--->
-
 
 
 <!-- PROJECT SHIELDS -->
@@ -24,40 +16,31 @@
 
 
 
-<!-- PROJECT LOGO -->
-<br />
+<!-- PROJECT LOGO 
+
 <div align="center">
   <a href="https://github.com/stallman-j/LaTekonomer">
     <img src="images/logo.png" alt="Logo" width="80" height="80">
   </a>
-
-<h3 align="center">LaTekonomer</h3>
-
-  <p align="left">
-    LaTekonomer aims to provide those Overleaf/LaTex templates that many economists wish someone else would make and maintain.
-     <br />
-     <br />
-    The templates include but are not limited to: general math writing; homework write-ups; article write-ups with bibliographies; professional but simple dark and light Beamer templates; tables (including three-part tables with footnotes); figures; and a few research project assignments.
-    <br />
-      <br />
-    The research project assignments come from ECON 412 International Environmental Economics, a course taught at Yale University by Sam Kortum, for which Jillian Stallman has been teaching assistant in Fall 2023 and Fall 2024.
-      <br />
-      <br />
-    Many of these tables and figures are outputs of vignettes and code provided in the R package  <a href="https://github.com/stallman-j/ekonomR">**ekonomR**</a>. **ekonomR** and **LaTekonomer**  are designed to be complementary research templates. If you're starting a new project I highly recommend checking out **ekonomR**, but the use of **LaTekonomer** does not require **ekonomR** or vice versa.
-    <br />
-    <br />
-    <!--
-    <a href="https://github.com/stallman-j/LaTekonomer">**Explore the docs »**</a>
-    <br />
-    <br />
-    <a href="https://github.com/stallman-j/LaTekonomer">View Demo</a>
-    ·
-      --->
-    <a href="https://github.com/stallman-j/LaTekonomer/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
-    ·
-    <a href="https://github.com/stallman-j/LaTekonomer/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
-  </p>
 </div>
+-->
+
+### LaTekonomer
+
+    LaTekonomer aims to provide those Overleaf/LaTex templates that many economists wish someone else would make and maintain.
+
+    The templates include but are not limited to: general math writing; homework write-ups; article write-ups with bibliographies; professional but simple dark and light Beamer templates; tables (including three-part tables with footnotes); figures; and a few research project assignments.
+
+    The research project assignments come from ECON 412 International Environmental Economics, a course taught at Yale University by Sam Kortum, for which Jillian Stallman has been teaching assistant in Fall 2023 and Fall 2024.
+
+    Many of these tables and figures are outputs of vignettes and code provided in the R package [**ekonomR**](https://github.com/stallman-j/ekonomR)  **ekonomR** and **LaTekonomer**  are designed to be complementary research templates. If you're starting a new project I highly recommend checking out **ekonomR**, but the use of **LaTekonomer** does not require **ekonomR** or vice versa.
+
+    [Explore the docs](https://github.com/stallman-j/LaTekonomer)
+
+    <a href="https://github.com/stallman-j/LaTekonomer">View Demo</a>
+
+    <a href="https://github.com/stallman-j/LaTekonomer/issues/new?labels=bug&template=bug-report---.md">Report Bug</a>
+    <a href="https://github.com/stallman-j/LaTekonomer/issues/new?labels=enhancement&template=feature-request---.md">Request Feature</a>
 
 
 
