@@ -243,7 +243,7 @@ I recommend trying this out if you're new to GitHub and you want to start gettin
 
 6. Under the "Fork" option, click "Create a new fork"
 
-![Fork the repository](figures/vignette-figs/README/README_github_fork-01.png)
+![Fork the repository](assets/images/README/README_github_fork-01.png)
 
 
 7. Change the name of the repository to something for your new project (like ECON 412), edit the description to match your new project, and click the "Create fork" button.
