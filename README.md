@@ -95,16 +95,17 @@ This is where students new to LaTex and R and GitHub and research can find easy 
 
 ## Getting Started
 
-This repository is linked with an Overleaf Project, so there are many ways you might want to use it on your own machine. I'll go over the steps for each of the below, each of which comes its pros and cons. There are a bunch of ways to go about this. This is what has worked well for me. 
+This repository is also linked with an Overleaf Project, so there are many ways you might want to use it on your own machine. I'll go over the steps for a couple options you might pursue, each of which comes with its pros and cons. There are many, many tutorials out there for different workflows. This is just what has worked well for me. 
 
-Please note that while I've linked to Mac-specific procedures where I know it's different, my workflow's mostly in Windows so you might have to make platform-specific adjustments.
+While I've linked to Mac-specific procedures where I know it's different, my workflow's mostly in Windows and these guides are biased towards Windows users. You might have to make platform-specific adjustments that I haven't accounted for. If you have Mac-specific suggestions, [make a feature request](https://github.com/stallman-j/LaTekonomer/issues/new?labels=enhancement&template=feature-request---.md).
 
 1. Copying the <a href="https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598">LaTekonomer Overleaf Template</a>
-   - Do this if the following seem to apply to you:
-      * You've never used LaTex before (but want to learn) and have not used GitHub before (and don't feel a need to learn just yet).
-      * You use Overleaf but don't keep a local LaTex installation on your computer.
+   - Do this if any of the following apply to you:
+      - You've never used LaTex before (but want to learn) and have not used GitHub before (and don't feel a need to learn just yet).
+      - You use Overleaf but don't keep a local LaTex installation on your computer.
     - Installing LaTex locally can be a pain. If you're not sure which to do, try the Overleaf route first. You can always install LaTex locally later.
-    - Once you have an Overleaf project, you can also sync it online with GitHub. You can also start with Overleaf and do this later. This is what I recommend if you're new to GitHub. Ease your way in first, then start building out your Git skills when the limitations of an online-only repository start to bug you.
+    - Once you have an Overleaf project, you can also sync it online with GitHub.
+        - You can also start with Overleaf and do this later. This is what I recommend if you're new to GitHub. Ease your way in first, then start building out your Git skills when the limitations of an online-only repository start to bug you.
 2. Forking the Git Repository (to your local machine)
    - <a href = "https://docs.github.com/en/get-started/start-your-journey/downloading-files-from-github" > Forking </a> means that you copy this LaTekonomer Github repository to your own Github repository with a (hopefully) different name, which you then take as the foundation for your own project.
    - Do this if you:
@@ -186,9 +187,9 @@ I recommend trying this out if you're new to GitHub and you want to start gettin
         * As you're going through the guide, you might get into the question of which LaTex installation to download.
             - For Mac, you'll want to download Mactex.
             - For Windows, download MikTex if you want LaTex taking up a little less space on your machine. Remember to allow it to download packages on the fly, though, and allow it to add itself to your paths. Download TexLive if you never want to worry about a missing package or think about LaTex again once you've downloaded it, but are willing to devote some 5G of your computer storage to LaTex. If you're indifferent, go with TexLive. More people maintain it.
-        * To get a dark mode that feels a bit like Overleaf, follow [this tutorial](https://medium.com/@iitrabhi/how-to-setup-sublime-as-a-beautiful-latex-editor-dark-mode-windows-7ec5e0a24878) and then navigate to `File` -> `Open Folder` and open your project folder (for me, that's `LaTekonomer` itself). If it's still not working, go to `View`-> `Sidebar` and click `Show Sidebar.`
-        * For a light theme, start out following the tutorial for the above (which installs the theme AYU along with setting some other nice settings). I like [AYU light](https://github.com/dempfi/ayu)>, which you can install by using `ctrl`+`shift`+`p` (to open the package manager), then typing `ayu: activate theme` -> `ayu light`.
-            * To make the pdf viewer match, I also change a few Sumatra settings (`Settings`->`Advanced Options`). First, I set `MainWindowBackground = #828c99`, and then replace the settings of `FixedPageUI` with the following (colors obtained from [https://github.com/ayu-theme/ayu-colors](https://github.com/ayu-theme/ayu-colors))
+        - To get a dark mode that feels a bit like Overleaf, follow [this tutorial](https://medium.com/@iitrabhi/how-to-setup-sublime-as-a-beautiful-latex-editor-dark-mode-windows-7ec5e0a24878) and then navigate to `File` -> `Open Folder` and open your project folder (for me, that's `LaTekonomer` itself). If it's still not working, go to `View`-> `Sidebar` and click `Show Sidebar.`
+        - For a light theme, start out following the tutorial for the above (which installs the theme AYU along with setting some other nice settings). I like [AYU light](https://github.com/dempfi/ayu)>, which you can install by using `ctrl`+`shift`+`p` (to open the package manager), then typing `ayu: activate theme` -> `ayu light`.
+            - To make the pdf viewer match, I also change a few Sumatra settings (`Settings`->`Advanced Options`). First, I set `MainWindowBackground = #828c99`, and then replace the settings of `FixedPageUI` with the following (colors obtained from [https://github.com/ayu-theme/ayu-colors](https://github.com/ayu-theme/ayu-colors))
 
           ```
           FixedPageUI [
@@ -201,16 +202,16 @@ I recommend trying this out if you're new to GitHub and you want to start gettin
           HideScrollbars = false
           ]
           ```
-    * [Here's](https://www.sumatrapdfreader.org/settings/settings3-0) how to customize more Sumatra settings. And [here's what to do if your compilation is creating an "untitled" pdf](https://stackoverflow.com/questions/68548517/sublime-text-3-latextool-unintentional-new-window-after-compilation).
-    * There's a keyboard shortcut that can help keep your project directory from getting cluttered with aux files, but the default is a little clunky. In Sublime, go to `Preferences-> Package Settings -> LaTeXTools -> Key Bindings - Default.` Search for `delete_temp_files`, and you should see that the default shortcut is `["ctrl+l","backspace"]`. In order to activate this shortcut, you need to 1) compile your .tex file (with `ctrl+b`), and then 2) _while_ your cursor is still focused on that file, hit `ctrl+l`, then release it, then hit `backspace`.
-    * If that's an annoyance, you can change this keybinding, replacing for instance `["ctrl+l","backspace"]` with `["f5"]`. You still have to make sure your cursor is focused on the window of the main `.tex` file you want to delete.
-        * For example, to delete `master_article.aux`, you would want to have your window open to `master_article.tex` and then hit `F5`.
-        * If there's a type of file that you want to be deleted which isn't getting done, go to `Preferences-> Package Settings -> LaTeXTools -> Settings - User` and search `temp_files_exts`. Add the extension of the type of file (e.g. `".synctex"`) to the list.
+    - [Here's](https://www.sumatrapdfreader.org/settings/settings3-0) how to customize more Sumatra settings. And [here's what to do if your compilation is creating an "untitled" pdf](https://stackoverflow.com/questions/68548517/sublime-text-3-latextool-unintentional-new-window-after-compilation).
+    - There's a keyboard shortcut that can help keep your project directory from getting cluttered with aux files, but the default is a little clunky. In Sublime, go to `Preferences-> Package Settings -> LaTeXTools -> Key Bindings - Default.` Search for `delete_temp_files`, and you should see that the default shortcut is `["ctrl+l","backspace"]`. In order to activate this shortcut, you need to 1) compile your .tex file (with `ctrl+b`), and then 2) _while_ your cursor is still focused on that file, hit `ctrl+l`, then release it, then hit `backspace`.
+    - If that's an annoyance, you can change this keybinding, replacing for instance `["ctrl+l","backspace"]` with `["f5"]`. You still have to make sure your cursor is focused on the window of the main `.tex` file you want to delete.
+        - For example, to delete `master_article.aux`, you would want to have your window open to `master_article.tex` and then hit `F5`.
+        - If there's a type of file that you want to be deleted which isn't getting done, go to `Preferences-> Package Settings -> LaTeXTools -> Settings - User` and search `temp_files_exts`. Add the extension of the type of file (e.g. `".synctex"`) to the list.
 3. You'll need to set Git up on your device.
    - I set up my GitHub originally to let it version control with R, so followed the book [__Happy Git and GitHub for the useR__](https://happygitwithr.com/).
-       * If you're thinking of using the complementary [**ekonomR**](https://github.com/stallman-j/ekonomR) R package, I highly recommend following the **Happy Git** book first, and then coming back here to set up <em> this </em> repository through the Git command line. You'll have installed the Git terminal in **Ch. 6: Install Git** when you're following this book, and that's where you'll learn what the Git command line is if you don't already know.
-       * Getting GitHub to link to your computer securely can take a little effort, so give yourself a weekend on the off chance that you need to go deep into the troubleshooting help. Do *not* try to do any of this late at night when you're tired. You'll make yourself miserable and there are lots of little things that can go wrong.
-       * **Happy Git** is very well written. Start at the beginning and go through chapter 12, "Connect RStudio to Git and GitHub."
+       - If you're thinking of using the complementary [**ekonomR**](https://github.com/stallman-j/ekonomR) R package, I highly recommend following the **Happy Git** book first, and then coming back here to set up <em> this </em> repository through the Git command line. You'll have installed the Git terminal in **Ch. 6: Install Git** when you're following this book, and that's where you'll learn what the Git command line is if you don't already know.
+       - Getting GitHub to link to your computer securely can take a little effort, so give yourself a weekend on the off chance that you need to go deep into the troubleshooting help. Do *not* try to do any of this late at night when you're tired. You'll make yourself miserable and there are lots of little things that can go wrong.
+       - **Happy Git** is very well written. Start at the beginning and go through chapter 12, "Connect RStudio to Git and GitHub."
     - If you haven't done this before and are using this project as an excuse to learn some GitHub but aren't planning on using this with R, the [Github docs](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git) are a good place to get started. I occasionally use [Sublime Merge](https://www.sublimemerge.com/) as a Git client. 
 4. Assuming you've either gone off to **Happy Git** and come back or figured out your Gitting on your own, you're ready to fork the **LaTekonomer** repository using your Git bash terminal. If you don't know what the Git bash terminal is, you did not successfully complete Step 2.
    - You can bring up the Git terminal either in RStudio -> Terminal (next to the "Console" tab), or in your Applications go to Git and click on Git Bash, which should open up a free-floating terminal.
@@ -240,10 +241,10 @@ I recommend trying this out if you're new to GitHub and you want to start gettin
 </div>
 
 9. In your Git Bash (or RStudio Git) terminal, change the working directory to the folder in which you would like to create this new project.
-    * Putting your project in a folder which is also synced to a cloud (like OneDrive or Dropbox) doubly backs your stuff up and allows you do make local changes from multiple devices. I've read that doing this might cause syncing issues but have never run into any myself.
-    * I use the cloud [pCloud](https://www.pcloud.com/), which is like Dropbox but with lifetime subscriptions rather than annual, and some other fun bells and whistles.
-    * If you're at Yale, you have free storage with OneDrive. If you're doing this in OneDrive, make sure that you've opened up the OneDrive app so that your folders register the correct paths.
-    * If you're on a Windows system, the command might look like the following, where you change ```[your-username]``` to be whatever your username on your PC is. 
+    - Putting your project in a folder which is also synced to a cloud (like OneDrive or Dropbox) doubly backs your stuff up and allows you do make local changes from multiple devices. I've read that doing this might cause syncing issues but have never run into any myself.
+    - I use the cloud [pCloud](https://www.pcloud.com/), which is like Dropbox but with lifetime subscriptions rather than annual, and some other fun bells and whistles.
+    - If you're at Yale, you have free storage with OneDrive. If you're doing this in OneDrive, make sure that you've opened up the OneDrive app so that your folders register the correct paths.
+    - If you're on a Windows system, the command might look like the following, where you change ```[your-username]``` to be whatever your username on your PC is. 
 
  ```sh
    cd "C:\Users\[your-username]\OneDrive - Yale University"
@@ -260,7 +261,7 @@ I recommend trying this out if you're new to GitHub and you want to start gettin
 11. You're now ready to start making changes! There are a couple commands you'll use over and over from the Git bash terminal, so I'll put them here for easy reference.
 
 - To push changes you've made locally from your local machine to GitHub, in a Git terminal, first make sure your directory is the right one with ```pwd``` (display the present working directory).
-   * You don't need to do this if you can just read off the terminal cursor that you're in the right location.
+   - You don't need to do this if you can just read off the terminal cursor that you're in the right location.
 
  ```sh
    pwd
@@ -396,15 +397,15 @@ Project Link: [https://github.com/stallman-j/LaTekonomer](https://github.com/sta
 ## Acknowledgments
 
 
-* [othneildrew/Best-README-Template](https://github.com/othneildrew/Best-README-Template)
-* [Choose an Open Source License](https://choosealicense.com)
-* [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
-* [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
-* [Malven's Grid Cheatsheet](https://grid.malven.co/)
-* [Img Shields](https://shields.io)
-* [GitHub Pages](https://pages.github.com)
-* [Font Awesome](https://fontawesome.com)
-* [React Icons](https://react-icons.github.io/react-icons/search)
+- [othneildrew/Best-README-Template](https://github.com/othneildrew/Best-README-Template)
+- [Choose an Open Source License](https://choosealicense.com)
+- [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
+- [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
+- [Malven's Grid Cheatsheet](https://grid.malven.co/)
+- [Img Shields](https://shields.io)
+- [GitHub Pages](https://pages.github.com)
+- [Font Awesome](https://fontawesome.com)
+- [React Icons](https://react-icons.github.io/react-icons/search)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
