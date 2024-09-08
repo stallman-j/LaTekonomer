@@ -219,14 +219,14 @@ I recommend trying this out if you're new to GitHub and you want to start gettin
               *[Here's](https://www.sumatrapdfreader.org/settings/settings3-0) how to customize more Sumatra settings.
 3. You'll need to set Git up on your device.
    - I set up my GitHub originally to let it version control with R, so followed the book [__Happy Git and GitHub for the useR__](https://happygitwithr.com/).
-       * If you're thinking of using the complementary <a href = "https://github.com/stallman-j/ekonomR" >** ekonomR ** </a> R package, I highly recommend following the ** Happy Git ** book first, and then coming back here to set up <em> this </em> repository through the Git command line. You'll have installed the Git terminal in ** Ch. 6: Install Git ** when you're following this book, and that's where you'll learn what the Git command line is if you don't already know.
-       * Getting GitHub to link to your computer securely can take a little effort, so give yourself a weekend on the off chance that you need to go deep into the troubleshooting help. Do <em> not </em> try to do any of this late at night when you're tired. You'll make yourself miserable and there are lots of little things that can go wrong.
-       * ** Happy Git ** is supremely well written. Start at the beginning and go through chapter 12, "Connect RStudio to Git and GitHub."
-    - If you haven't done this before and are using this project as an excuse to learn some GitHub but aren't planning on using this with R, the <a href = "https://docs.github.com/en/get-started/start-your-journey/about-github-and-git" > GitHub docs </a> are a good place to get started. I occasionally use <a href = "https://www.sublimemerge.com/" > Sublime Merge </a> as a Git client. 
+       * If you're thinking of using the complementary [** ekonomR **](https://github.com/stallman-j/ekonomR) R package, I highly recommend following the ** Happy Git ** book first, and then coming back here to set up <em> this </em> repository through the Git command line. You'll have installed the Git terminal in ** Ch. 6: Install Git ** when you're following this book, and that's where you'll learn what the Git command line is if you don't already know.
+       * Getting GitHub to link to your computer securely can take a little effort, so give yourself a weekend on the off chance that you need to go deep into the troubleshooting help. Do *not* try to do any of this late at night when you're tired. You'll make yourself miserable and there are lots of little things that can go wrong.
+       * **Happy Git** is very well written. Start at the beginning and go through chapter 12, "Connect RStudio to Git and GitHub."
+    - If you haven't done this before and are using this project as an excuse to learn some GitHub but aren't planning on using this with R, the [Github docs](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git) are a good place to get started. I occasionally use [Sublime Merge](https://www.sublimemerge.com/) as a Git client. 
 4. Assuming you've either gone off to ** Happy Git ** and come back or figured out your Gitting on your own, you're ready to fork the ** LaTekonomer ** repository using your Git bash terminal. If you don't know what the Git bash terminal is, you did not successfully complete Step 2.
    - You can bring up the Git terminal either in RStudio -> Terminal (next to the "Console" tab), or in your Applications go to Git and click on Git Bash, which should open up a free-floating terminal.
    - You do ** NOT ** want the Windows PowerShell terminal or whatever it is that Mac uses (I think? To do: Ask Mac users who use Git how they use the terminal).
-5. Go to the <a href="https://github.com/stallman-j/LaTekonomer"> repository page for LaTekonomer. </a>
+5. Go to the [repository page for LaTekonomer](https://github.com/stallman-j/LaTekonomer).
 6. Under the "Fork" option, click "Create a new fork"
 
 <div class="figure" align="center">
@@ -252,7 +252,7 @@ I recommend trying this out if you're new to GitHub and you want to start gettin
 
 9. In your Git Bash (or RStudio Git) terminal, change the working directory to the folder in which you would like to create this new project.
     * Putting your project in a folder which is also synced to a cloud (like OneDrive or Dropbox) doubly backs your stuff up and allows you do make local changes from multiple devices. I've read that doing this might cause syncing issues but have never run into any myself.
-    * I use the cloud <a href = "https://www.pcloud.com/" > pCloud </a>, which is like Dropbox but with lifetime subscriptions rather than annual, and some other fun bells and whistles.
+    * I use the cloud [pCloud](https://www.pcloud.com/), which is like Dropbox but with lifetime subscriptions rather than annual, and some other fun bells and whistles.
     * If you're at Yale, you have free storage with OneDrive. If you're doing this in OneDrive, make sure that you've opened up the OneDrive app so that your folders register the correct paths.
     * If you're on a Windows system, the command might look like the following, where you change ```[your-username]``` to be whatever your username on your PC is. 
 
