@@ -143,7 +143,7 @@ This repository is linked with an Overleaf Project, so there are many ways you m
    
    Technical issues happen all the time, and writing in LaTex can be time intensive. Not having backups means you're potentially throwing away hours, days, or even months of work if your computer gives up on you.
 
-What do I do these days? 
+What do I do? 
 
  - A combination of all the above: I have Overleaf sync with Github _and_ a local repository on my computer that automatically syncs with my cloud and which has Git set up to also push and pull changes from my local copy to my GitHub repository. Plus an external hard drive that backs the local copy up every night. I once lost a whole semester's worth of manual inputting work because I didn't sync correctly to Dropbox. Don't be me. Learn the easy way.
 
@@ -197,7 +197,7 @@ I recommend trying this out if you're new to GitHub and you want to start gettin
 2. You'll need a LaTex installation on your local machine.
    - If this is your first time with both LaTex and GitHub, I recommend going through Overleaf with the first option above. It allows you to collaborate easily and learn the ropes without worrying about figuring out all the installation nuances of LaTex or GitBash just yet.
    - If you really like the idea of having a local copy without needing the internet and you're willing to spend some time tinkering with the installation, then there are a lot of ways you can set up LaTex on your local machine.
-        * I use Sublime Tools (a speedy text editor that's a lot like VisualStudio) with LaTexTools. You can follow the installation <a href = "https://latextools.readthedocs.io/en/latest/install/" > here </a>.
+        * I use Sublime Tools (a speedy text editor that's a lot like VisualStudio) with LaTexTools. You can follow the installation [here](https://latextools.readthedocs.io/en/latest/install).
         * As you're going through the guide, you might get into the question of which LaTex installation to download.
             - For Mac, you'll want to download Mactex.
             - For Windows, download MikTex if you want LaTex taking up a little less space on your machine. Remember to allow it to download packages on the fly, though, and allow it to add itself to your paths. Download TexLive if you never want to worry about a missing package or think about LaTex again once you've downloaded it, but are willing to devote some 5G of your computer storage to LaTex. If you're indifferent, go with TexLive. More people maintain it.
@@ -218,7 +218,7 @@ I recommend trying this out if you're new to GitHub and you want to start gettin
           ```
               *[Here's](https://www.sumatrapdfreader.org/settings/settings3-0) how to customize more Sumatra settings.
 3. You'll need to set Git up on your device.
-   - I set up my GitHub originally to let it version control with R, so followed the book <a href = "https://happygitwithr.com/"> <em> Happy Git and GitHub for the useR </em> </a>.
+   - I set up my GitHub originally to let it version control with R, so followed the book [__Happy Git and GitHub for the useR__](https://happygitwithr.com/).
        * If you're thinking of using the complementary <a href = "https://github.com/stallman-j/ekonomR" >** ekonomR ** </a> R package, I highly recommend following the ** Happy Git ** book first, and then coming back here to set up <em> this </em> repository through the Git command line. You'll have installed the Git terminal in ** Ch. 6: Install Git ** when you're following this book, and that's where you'll learn what the Git command line is if you don't already know.
        * Getting GitHub to link to your computer securely can take a little effort, so give yourself a weekend on the off chance that you need to go deep into the troubleshooting help. Do <em> not </em> try to do any of this late at night when you're tired. You'll make yourself miserable and there are lots of little things that can go wrong.
        * ** Happy Git ** is supremely well written. Start at the beginning and go through chapter 12, "Connect RStudio to Git and GitHub."
