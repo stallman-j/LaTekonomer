@@ -1,4 +1,4 @@
-# Using Sublime {#using-sublime}
+# Using Sublime
 
 I use Sublime Tools (a speedy text editor that's a lot like VisualStudio) with LaTexTools. You can follow the installation [here](https://latextools.readthedocs.io/en/latest/install).
 
@@ -20,7 +20,7 @@ To get a dark mode that feels a bit like Overleaf, follow [this tutorial](https:
 
 For a light theme, start out following the tutorial for the above (which installs the theme AYU along with setting some other nice settings). I like [AYU light](https://github.com/dempfi/ayu), which you can install by using `ctrl`+`shift`+`p` (to open the package manager), then typing `ayu: activate theme` -> `ayu light`.
 
-### Matching with Sumatra
+### Matching with Sumatra {#matching-sumatra}
 
 To make the pdf viewer match, we can also change a few Sumatra settings (`Settings`->`Advanced Options` in Sumatra). 
 
