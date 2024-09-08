@@ -183,30 +183,7 @@ I recommend trying this out if you're new to GitHub and you want to start gettin
 2. You'll need a LaTex installation on your local machine.
    - If this is your first time with both LaTex and GitHub, I recommend going through Overleaf with the first option above. It allows you to collaborate easily and learn the ropes without worrying about figuring out all the installation nuances of LaTex or GitBash just yet.
    - If you really like the idea of having a local copy without needing the internet and you're willing to spend some time tinkering with the installation, then there are a lot of ways you can set up LaTex on your local machine.
-        * I use Sublime Tools (a speedy text editor that's a lot like VisualStudio) with LaTexTools. You can follow the installation [here](https://latextools.readthedocs.io/en/latest/install).
-        * As you're going through the guide, you might get into the question of which LaTex installation to download.
-            - For Mac, you'll want to download Mactex.
-            - For Windows, download MikTex if you want LaTex taking up a little less space on your machine. Remember to allow it to download packages on the fly, though, and allow it to add itself to your paths. Download TexLive if you never want to worry about a missing package or think about LaTex again once you've downloaded it, but are willing to devote some 5G of your computer storage to LaTex. If you're indifferent, go with TexLive. More people maintain it.
-        - To get a dark mode that feels a bit like Overleaf, follow [this tutorial](https://medium.com/@iitrabhi/how-to-setup-sublime-as-a-beautiful-latex-editor-dark-mode-windows-7ec5e0a24878) and then navigate to `File` -> `Open Folder` and open your project folder (for me, that's `LaTekonomer` itself). If it's still not working, go to `View`-> `Sidebar` and click `Show Sidebar.`
-        - For a light theme, start out following the tutorial for the above (which installs the theme AYU along with setting some other nice settings). I like [AYU light](https://github.com/dempfi/ayu)>, which you can install by using `ctrl`+`shift`+`p` (to open the package manager), then typing `ayu: activate theme` -> `ayu light`.
-            - To make the pdf viewer match, I also change a few Sumatra settings (`Settings`->`Advanced Options`). First, I set `MainWindowBackground = #828c99`, and then replace the settings of `FixedPageUI` with the following (colors obtained from [https://github.com/ayu-theme/ayu-colors](https://github.com/ayu-theme/ayu-colors))
-
-          ```
-          FixedPageUI [
-          TextColor = #5C6166
-          BackgroundColor = #FCFCFC
-          SelectionColor = #035BD6
-          WindowMargin = 2 4 2 4
-          PageSpacing = 4 4
-          InvertColors = false
-          HideScrollbars = false
-          ]
-          ```
-    - [Here's](https://www.sumatrapdfreader.org/settings/settings3-0) how to customize more Sumatra settings. And [here's what to do if your compilation is creating an "untitled" pdf](https://stackoverflow.com/questions/68548517/sublime-text-3-latextool-unintentional-new-window-after-compilation).
-    - There's a keyboard shortcut that can help keep your project directory from getting cluttered with aux files, but the default is a little clunky. In Sublime, go to `Preferences-> Package Settings -> LaTeXTools -> Key Bindings - Default.` Search for `delete_temp_files`, and you should see that the default shortcut is `["ctrl+l","backspace"]`. In order to activate this shortcut, you need to 1) compile your .tex file (with `ctrl+b`), and then 2) _while_ your cursor is still focused on that file, hit `ctrl+l`, then release it, then hit `backspace`.
-    - If that's an annoyance, you can change this keybinding, replacing for instance `["ctrl+l","backspace"]` with `["f5"]`. You still have to make sure your cursor is focused on the window of the main `.tex` file you want to delete.
-        - For example, to delete `master_article.aux`, you would want to have your window open to `master_article.tex` and then hit `F5`.
-        - If there's a type of file that you want to be deleted which isn't getting done, go to `Preferences-> Package Settings -> LaTeXTools -> Settings - User` and search `temp_files_exts`. Add the extension of the type of file (e.g. `".synctex"`) to the list.
+    **To Do: Link to the `using-sublime.md` file**
 3. You'll need to set Git up on your device.
    - I set up my GitHub originally to let it version control with R, so followed the book [__Happy Git and GitHub for the useR__](https://happygitwithr.com/).
        - If you're thinking of using the complementary [**ekonomR**](https://github.com/stallman-j/ekonomR) R package, I highly recommend following the **Happy Git** book first, and then coming back here to set up <em> this </em> repository through the Git command line. You'll have installed the Git terminal in **Ch. 6: Install Git** when you're following this book, and that's where you'll learn what the Git command line is if you don't already know.
