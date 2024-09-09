@@ -20,8 +20,8 @@ author: J Stallman
 ###############################################
 
 navbar-links:
-  About Me: "aboutme"
-  Get Started: "https://stallman-j.github.io/LaTekonomer/latekonomer-documentation.html"
+  About: "about-latekonomer"
+  Get Started: "https://stallman-j.github.io/LaTekonomer/how-tos/latekonomer-documentation.html"
   Access Templates:
     - On Overleaf: "https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598"
     - On GitHub: "https://github.com/stallman-j/LaTekonomer"
