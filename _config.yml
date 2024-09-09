@@ -10,7 +10,7 @@
 ############################
 
 # Name of website
-title: J Stallman's Personal Website
+title: LaTekonomer
 
 # Your name to show in the footer
 author: J Stallman
@@ -21,9 +21,10 @@ author: J Stallman
 
 navbar-links:
   About Me: "aboutme"
-  Resources:
-    - Beautiful Jekyll: "https://beautifuljekyll.com"
-    - Learn markdown: "https://www.markdowntutorial.com/"
+  Get Started: "https://stallman-j.github.io/LaTekonomer/latekonomer-documentation.html"
+  Access Templates:
+    - On Overleaf: "https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598"
+    - On GitHub: "https://github.com/stallman-j/LaTekonomer"
   Author's home: "https://stallman-j.github.io"
 
 ################
@@ -32,14 +33,14 @@ navbar-links:
 
 # Image to show in the navigation bar - works best with a square image
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/assets/img/avatar-icon.png"
+#avatar: "/assets/img/avatar-icon.png"
 
 # By default, the image is cut into a circle. You can disable this behaviour by setting 'round-avatar: false'
 round-avatar: true
 
 # If you want to have an image logo in the top-left corner instead of having the title of the website,
 # then specify the following parameter
-#title-img: /path/to/image
+title-img: "/assets/img/avatar-icon.png"
 
 
 #####################################
@@ -84,7 +85,7 @@ social-network-links:
 
 # If you want your website to generate an RSS feed, provide a description
 # The URL for the feed will be https://<your_website>/feed.xml
-rss-description: J Stallman's GitHub website
+rss-description: LaTekonomer
 
 ###########################
 # --- General options --- #
@@ -132,18 +133,18 @@ navbar-var-length: false
 ######################################
 
 # Personalize the colours in your website. Colour values can be any valid CSS colour
-
+# These are pulled from Overleaf's color scheme. The idea is to evoke Overleaf a little tongue-in-cheek
 page-col: "#FFFFFF"
-text-col: "#404040"
-link-col: "#008AFF"
-hover-col: "#0085A1"
-navbar-col: "#EAEAEA"
-navbar-text-col: "#404040"
-navbar-border-col: "#DDDDDD"
-footer-col: "#EAEAEA"
-footer-text-col: "#777777"
+text-col: "#292838"
+link-col: "#318243"
+hover-col: "#8fcd92"
+navbar-col: "#318243"
+navbar-text-col: "#FFFFFF"
+navbar-border-col: "#8fcd92"
+footer-col: "#318243"
+footer-text-col: "#FFFFFF"
 footer-link-col: "#404040"
-footer-hover-col: "#0085A1"
+footer-hover-col: "#f3f3f3"
 
 # Alternatively, the navbar, footer, and page background can be set to an image
 # instead of colour

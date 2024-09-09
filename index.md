@@ -1,31 +1,12 @@
-<!-- Improved compatibility of back to top link: See: https://github.com/othneildrew/Best-README-Template/pull/73 -->
-<a id="readme-top"></a>
+---
+layout: home
+title: LaTekonomer
+subtitle: The LaTeX you don't want to have to dig out again or don't want to search for hours on StackExchange to find.
+---
 
+<img src="assets/img/succulent.JPG" title="" alt="surviving" />
 
-<!-- PROJECT SHIELDS -->
-<!--
-*** I'm using markdown "reference style" links for readability.
-*** Reference links are enclosed in brackets [ ] instead of parentheses ( ).
-*** See the bottom of this document for the declaration of the reference variables
-*** for contributors-url, forks-url, etc. This is an optional, concise syntax you may use.
-*** https://www.markdownguide.org/basic-syntax/#reference-style-links
--->
-[![Contributors][contributors-shield]][contributors-url]
-[![Issues][issues-shield]][issues-url]
-[![GNU GPLv3 License][license-shield]][license-url]
-
-
-
-<!-- PROJECT LOGO 
-
-<div align="center">
-  <a href="https://github.com/stallman-j/LaTekonomer">
-    <img src="images/logo.png" alt="Logo" width="80" height="80">
-  </a>
-</div>
--->
-
-### LaTekonomer
+"Den som är väldigt stark måste också vara väldigt snäll." - Astrid Lindgren
 
 LaTekonomer aims to provide those Overleaf/LaTex templates that many economists wish someone else would make and maintain. 
 
@@ -39,3 +20,4 @@ If you're starting a new project I highly recommend checking out **ekonomR**, bu
 
 I should note that LaTex isn't the only way to produce figures, tables, and commentary. Code doesn't work great with Word, but the obvious competitor to LaTex is Markdown. If you're interested in exploring the Markdown world, check out [The Markdown Guide](https://www.markdownguide.org/book/), which integrates sublimely with R and GitHub. This README, for instance, is composed with Markdown.
 
+View [the GitHub Pages website](https://stallman-j.github.io/LaTekonomer) or directly on [GitHub](https://github.com/stallman-j/LaTekonomer)
