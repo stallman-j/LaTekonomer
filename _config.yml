@@ -21,11 +21,11 @@ author: J Stallman
 
 navbar-links:
   About: "about-latekonomer"
-  Get Started: "https://stallman-j.github.io/LaTekonomer/how-tos/latekonomer-documentation.html"
-  Access Templates:
+  Get Started: "https://stallman-j.github.io/LaTekonomer/how-tos/latekonomer-documentation"
+  Access:
     - On Overleaf: "https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598"
     - On GitHub: "https://github.com/stallman-j/LaTekonomer"
-  Author's home: "https://stallman-j.github.io"
+  Author: "https://stallman-j.github.io"
 
 ################
 # --- Logo --- #
