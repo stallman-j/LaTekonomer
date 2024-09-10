@@ -2,6 +2,8 @@
 title: LaTekonomer Documentation
 #subtitle: Hopefully everything you need and lots of things you hopefully won't
 # https://bookdown.org/yihui/rmarkdown/html-document.html#floating-toc
+layout: default
+toc: true
 ---
 
 # Quick Links
