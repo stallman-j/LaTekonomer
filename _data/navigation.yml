@@ -1,0 +1,9 @@
+main:
+  - title: "Home"
+    url: https://stallman-j.github.io/LaTekonomer
+  - title: "Documentation"
+    url: /how-tos/documentation-LaTekonomer
+  - title: "ekonomR"
+    url: https://stallman-j.github.io/ekonomR/
+  - title: "About the Author"
+    url: https://stallman-j.github.io/
