@@ -36,6 +36,9 @@
 
     nav {
       z-index: 10;
+      background: $masthead-background-color;
+    color: $masthead-background-color;
+    background-color: $masthead-background-color; 
     }
 
     a {
@@ -56,11 +59,17 @@
   align-self: center;
   font-weight: bold;
   // z-index: 20;
+  background: $masthead-background-color;
+    color: $masthead-background-color;
+    background-color: $masthead-background-color; 
 }
 
 .site-subtitle {
   display: block;
   font-size: $type-size-8;
+  background: $masthead-background-color;
+    color: $masthead-background-color;
+    background-color: $masthead-background-color; 
 }
 
 .masthead__menu {
@@ -69,9 +78,14 @@
   width: 100%;
   clear: both;
   background: $masthead-background-color;
+    color: $masthead-background-color;
+    background-color: $masthead-background-color; 
 
   .site-nav {
     margin-inline-start: 0;
+    background: $masthead-background-color;
+    color: $masthead-background-color;
+    background-color: $masthead-background-color; 
 
     @include breakpoint($small) {
       float: inline-end;
@@ -90,7 +104,10 @@
   display: block;
   list-style-type: none;
   white-space: nowrap;
-
+background: $masthead-background-color;
+    color: $masthead-background-color;
+    background-color: $masthead-background-color; 
+    
   &--lg {
     padding-inline-end: 2em;
     font-weight: 700;
