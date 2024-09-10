@@ -11,6 +11,7 @@ tags:
   - html
   - markup
 toc: true
+layout: single
 ---
 
 A variety of common markup showing how the theme styles them.
