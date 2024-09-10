@@ -12,7 +12,7 @@
 $background-color: #f3f3f3 !default;
 
 */
-$background-color: #ff73fd !default;
+$background-color: #f3f3f3 !default;
 $text-color: #292838 !default;
 $muted-text-color: mix(#fff, $text-color, 75%) !default;
 $primary-color: #00adb5 !default;
@@ -23,6 +23,7 @@ $form-background-color: mix(#fff, $background-color, 15%) !default;
 
 
 $primary-color: #8fcd92 !default;
+$toc-border-color: $background-color !default; 
 $border-color: mix(#fff, $text-color, 75%) !default;
 $footer-background-color: #318243 !default;
 $link-color: #318243 !default;
