@@ -17,7 +17,7 @@ locale                   : "en-US"
 rtl                      : # true, false (default) # turns direction of the page into right to left for RTL languages
 title                    : "LaTekonomer"
 title_separator          : "-"
-subtitle                 : "LaTeX for Economists of All Stages" # site tagline that appears below site title in masthead
+subtitle                 : "Workflow for Economists of All Stages" # site tagline that appears below site title in masthead
 name                     : "LaTekonomer"
 description              : "LaTeX for Economists of All Stages"
 url                      : "https://stallman-j.github.io" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
