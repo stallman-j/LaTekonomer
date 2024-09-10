@@ -5,42 +5,16 @@ subtitle: Everything you need and lots of things you hopefully won't
 # https://bookdown.org/yihui/rmarkdown/html-document.html#floating-toc
 ---
 
-# Quick Links
+# Documentation
 
 View [the GitHub Pages website](https://stallman-j.github.io/LaTekonomer) or directly on [GitHub](https://github.com/stallman-j/LaTekonomer)
 
-[Explore the docs](https://github.com/stallman-j/LaTekonomer)
-[View Demo](https://github.com/stallman-j/LaTekonomer)
+
 [Report Bug](https://github.com/stallman-j/LaTekonomer/issues/new?labels=bug&template=bug-report---.md)
 [Request Feature](https://github.com/stallman-j/LaTekonomer/issues/new?labels=enhancement&template=feature-request---.md)
 
-{% include toc.html html=content sanitize=true
+{% include toc.html html=content sanitize=true %}
 
-<!-- TABLE OF CONTENTS 
-<details>
-  <summary>Table of Contents</summary>
-  <ol>
-    <li>
-      <a href="#about-the-project">About The Project</a>
-      <ul>
-        <li><a href="#built-with">Built With</a></li>
-      </ul>
-    </li>
-    <li>
-      <a href="#getting-started">Getting Started</a>
-      <ul>
-        <li><a href="#installation">Installation</a></li>
-      </ul>
-    </li>
-    <li><a href="#usage">Usage</a></li>
-    <li><a href="#roadmap">Roadmap</a></li>
-    <li><a href="#contributing">Contributing</a></li>
-    <li><a href="#license">License</a></li>
-    <li><a href="#contact">Contact</a></li>
-    <li><a href="#acknowledgments">Acknowledgments</a></li>
-  </ol>
-</details>
--->
 
 
 <!-- ABOUT THE PROJECT -->
