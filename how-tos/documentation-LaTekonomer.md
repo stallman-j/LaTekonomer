@@ -2,12 +2,6 @@
 layout: page
 title: LaTekonomer Documentation
 subtitle: Everything you need and lots of things you hopefully won't
-output:
-    html_document:
-        toc: true
-        toc_float: true
-            collapsed: true
-        number_sections: true
 # https://bookdown.org/yihui/rmarkdown/html-document.html#floating-toc
 ---
 
@@ -20,7 +14,7 @@ View [the GitHub Pages website](https://stallman-j.github.io/LaTekonomer) or dir
 [Report Bug](https://github.com/stallman-j/LaTekonomer/issues/new?labels=bug&template=bug-report---.md)
 [Request Feature](https://github.com/stallman-j/LaTekonomer/issues/new?labels=enhancement&template=feature-request---.md)
 
-{:toc}
+{% include toc.html html=content sanitize=true
 
 <!-- TABLE OF CONTENTS 
 <details>
