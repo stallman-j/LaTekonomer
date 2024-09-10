@@ -29,7 +29,7 @@ However, the use of **LaTekonomer** does not require **ekonomR** or vice versa.
 
 LaTex isn't the only way to produce figures, tables, and commentary. The obvious competitor to a LaTex-based system is Markdown. 
 
-If you're interested in exploring the Markdown world, check out [The Markdown Guide](https://www.markdownguide.org/book/), which integrates sublimely with R and GitHub. This README, for instance, is composed with Markdown.
+If you're interested in exploring the Markdown world, check out [The Markdown Guide](https://www.markdownguide.org/book/), which integrates sublimely with R and GitHub. This README, for instance, is composed with Markdown. If you're interested in Markdown and R, check out [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/).
 
 [Get Started with LaTekonomer](https://stallman-j.github.io/how-tos/documentation-LaTekonomer)
 

@@ -1,3 +1,18 @@
+---
+layout: page
+title: LaTekonomer Documentation
+subtitle: Everything you need and lots of things you hopefully won't
+output:
+    html_document:
+        toc: true
+        toc_float: true
+            collapsed: true
+        number_sections: true
+# https://bookdown.org/yihui/rmarkdown/html-document.html#floating-toc
+---
+
+# Quick Links
+
 View [the GitHub Pages website](https://stallman-j.github.io/LaTekonomer) or directly on [GitHub](https://github.com/stallman-j/LaTekonomer)
 
 [Explore the docs](https://github.com/stallman-j/LaTekonomer)
@@ -5,7 +20,7 @@ View [the GitHub Pages website](https://stallman-j.github.io/LaTekonomer) or dir
 [Report Bug](https://github.com/stallman-j/LaTekonomer/issues/new?labels=bug&template=bug-report---.md)
 [Request Feature](https://github.com/stallman-j/LaTekonomer/issues/new?labels=enhancement&template=feature-request---.md)
 
-<!-- TABLE OF CONTENTS -->
+<!-- TABLE OF CONTENTS 
 <details>
   <summary>Table of Contents</summary>
   <ol>
@@ -29,11 +44,11 @@ View [the GitHub Pages website](https://stallman-j.github.io/LaTekonomer) or dir
     <li><a href="#acknowledgments">Acknowledgments</a></li>
   </ol>
 </details>
-
+-->
 
 
 <!-- ABOUT THE PROJECT -->
-## About The Project
+# About The Project
 
 <!-- [![Product Name Screen Shot][product-screenshot]](https://example.com) -->
 
@@ -47,52 +62,58 @@ This is where students new to LaTex and R and GitHub and research can find easy 
 
 
 
-
-
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
-<!-- GETTING STARTED -->
-<a id="getting-started"></a>
+# Deciding How to Use LaTekonomer Resources
 
-## Getting Started
+The LaTekonomer repository is linked with an Overleaf Project, so there are many ways you might want to use it on your own machine. 
 
-This repository is also linked with an Overleaf Project, so there are many ways you might want to use it on your own machine. I'll go over the steps for a couple options you might pursue, each of which comes with its pros and cons. There are many, many tutorials out there for different workflows. This is just what has worked well for me. 
-
+I'll go over the install steps for a few of the options you may want to pursue and some considerations to help you decide which is right for you right now. There are many, many tutorials out there for different workflows. This is just what has worked well for me.
 
 
-### Copying the <a href="https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598">LaTekonomer Overleaf Template</a>
+## Option 1: Copying the [LaTekonomer Overleaf Template](https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598)
 
-- I recommend doing this if either of the following apply to you:
+I recommend doing this if either of the following apply to you:
+
     - You've never used LaTex before (but want to learn) and/or have not used GitHub before.
     - You use Overleaf but don't keep a local LaTex installation on your computer.
 
-    Installing LaTex locally can be a pain. If you're not sure which to do, try the Overleaf route first. You can always install LaTex locally later.
+Installing LaTex locally can be a pain. If you're not sure which to do, try the Overleaf route first. You can always install LaTex locally later.
 
-    Once you have an Overleaf project, you can also sync it online with GitHub.
+Once you have an Overleaf project, you can also sync it online with GitHub.
 
-    You don't need to sync to GitHub the same time as you set up Overleaf, so if both are new to you, start with Overleaf. 
+You don't need to sync to GitHub the same time as you set up Overleaf, so if both are new to you, start with Overleaf. 
 
-    Get familiar with LaTex formatting, then start building out your Git skills when the limitations of an online-only repository start to bug you.
+Get familiar with LaTex formatting, then start building out your Git skills when the limitations of an online-only repository start to bug you.
 
-### Forking the Git Repository (to your local machine)
+## Option 2: Forking the Git Repository (to your local machine)
 
-- <a href = "https://docs.github.com/en/get-started/start-your-journey/downloading-files-from-github" > Forking </a> means that you copy this LaTekonomer Github repository to your own Github repository with a (hopefully) different name, which you then take as the foundation for your own project.
+[Forking](https://docs.github.com/en/get-started/start-your-journey/downloading-files-from-github) means that you copy this LaTekonomer Github repository to your own Github repository with a (hopefully) different name, which you then take as the foundation for your own project.
 
-- Do this if you:
+
+Do this if you:
+
     - Already use Github or
     - Want an excuse to start using Github
-- Why would you want to start using GitHub?
-    - GitHub is a standard method for making research code, inputs, and outputs transparent, replicable, and sharable among many fields. Economics is catching up in this trend.
-    - If you're just starting a research project, starting it with Github allows you to maintain version control throughout your project without having to do something like Dropbox rewind. Your future self will thank you.
-    - If you have any collaborators (or end up getting any collaborators), it'll allow them to join your project. You can work together on the project without stepping on each others' toes and keep track of each other's contributions.
-    - You'll save yourself from possibly losing all your code or output if you run into tech problems
 
-If you're planning to just use this with Overleaf and not planning on having the files on your local system, instead follow the steps for **copying the Latekonomer Overleaf Template.** From there, it's easy to set up Overleaf with GitHub and you don't have to bother with Git bash and the Git terminal.
+You may be wondering... Why would you want to start using GitHub?
 
-### Downloading the files into your local system
-- You can download either from the <a href="https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598">LaTekonomer Overleaf Template</a> or from Github.
+    - GitHub is a standard method for making research code, inputs, and outputs transparent, replicable, well-documented, and sharable among many fields. Economics is catching up in this trend, but because there's only so much you can teach in a course, if there's teaching of something computer-related, it tends to be the use of R or Excel for statistical analyses.
+
+    - If you're just starting a research project, starting it with Github allows you to maintain version control throughout your project and clearly monitor the changes you've made. Your future self will thank you for your clarity.
+    
+    - If you have any collaborators (or end up getting any collaborators), it'll allow them to join your project easily. You can work together on the project without stepping on each others' toes and keep track of each other's contributions.
+    
+    - You'll save yourself from possibly losing all your code or output if you run into tech problems.
+
+If you're planning to just use this with Overleaf and not planning on having the files on your local system, instead follow the steps for **copying the Latekonomer Overleaf Template.** From there, it's easy to set up Overleaf with GitHub (if you have a premium account). That way you don't have to bother with Git bash and the Git terminal.
+
+## Option 3: Downloading the files into your local system
+
+You can download either from the [LaTekonomer Overleaf Template](https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598) or from the [LaTekonomer Github Repository](https://github.com/stallman-j/LaTekonomer).
+
 - To use these with LaTex, though, you'll need a local LaTex installation.
 - Do this if you already use LaTex locally and you've already got some way of backing up your files (e.g. all your files live in Dropbox anyways and you don't plan on having collaborators for this project) and don't want to invest in GitHub.
 - If you do _not_ have a way of backing up your files and you want to download locally just because it's temporarily easier, I highly recommend that you reconsider investing some time into Git, or at the very least building up the practice of starting all your projects in folders that sync automatically to a cloud. 
@@ -117,11 +138,11 @@ Eventually, you might want to mix and match the above solutions.
 
 <a id="installation"></a>
 
-## Installation
+# Installation
 
 Your prerequisites and installation steps will depend on how you're anticipating you'll use these templates. Let's go through the three main ways of doing this. There are tons of tutorials out there; this is just what has worked well for me.
 
-### Copying the LaTekonomer Overleaf Template
+# Option 1: Copying the LaTekonomer Overleaf Template
 
 1. You'll need an <a href = "https://www.overleaf.com/" > Overleaf account </a>.
 
@@ -156,12 +177,11 @@ I recommend trying this out if you're new to GitHub and you want to start gettin
 
 **To add: pulling a LaTekonomer repository that's been updated externally when you've already made a copy of your awesome project on your own Overleaf.**
 
-### Forking the Git Repository
+## Option 2: Forking the Git Repository
 
-1. You'll need a <a href = "https://github.com/" > GitHub account. </a>. I haven't found there to be an advantage to using an institutional email at this point.
-<<<<<<< HEAD
+    1. You'll need a [GitHub account](https://github.com/). I haven't found there to be an advantage to using an institutional email at this point, unless you're planning on setting up a private repository.
 
-2. You'll need a LaTex installation on your local machine.
+    2. You'll need a LaTex installation on your local machine.
 
     If this is your first time with both LaTex and GitHub, I recommend going through Overleaf with the first option above. It allows you to collaborate easily and learn the ropes without worrying about figuring out all the installation nuances of LaTex or GitBash just yet.
 
@@ -175,13 +195,16 @@ I recommend trying this out if you're new to GitHub and you want to start gettin
 
 **Add link to sublime directions**
 
-=======
-2. You'll need a LaTex installation on your local machine.
-   - If this is your first time with both LaTex and GitHub, I recommend going through Overleaf with the first option above. It allows you to collaborate easily and learn the ropes without worrying about figuring out all the installation nuances of LaTex or GitBash just yet.
-   - If you really like the idea of having a local copy without needing the internet and you're willing to spend some time tinkering with the installation, then there are a lot of ways you can set up LaTex on your local machine.
+
+    3. You'll need a LaTex installation on your local machine.
+   
+If this is your first time with both LaTex and GitHub, I recommend going through Overleaf with the first option above. It allows you to collaborate easily and learn the ropes without worrying about figuring out all the installation nuances of LaTex or GitBash just yet.
+   
+If you really like the idea of having a local copy without needing the internet and you're willing to spend some time tinkering with the installation, then there are a lot of ways you can set up LaTex on your local machine.
+
     **To Do: Link to the `using-sublime.md` file**
->>>>>>> 3579b01555412a00ee0ad452ef3b55ca4accae1b
-3. You'll need to set Git up on your device.
+
+    4. You'll need to set Git up on your device.
 
     I set up my GitHub originally to let it version control with R, so followed the book [__Happy Git and GitHub for the useR__](https://happygitwithr.com/).
 
@@ -193,7 +216,7 @@ I recommend trying this out if you're new to GitHub and you want to start gettin
 
     If you haven't done this before and are using this project as an excuse to learn some GitHub but aren't planning on using this with R, the [Github docs](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git) are a good place to get started. I occasionally use [Sublime Merge](https://www.sublimemerge.com/) as a Git client. 
 
-4. Assuming you've either gone off to **Happy Git** and come back or figured out your Gitting on your own, you're ready to fork the **LaTekonomer** repository using your Git bash terminal. If you don't know what the Git bash terminal is, you did not successfully complete Step 2.
+    5. Assuming you've either gone off to **Happy Git** and come back or figured out your Gitting on your own, you're ready to fork the **LaTekonomer** repository using your Git bash terminal. If you don't know what the Git bash terminal is, you did not successfully complete Step 2.
 
     You can bring up the Git terminal either in RStudio -> Terminal (next to the "Console" tab), or in your Applications go to Git and click on Git Bash, which should open up a free-floating terminal.
 
@@ -203,7 +226,7 @@ I recommend trying this out if you're new to GitHub and you want to start gettin
 
 6. Under the "Fork" option, click "Create a new fork"
 
-![Fork the repository](assets/images/README/README_github_fork-01.png)
+![Fork the repository](assets/img/documentation/README_github_fork-01.png)
 
 
 7. Change the name of the repository to something for your new project (like ECON 412), edit the description to match your new project, and click the "Create fork" button.
@@ -325,7 +348,7 @@ _For more examples, please refer to the [Documentation](https://example.com)_
 
 
 <!-- ROADMAP -->
-## Roadmap
+# Roadmap
 
 - [ ] Add vignette for "Getting started with writing up homework" that's linked to the "Copy the LaTekonomer Overleaf Template"
 - [ ] Pulling a LaTekonomer repository that's been updated externally when you've already made a copy of your awesome project on your own Overleaf
@@ -340,7 +363,7 @@ See the [open issues](https://github.com/stallman-j/LaTekonomer/issues) for a fu
 
 <!-- CONTRIBUTING -->
 <a id="contributing"></a>
-## Contributing
+# Contributing
 
 Contributions are the foundation of the open source community. It's how we get nice things. Any contributions you make are **greatly appreciated**.
 
