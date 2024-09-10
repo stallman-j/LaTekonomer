@@ -3,6 +3,10 @@
    ========================================================================== */
 
 /* Colors  These are colors from Overleaf's color scheme
+ #318243: dark overleaf green
+ #292838: a dark grey almost black
+ #8fcd92 : a light overleaf green
+ #f3f3f3: very light grey
 */
 $text-color: #292838 !default;
 $muted-text-color: $text-color !default;
@@ -10,7 +14,7 @@ $primary-color: #FFFFFF !default;
 $border-color: mix(#fff, $text-color, 75%) !default;
 $footer-background-color: #318243 !default;
 $link-color: #318243 !default;
-$masthead-background-color: #318243 !default;
+$masthead-color: #318243 !default;
 $masthead-link-color: #8fcd92 !default;
 $masthead-link-color-hover: #f3f3f3 !default;
 $navicon-link-color-hover: mix(#fff, #404040, 80%) !default;
