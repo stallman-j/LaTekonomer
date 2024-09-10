@@ -12,13 +12,13 @@
 $background-color: #f3f3f3 !default;
 
 */
-$background-color: #f3f3f3 !default;
+$background-color: #fbfbfb !default;
 $text-color: #292838 !default;
-$muted-text-color: mix(#fff, $text-color, 75%) !default;
+$muted-text-color: mix(#fff, $text-color, 60%) !default;
 
 /*inline code*/
-$code-background-color: mix(#fff, $background-color, 40%) !default;
-$code-background-color-dark: mix(#000, $background-color, 20%) !default;
+$code-background-color: mix(#000, $background-color, 20%) !default;
+$code-background-color-dark: mix(#000, $background-color, 70%) !default;
 $form-background-color: mix(#fff, $background-color, 15%) !default;
 
 
