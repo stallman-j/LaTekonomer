@@ -10,7 +10,7 @@
   -webkit-animation-delay: 0.15s;
   animation-delay: 0.15s;
   z-index: 20;
-  background: $masthead-background-color;
+  background: $masthead-background-color; /* the box away on the outside of the header*/
 
   &__inner-wrap {
     @include clearfix;
@@ -63,7 +63,8 @@
   margin-inline: 0;
   width: 100%;
   clear: both;
-
+  background: $masthead-background-color;
+  
   .site-nav {
     margin-inline-start: 0;
 
