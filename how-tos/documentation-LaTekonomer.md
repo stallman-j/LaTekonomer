@@ -20,6 +20,8 @@ View [the GitHub Pages website](https://stallman-j.github.io/LaTekonomer) or dir
 [Report Bug](https://github.com/stallman-j/LaTekonomer/issues/new?labels=bug&template=bug-report---.md)
 [Request Feature](https://github.com/stallman-j/LaTekonomer/issues/new?labels=enhancement&template=feature-request---.md)
 
+{:toc}
+
 <!-- TABLE OF CONTENTS 
 <details>
   <summary>Table of Contents</summary>

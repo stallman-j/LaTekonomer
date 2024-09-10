@@ -13,13 +13,13 @@ LaTekonomer aims to provide economists the Overleaf/LaTex templates that most of
 
 The templates include, but are not limited to to following:
 
-    - general math writing
-    - homework write-ups
-    - article write-ups with bibliographies
-    - professional but simple dark and light Beamer templates
-    - tables (including three-part tables with footnotes)
-    - figures
-    - and a few research project assignments
+- general math writing
+- homework write-ups
+- article write-ups with bibliographies
+- professional but simple dark and light Beamer templates
+- tables (including three-part tables with footnotes)
+- figures
+- and a few research project assignments
 
 The research project assignments come from ECON 412 International Environmental Economics, a course taught at Yale University by Sam Kortum, for which Jillian Stallman has been teaching assistant in Fall 2023 and Fall 2024.
 
@@ -31,6 +31,6 @@ LaTex isn't the only way to produce figures, tables, and commentary. The obvious
 
 If you're interested in exploring the Markdown world, check out [The Markdown Guide](https://www.markdownguide.org/book/), which integrates sublimely with R and GitHub. This README, for instance, is composed with Markdown. If you're interested in Markdown and R, check out [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/).
 
-[Get Started with LaTekonomer](https://stallman-j.github.io/how-tos/documentation-LaTekonomer)
+[Get Started with LaTekonomer](https://stallman-j.github.io/LaTekonomer/how-tos/documentation-LaTekonomer)
 
 Access via [Overleaf](https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598) or see the repository on [GitHub](https://github.com/stallman-j/LaTekonomer)
