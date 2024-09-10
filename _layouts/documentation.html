@@ -3,7 +3,7 @@ layout: base
 ---
 
 {% include header.html type="page" %}
-{% include toc.html html=content %}
+{% include toc.html html=content sanitize = true h_max = 4 ordered = true %}
 
 <main class="{% if page.full-width %} container-fluid {% else %} container-md {% endif %}">
   <div class="row">

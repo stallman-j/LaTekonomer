@@ -5,7 +5,7 @@ subtitle: Hopefully everything you need and lots of things you hopefully won't
 # https://bookdown.org/yihui/rmarkdown/html-document.html#floating-toc
 ---
 
-# Documentation
+# Quick Links
 
 View [the GitHub Pages website](https://stallman-j.github.io/LaTekonomer) or directly on [GitHub](https://github.com/stallman-j/LaTekonomer)
 
@@ -13,9 +13,6 @@ View [the GitHub Pages website](https://stallman-j.github.io/LaTekonomer) or dir
 [Report Bug](https://github.com/stallman-j/LaTekonomer/issues/new?labels=bug&template=bug-report---.md)
 [Request Feature](https://github.com/stallman-j/LaTekonomer/issues/new?labels=enhancement&template=feature-request---.md)
 
-
-
-{% include toc.html html=content sanitize=true %}
 
 <!-- ABOUT THE PROJECT -->
 # About The Project
@@ -29,11 +26,6 @@ The goal of LaTekonomer is to provide, for me, for you, for your students, for y
 This is where you can find that code for that three-part long table that stretched across multiple pages with footnotes at the very end with the PDF for just those pages shifted to landscape mode. 
 
 This is where students new to LaTex and R and GitHub and research can find easy templates to get going on their homework, so that they're spending their time thinking about interesting economics rather than playing the eye-watering game of "Where's the dollar sign I'm missing that's keeping my LaTex from compiling?" at 11:43pm.
-
-
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 # Deciding How to Use LaTekonomer Resources
@@ -106,8 +98,6 @@ Eventually, you might want to mix and match the above solutions.
 - While I've linked to Mac-specific procedures where I know it's different, my workflow's mostly in Windows and these guides are biased towards Windows users. You might have to make platform-specific adjustments that I haven't accounted for. If you have Mac-specific suggestions, [make a feature request](https://github.com/stallman-j/LaTekonomer/issues/new?labels=enhancement&template=feature-request---.md).
 <!-- Installation -->
 
-<a id="installation"></a>
-
 # Installation
 
 Your prerequisites and installation steps will depend on how you're anticipating you'll use these templates. Let's go through the three main ways of doing this. There are tons of tutorials out there; this is just what has worked well for me.
@@ -149,48 +139,48 @@ I recommend trying this out if you're new to GitHub and you want to start gettin
 
 ## Option 2: Forking the Git Repository
 
-    1. You'll need a [GitHub account](https://github.com/). I haven't found there to be an advantage to using an institutional email at this point, unless you're planning on setting up a private repository.
+1. You'll need a [GitHub account](https://github.com/). I haven't found there to be an advantage to using an institutional email at this point, unless you're planning on setting up a private repository.
 
-    2. You'll need a LaTex installation on your local machine.
+2. You'll need a LaTex installation on your local machine.
 
-    If this is your first time with both LaTex and GitHub, I recommend going through Overleaf with the first option above. It allows you to collaborate easily and learn the ropes without worrying about figuring out all the installation nuances of LaTex or GitBash just yet.
+If this is your first time with both LaTex and GitHub, I recommend going through Overleaf with the first option above. It allows you to collaborate easily and learn the ropes without worrying about figuring out all the installation nuances of LaTex or GitBash just yet.
 
-    If you really like the idea of having a local copy without needing the internet and you're willing to spend some time tinkering with the installation, then there are a lot of ways you can set up LaTex on your local machine.
+If you really like the idea of having a local copy without needing the internet and you're willing to spend some time tinkering with the installation, then there are a lot of ways you can set up LaTex on your local machine.
 
-    I use Sublime Tools (a speedy text editor that's a lot like VisualStudio) with LaTexTools. You can follow the installation [here](https://latextools.readthedocs.io/en/latest/install).
+I use Sublime Tools (a speedy text editor that's a lot like VisualStudio) with LaTexTools. You can follow the installation [here](https://latextools.readthedocs.io/en/latest/install).
 
-    You can find more information about how to set up sublime [here](https://stallman-j.github.io/how-tos/using-sublime/). 
+You can find more information about how to set up sublime [here](https://stallman-j.github.io/how-tos/using-sublime/). 
 
-    [Here's](https://stallman-j.github.io/LaTekonomer/how-tos/using-sublime.html#matching-sumatra) a test to see if we can get to a section on a page.
+[Here's](https://stallman-j.github.io/LaTekonomer/how-tos/using-sublime.html#matching-sumatra) a test to see if we can get to a section on a page.
 
 **Add link to sublime directions**
 
 
-    3. You'll need a LaTex installation on your local machine.
+3. You'll need a LaTex installation on your local machine.
    
 If this is your first time with both LaTex and GitHub, I recommend going through Overleaf with the first option above. It allows you to collaborate easily and learn the ropes without worrying about figuring out all the installation nuances of LaTex or GitBash just yet.
    
 If you really like the idea of having a local copy without needing the internet and you're willing to spend some time tinkering with the installation, then there are a lot of ways you can set up LaTex on your local machine.
 
-    **To Do: Link to the `using-sublime.md` file**
+**To Do: Link to the `using-sublime.md` file**
 
-    4. You'll need to set Git up on your device.
+4. You'll need to set Git up on your device.
 
-    I set up my GitHub originally to let it version control with R, so followed the book [__Happy Git and GitHub for the useR__](https://happygitwithr.com/).
+I set up my GitHub originally to let it version control with R, so followed the book [__Happy Git and GitHub for the useR__](https://happygitwithr.com/).
 
-    If you're thinking of using the complementary [**ekonomR**](https://github.com/stallman-j/ekonomR) R package, I highly recommend following the **Happy Git** book first, and then coming back here to set up <em> this </em> repository through the Git command line. You'll have installed the Git terminal in **Ch. 6: Install Git** when you're following this book, and that's where you'll learn what the Git command line is if you don't already know.
+If you're thinking of using the complementary [**ekonomR**](https://github.com/stallman-j/ekonomR) R package, I highly recommend following the **Happy Git** book first, and then coming back here to set up <em> this </em> repository through the Git command line. You'll have installed the Git terminal in **Ch. 6: Install Git** when you're following this book, and that's where you'll learn what the Git command line is if you don't already know.
 
-    Getting GitHub to link to your computer securely can take a little effort, so give yourself a weekend on the off chance that you need to go deep into the troubleshooting help. Do *not* try to do any of this late at night when you're tired. You'll make yourself miserable and there are lots of little things that can go wrong.
+Getting GitHub to link to your computer securely can take a little effort, so give yourself a weekend on the off chance that you need to go deep into the troubleshooting help. Do *not* try to do any of this late at night when you're tired. You'll make yourself miserable and there are lots of little things that can go wrong.
 
-    **Happy Git** is very well written. Start at the beginning and go through chapter 12, "Connect RStudio to Git and GitHub."
+**Happy Git** is very well written. Start at the beginning and go through chapter 12, "Connect RStudio to Git and GitHub."
 
-    If you haven't done this before and are using this project as an excuse to learn some GitHub but aren't planning on using this with R, the [Github docs](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git) are a good place to get started. I occasionally use [Sublime Merge](https://www.sublimemerge.com/) as a Git client. 
+If you haven't done this before and are using this project as an excuse to learn some GitHub but aren't planning on using this with R, the [Github docs](https://docs.github.com/en/get-started/start-your-journey/about-github-and-git) are a good place to get started. I occasionally use [Sublime Merge](https://www.sublimemerge.com/) as a Git client. 
 
-    5. Assuming you've either gone off to **Happy Git** and come back or figured out your Gitting on your own, you're ready to fork the **LaTekonomer** repository using your Git bash terminal. If you don't know what the Git bash terminal is, you did not successfully complete Step 2.
+5. Assuming you've either gone off to **Happy Git** and come back or figured out your Gitting on your own, you're ready to fork the **LaTekonomer** repository using your Git bash terminal. If you don't know what the Git bash terminal is, you did not successfully complete Step 2.
 
-    You can bring up the Git terminal either in RStudio -> Terminal (next to the "Console" tab), or in your Applications go to Git and click on Git Bash, which should open up a free-floating terminal.
+You can bring up the Git terminal either in RStudio -> Terminal (next to the "Console" tab), or in your Applications go to Git and click on Git Bash, which should open up a free-floating terminal.
 
-    You do **NOT** want the Windows PowerShell terminal or whatever it is that Mac uses (I think? To do: Ask Mac users who use Git how they use the terminal).
+You do **NOT** want the Windows PowerShell terminal or whatever it is that Mac uses (I think? To do: Ask Mac users who use Git how they use the terminal).
 
 5. Go to the [repository page for LaTekonomer](https://github.com/stallman-j/LaTekonomer).
 
@@ -248,15 +238,15 @@ If you really like the idea of having a local copy without needing the internet 
    pwd
    ```
 
-    If this isn't the place where you put your fork, then do
+If this isn't the place where you put your fork, then do
 
 ```bash
     cd "path-to-fork"
 ```
 
-    where `"path-to-fork"` is something like `"C:/Users/stallman/Projects"` or `"C:/Users/stallman/OneDrive - Yale University"`
+where `"path-to-fork"` is something like `"C:/Users/stallman/Projects"` or `"C:/Users/stallman/OneDrive - Yale University"`
 
-    Tell git to add everything to the roster of things to update:
+Tell git to add everything to the roster of things to update:
 
 ```bash
 git add .
@@ -273,15 +263,15 @@ git commit -m "your commit message here"
 git push -u origin main
 ```
 
-    If you made changes online through GitHub or a collaborator made changes so that your GitHub repository is more updated than your local machine, you'll also want to **pull** changes.
+If you made changes online through GitHub or a collaborator made changes so that your GitHub repository is more updated than your local machine, you'll also want to **pull** changes.
 
-    If you're not sure you're in the current working directory where your forked repository lives on your local computer, check it. 
+If you're not sure you're in the current working directory where your forked repository lives on your local computer, check it. 
 
  ```bash
    pwd
    ```
 
-    If this isn't the place where you put your fork, then do
+If this isn't the place where you put your fork, then do
 
 ```bash
     cd "path-to-fork"
@@ -294,7 +284,7 @@ git pull
 
 [To add: Now the LaTekonomer repository has been updated, but I've already made a fork. Can I do another pull?]
 
-### Downloading the files to your local system
+## Downloading the files to your local system
 
 I've put this last because if you're not going to Git, you're not going to Git, but you should really consider it. 
 
@@ -307,13 +297,13 @@ Downloading the raw files is super easy. You can either do this via Overleaf or 
 
 
 <!-- USAGE EXAMPLES -->
-## Usage
+# Usage
 
 Use this space to show useful examples of how a project can be used. Additional screenshots, code examples and demos work well in this space. You may also link to more resources.
 
 _For more examples, please refer to the [Documentation](https://example.com)_
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
 
 
 
@@ -326,8 +316,6 @@ _For more examples, please refer to the [Documentation](https://example.com)_
     - [ ] Nested Feature
 
 See the [open issues](https://github.com/stallman-j/LaTekonomer/issues) for a full list of proposed features (and known issues).
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 
 
@@ -345,18 +333,10 @@ If you have a suggestion that would make this better, please fork the repo and c
 4. Push to the Branch (`git push origin feature/AmazingFeature`)
 5. Open a Pull Request
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
-### Top contributors:
-
-<a href="https://github.com/stallman-j/LaTekonomer/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=stallman-j/LaTekonomer" alt="contrib.rocks image" />
-</a>
-
 
 
 <!-- LICENSE -->
-## License
+# License
 
 Distributed under the GNU General Public License v3.0. See `LICENSE.txt` for more information.
 
@@ -365,24 +345,18 @@ Distributed under the GNU General Public License v3.0. See `LICENSE.txt` for mor
 
 
 <!-- CONTACT -->
-## Contact
-
-Jillian Stallman - jillian.stallman@yale.edu
+# Contact
 
 Project Link: [https://github.com/stallman-j/LaTekonomer](https://github.com/stallman-j/LaTekonomer)
-
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
-
 
 
 
 <!-- ACKNOWLEDGMENTS -->
-## Acknowledgments
+# Acknowledgments
 
 
 - [othneildrew/Best-README-Template](https://github.com/othneildrew/Best-README-Template)
 - [Choose an Open Source License](https://choosealicense.com)
-- [GitHub Emoji Cheat Sheet](https://www.webpagefx.com/tools/emoji-cheat-sheet)
 - [Malven's Flexbox Cheatsheet](https://flexbox.malven.co/)
 - [Malven's Grid Cheatsheet](https://grid.malven.co/)
 - [Img Shields](https://shields.io)
@@ -390,14 +364,14 @@ Project Link: [https://github.com/stallman-j/LaTekonomer](https://github.com/sta
 - [Font Awesome](https://fontawesome.com)
 - [React Icons](https://react-icons.github.io/react-icons/search)
 
-### GitHub Pages Links
+# GitHub Pages Links
+
 - [The Least You Need to Know About GitHub Pages](https://tomcam.github.io/least-github-pages)
 - [Setting up GitHub Pages with Jekyll](https://www.stephaniehicks.com/githubPages_tutorial/pages/githubpages-jekyll.html)
 - [Simple Static Websites with GitHub Pages](https://blog.dave.org.uk/2018/08/simple-static-websites-with-github-pages.html)
 
 
 
-<p align="right">(<a href="#readme-top">back to top</a>)</p>
 
 <!-- MARKDOWN LINKS & IMAGES -->
 <!-- https://www.markdownguide.org/basic-syntax/#reference-style-links -->
