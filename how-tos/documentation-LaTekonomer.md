@@ -1,7 +1,7 @@
 ---
-layout: page
+layout: documentation
 title: LaTekonomer Documentation
-subtitle: Everything you need and lots of things you hopefully won't
+subtitle: Hopefully everything you need and lots of things you hopefully won't
 # https://bookdown.org/yihui/rmarkdown/html-document.html#floating-toc
 ---
 
@@ -13,9 +13,9 @@ View [the GitHub Pages website](https://stallman-j.github.io/LaTekonomer) or dir
 [Report Bug](https://github.com/stallman-j/LaTekonomer/issues/new?labels=bug&template=bug-report---.md)
 [Request Feature](https://github.com/stallman-j/LaTekonomer/issues/new?labels=enhancement&template=feature-request---.md)
 
+
+
 {% include toc.html html=content sanitize=true %}
-
-
 
 <!-- ABOUT THE PROJECT -->
 # About The Project
@@ -47,8 +47,8 @@ I'll go over the install steps for a few of the options you may want to pursue a
 
 I recommend doing this if either of the following apply to you:
 
-    - You've never used LaTex before (but want to learn) and/or have not used GitHub before.
-    - You use Overleaf but don't keep a local LaTex installation on your computer.
+- You've never used LaTex before (but want to learn) and/or have not used GitHub before.
+- You use Overleaf but don't keep a local LaTex installation on your computer.
 
 Installing LaTex locally can be a pain. If you're not sure which to do, try the Overleaf route first. You can always install LaTex locally later.
 
@@ -65,18 +65,18 @@ Get familiar with LaTex formatting, then start building out your Git skills when
 
 Do this if you:
 
-    - Already use Github or
-    - Want an excuse to start using Github
+- Already use Github or
+- Want an excuse to start using Github
 
 You may be wondering... Why would you want to start using GitHub?
 
-    - GitHub is a standard method for making research code, inputs, and outputs transparent, replicable, well-documented, and sharable among many fields. Economics is catching up in this trend, but because there's only so much you can teach in a course, if there's teaching of something computer-related, it tends to be the use of R or Excel for statistical analyses.
+- GitHub is a standard method for making research code, inputs, and outputs transparent, replicable, well-documented, and sharable among many fields. Economics is catching up in this trend, but because there's only so much you can teach in a course, if there's teaching of something computer-related, it tends to be the use of R or Excel for statistical analyses.
 
-    - If you're just starting a research project, starting it with Github allows you to maintain version control throughout your project and clearly monitor the changes you've made. Your future self will thank you for your clarity.
+- If you're just starting a research project, starting it with Github allows you to maintain version control throughout your project and clearly monitor the changes you've made. Your future self will thank you for your clarity.
     
-    - If you have any collaborators (or end up getting any collaborators), it'll allow them to join your project easily. You can work together on the project without stepping on each others' toes and keep track of each other's contributions.
+- If you have any collaborators (or end up getting any collaborators), it'll allow them to join your project easily. You can work together on the project without stepping on each others' toes and keep track of each other's contributions.
     
-    - You'll save yourself from possibly losing all your code or output if you run into tech problems.
+- You'll save yourself from possibly losing all your code or output if you run into tech problems.
 
 If you're planning to just use this with Overleaf and not planning on having the files on your local system, instead follow the steps for **copying the Latekonomer Overleaf Template.** From there, it's easy to set up Overleaf with GitHub (if you have a premium account). That way you don't have to bother with Git bash and the Git terminal.
 
@@ -89,9 +89,9 @@ You can download either from the [LaTekonomer Overleaf Template](https://www.ove
 - If you do _not_ have a way of backing up your files and you want to download locally just because it's temporarily easier, I highly recommend that you reconsider investing some time into Git, or at the very least building up the practice of starting all your projects in folders that sync automatically to a cloud. 
 
 Ideally, you would have for all your important files at least three versions:
-    1. a local version,
-    2. a cloud version,
-    3. an external physical version (e.g. an external hard drive backup).
+1. a local version,
+2. a cloud version,
+3. an external physical version (e.g. an external hard drive backup).
    
    Technical issues happen all the time, and writing in LaTex can be time intensive. Not having backups means you're potentially throwing away hours, days, or even months of work if your computer gives up on you.
 
@@ -112,7 +112,7 @@ Eventually, you might want to mix and match the above solutions.
 
 Your prerequisites and installation steps will depend on how you're anticipating you'll use these templates. Let's go through the three main ways of doing this. There are tons of tutorials out there; this is just what has worked well for me.
 
-# Option 1: Copying the LaTekonomer Overleaf Template
+## Option 1: Copying the LaTekonomer Overleaf Template
 
 1. You'll need an <a href = "https://www.overleaf.com/" > Overleaf account </a>.
 
