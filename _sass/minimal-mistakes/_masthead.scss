@@ -12,7 +12,7 @@
   z-index: 20;
   background: $masthead-background-color; /* the box away on the outside of the header*/
   color: $masthead-background-color;
-  background-color: $masthead-background-color
+  background-color: $masthead-background-color;
 
   &__inner-wrap {
     @include clearfix;
@@ -28,6 +28,7 @@
     font-family: $sans-serif-narrow;
     background: $masthead-background-color;
     color: $masthead-background-color;
+    background-color: $masthead-background-color; 
 
     @include breakpoint($x-large) {
       max-width: $max-width;
