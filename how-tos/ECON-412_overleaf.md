@@ -15,11 +15,13 @@ There are a lot of ways you can use Overleaf. In particular, you can sync your O
 
 # Feedback
 
-To give feedback, fill out [This ECON 412 Survey](https://docs.google.com/forms/d/e/1FAIpQLSfWYUyhNyq6OfDbsTyurtNOa1xjKZzi5CK36wMbdPHCRPVURQ/viewform?usp=sf_link). It's anonymous unless you want me to respond!
+If you're finding anything unclear or unhelpful, let me know in my [ECON 412 Survey](https://docs.google.com/forms/d/e/1FAIpQLSfWYUyhNyq6OfDbsTyurtNOa1xjKZzi5CK36wMbdPHCRPVURQ/viewform?usp=sf_link). 
+
+It's anonymous unless you want me to respond (in which case you need to tell me who you are).
 
 # Getting Started 
 
-Assuming the reason you're still reading is that you're planning on using overleaf, let's get started with Overleaf!
+Assuming the reason you're still reading is that you're planning on using overleaf, let's get started.
 
 ## Copying the ECON 412 Overleaf Template
 
@@ -65,15 +67,15 @@ Assuming the reason you're still reading is that you're planning on using overle
 
     Once you get to the research project stage, I'll show you how to share this project with your groupmates. I'll update the templates folder as the semester goes on, but I'll include instructions for using that as we go.
 
-# Copying New Files in
+# Adding New Files
 
 I'll add this for project assignment 1 once it's up. Basically you'll create new files and folders and either copy and paste the files in or download the images and upload your own.
 
-# Downloading figures
+# Downloading Figures
 To add
 
-# Sharing your Overleaf with Your Group
+# Sharing with Your Group
 To add
 
-# Making a Presentation in Overleaf with Beamer
+# Making Your Presentation
 
