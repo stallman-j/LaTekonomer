@@ -1,9 +1,5 @@
 ---
-title: ECON 412: Getting Started with Overleaf
-#subtitle: Hopefully everything you need and lots of things you hopefully won't
-# https://bookdown.org/yihui/rmarkdown/html-document.html#floating-toc
-layout: single
-toc: true
+layout: home
 ---
 
 # Overview

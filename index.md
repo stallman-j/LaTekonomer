@@ -9,7 +9,7 @@ author_profile: true
 </p>
 
 
-LaTekonomer aims to provide economists the Overleaf/LaTex templates that most of us end up copying from old projects in a way accessible to neophytes and disciples alike.
+LaTekonomer aims to accessibly provide the Overleaf/LaTex templates that many economists spend hours searching for on Stack Exchange or asking ChatGPT only to spend slightly less time leafing through old LaTex files when we or a buddy has a need for that exact thing at some point years into the future.
 
 The templates include, but are not limited to to following:
 
@@ -27,7 +27,9 @@ Many of these tables and figures are outputs of code provided in the R package [
 
 However, the use of **LaTekonomer** does not require **ekonomR** or vice versa.
 
-LaTex isn't the only way to produce figures, tables, and commentary. The obvious competitor to a LaTex-based system is Markdown. (For a research project, you'll quickly )
+**Note: ekonomR is currently undergoing an overhaul as I merge two packages into a single workflow.**
+
+LaTex isn't the only way to produce figures, tables, and commentary. The obvious competitor to a LaTex-based system is Markdown, which has lower overhead costs and very nicely integrates with the web.
 
 If you're interested in exploring the Markdown world, check out [The Markdown Guide](https://www.markdownguide.org/book/), which integrates sublimely with R and GitHub. This README, for instance, is composed with Markdown. If you're interested in Markdown and R, check out [R Markdown: The Definitive Guide](https://bookdown.org/yihui/rmarkdown/).
 
