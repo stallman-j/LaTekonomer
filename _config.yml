@@ -115,7 +115,7 @@ analytics:
 author:
   name             : "J Stallman"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Frequent hearer of trees falling in forests, whimsical and geeky fledgeling economist."
+  bio              : #"Frequent hearer of trees falling in forests, whimsical and geeky fledgeling economist."
   location         : "Hamden CT"
   email            :
   links:
