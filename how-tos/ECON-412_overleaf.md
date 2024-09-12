@@ -13,7 +13,11 @@ In Microsoft Word, the `Alt+=` key combination will open up the equation editor.
 
 There are a lot of ways you can use Overleaf. In particular, you can sync your Overleaf repository with Github. Come talk to me (Jillian) if you're interested in this possibility. You can also download LaTex onto your machine and use local files. This is usually a pain to install, so let's not go over it for now.
 
-# Copying the ECON 412 Overleaf Template
+# Getting Started 
+
+Assuming the reason you're still reading is that you're planning on using overleaf, let's get started with Overleaf!
+
+## Copying the ECON 412 Overleaf Template
 
 1. You'll need an <a href = "https://www.overleaf.com/" > Overleaf account </a>.
 
@@ -23,14 +27,6 @@ There are a lot of ways you can use Overleaf. In particular, you can sync your O
 
 3. Click on this <a href = "https://www.overleaf.com/read/wsrdjdckwmbz#f4467b" > share link </a>. You won't be able to edit my Overleaf folders, but you'll be able to see it and copy it into your own Overleaf account. Click `Join Project`.
 
-    ![Join the ECON 412 Overleaf Project a](assets/img/how-tos_images/ECON-412/overleaf_01.png)
-    ![Join the ECON 412 Overleaf Project b](assets/img/how-tos_images/ECON-412/overleaf_01.png)
-
-    <div class="figure" align="center">
-    <img src="assets/img/how-tos_images/ECON-412/overleaf_01.png" alt="copy overleaf project" width="100%" />
-    <p class="caption">Join the ECON 412 Overleaf Project c</p>
-    </div> 
-
     <div class="figure" align="center">
     <img src="https://stallman-j.github.io/LaTekonomer/assets/img/how-tos_images/ECON-412/overleaf_01.png" alt="join overleaf project" width="100%" />
     <p class="caption">Join the ECON 412 Overleaf Project </p>
@@ -38,31 +34,42 @@ There are a lot of ways you can use Overleaf. In particular, you can sync your O
 
 
 4. Click "Menu" on the top left of the screen with the project showing in Overleaf, and then "Copy Project"
-
-    ![Menu Button](assets/img/how-tos_images/ECON-412/overleaf_02.png)
     
     <div class="figure" align="center">
     <img src="https://stallman-j.github.io/LaTekonomer/assets/img/how-tos_images/ECON-412/overleaf_02.png" alt="menu button" width="100%" />
     <p class="caption">Menu</p>
     </div> 
 
-    ![Copy Project](assets/img/how-tos_images/ECON-412/overleaf_03.png)
-
     <div class="figure" align="center">
-    <img src="https://stallman-j.github.io/LaTekonomer/assets/img/how-tos_images/ECON-412/overleaf_03.png" alt="copy overleaf project" width="100%" />
+    <img src="https://stallman-j.github.io/LaTekonomer/assets/img/how-tos_images/ECON-412/overleaf_03.png" alt="copy overleaf project" width="40%" />
     <p class="caption">Copy the Overleaf Project</p>
     </div> 
 
 
-5. Rename to something like "ECON-412_your-name". This way you'll be able to use this same structure for all your ECON 412 stuff (including your research project). I'll continue adding files into the original template, but I'll include explanations for how to just copy those over into your stuff later on. You might not want to use just "ECON-412" the way I did here, because the most likely scenario if you're using Overleaf is that for your project, someone in your group will make *their* copy of this Overleaf into your group's Overleaf, and share it with all the meembers of your group. You'll all then be able to view and edit these files, a bit like using Google Docs but with a more professional output.
+5. Rename to something like "ECON-412_your-name". 
 
-    ![Rename and Create](assets/img/how-tos_images/ECON-412/overleaf_04.png)
+    You might not want to use just "ECON-412" the way the following figure shows. If you're using Overleaf for your project, you'll most likely end up using one of your group member's Overleaf projects as your group project and will share it with all the meembers of your group. 
+
+    You'll all then be able to view and edit these files in real time. It's like Google Docs for nerds.
 
     <div class="figure" align="center">
-    <img src="https://stallman-j.github.io/LaTekonomer/assets/img/how-tos_images/ECON-412/overleaf_04.png" alt="rename and create" width="100%" />
+    <img src="https://stallman-j.github.io/LaTekonomer/assets/img/how-tos_images/ECON-412/overleaf_04.png" alt="rename and create" width="40%" />
     <p class="caption">Rename and Create</p>
     </div> 
 
-6. This should bring you to your own project page. You'll be able to access this folder any time you access Overleaf. Once you get to the research project stage, I'll show you how to share this project with your groupmates.
+6. This should bring you to your own project page. You'll be able to access this folder any time you access Overleaf. Click on the pdf `ECON-412_HW-01_guidance.pdf` in that project page for your next steps.
 
-    ![Test](figures/ECON-412/gdp_pc_le_1950.png)
+Once you get to the research project stage, I'll show you how to share this project with your groupmates. I'll update the templates folder as the semester goes on, but I'll include instructions for using that as we go.
+
+# Copying New Files in
+
+I'll add this for project assignment 1 once it's up. Basically you'll create new files and folders and either copy and paste the files in or download the images and upload your own.
+
+# Downloading figures
+To add
+
+# Sharing your Overleaf with Your Group
+To add
+
+# Making a Presentation in Overleaf with Beamer
+
