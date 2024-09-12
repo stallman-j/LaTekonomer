@@ -115,13 +115,13 @@ analytics:
 author:
   name             : "J Stallman"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
-  bio              : "Fledgeling Economist"
+  bio              : "Frequent listener of trees falling in the forest, cheerfully geeky fledgeling economist."
   location         : "Hamden CT"
   email            :
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: "mailto:jillian.stallman@yale.edu"
+      url: #"mailto:j.stallman@yale.edu"
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://stallman-j.github.io"
@@ -133,7 +133,7 @@ author:
       # url: "https://facebook.com/"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
+      url: "https://github.com/stallman-j"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"
@@ -149,7 +149,7 @@ footer:
       # url:
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url:
+      url: "https://github.com/stallman-j"
     - label: "GitLab"
       icon: "fab fa-fw fa-gitlab"
       # url:
