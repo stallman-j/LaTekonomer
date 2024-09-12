@@ -1,5 +1,7 @@
 ---
 layout: home
+title: "ECON 412: Overleaf Intro"
+toc: true
 ---
 
 # Overview
