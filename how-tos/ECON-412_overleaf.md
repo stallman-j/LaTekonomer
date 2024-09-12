@@ -24,15 +24,15 @@ There are a lot of ways you can use Overleaf. In particular, you can sync your O
 
 3. Click on this <a href = "https://www.overleaf.com/read/wsrdjdckwmbz#f4467b" > share link </a>. You won't be able to edit my Overleaf folders, but you'll be able to see it and copy it into your own Overleaf account. Click `Join Project`.
 
-    ![Join the ECON 412 Overleaf Project a](/assets/img/how-tos_images/ECON-412/overleaf_01.png)
-    ![Join the ECON 412 Overleaf Project b](/assets/img/how-tos_images/ECON-412/overleaf_01)
+    ![Join the ECON 412 Overleaf Project a](assets/img/how-tos_images/ECON-412/overleaf_01.png)
+    ![Join the ECON 412 Overleaf Project b](assets/img/how-tos_images/ECON-412/overleaf_01.png)
 
     <div class="figure" align="center">
-    <img src="/assets/img/how-tos_images/ECON-412/overleaf_01.png" alt="copy overleaf project" width="100%" />
+    <img src="assets/img/how-tos_images/ECON-412/overleaf_01.png" alt="copy overleaf project" width="100%" />
     <p class="caption">Join the ECON 412 Overleaf Project c</p>
     </div> 
 
-        <div class="figure" align="center">
+    <div class="figure" align="center">
     <img src="https://stallman-j.github.io/LaTekonomer/assets/img/how-tos_images/ECON-412/overleaf_01.png" alt="copy overleaf project" width="100%" />
     <p class="caption">Join the ECON 412 Overleaf Project c</p>
     </div> 
