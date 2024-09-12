@@ -33,7 +33,7 @@ Assuming the reason you're still reading is that you're planning on using overle
 3. Click on this <a href = "https://www.overleaf.com/read/wsrdjdckwmbz#f4467b" > share link </a>. You won't be able to edit my Overleaf folders, but you'll be able to see it and copy it into your own Overleaf account. Click `Join Project`.
 
     <div class="figure" align="center">
-    <img src="https://stallman-j.github.io/LaTekonomer/assets/img/how-tos_images/ECON-412/overleaf_01.png" alt="join overleaf project" width="80%" />
+    <img src="https://stallman-j.github.io/LaTekonomer/figures/how-tos_images/ECON-412/overleaf_01.png" alt="join overleaf project" width="80%" />
     <p class="caption">Join the ECON 412 Overleaf Project </p>
     </div> 
 
@@ -41,12 +41,12 @@ Assuming the reason you're still reading is that you're planning on using overle
 4. Click "Menu" on the top left of the screen with the project showing in Overleaf, and then "Copy Project"
     
     <div class="figure" align="center">
-    <img src="https://stallman-j.github.io/LaTekonomer/assets/img/how-tos_images/ECON-412/overleaf_02.png" alt="menu button" width="80%" />
+    <img src="https://stallman-j.github.io/LaTekonomer/figures/how-tos_images/ECON-412/overleaf_02.png" alt="menu button" width="80%" />
     <p class="caption">Menu</p>
     </div> 
 
     <div class="figure" align="center">
-    <img src="https://stallman-j.github.io/LaTekonomer/assets/img/how-tos_images/ECON-412/overleaf_03.png" alt="copy overleaf project" width="20%" />
+    <img src="https://stallman-j.github.io/LaTekonomer/figures/how-tos_images/ECON-412/overleaf_03.png" alt="copy overleaf project" width="20%" />
     <p class="caption">Copy the Overleaf Project</p>
     </div> 
 
@@ -58,7 +58,7 @@ Assuming the reason you're still reading is that you're planning on using overle
     You'll all then be able to view and edit these files in real time. It's like Google Docs for nerds.
 
     <div class="figure" align="center">
-    <img src="https://stallman-j.github.io/LaTekonomer/assets/img/how-tos_images/ECON-412/overleaf_04.png" alt="rename and create" width="40%" />
+    <img src="https://stallman-j.github.io/LaTekonomer/figures/how-tos_images/ECON-412/overleaf_04.png" alt="rename and create" width="40%" />
     <p class="caption">Rename and Create</p>
     </div> 
 
