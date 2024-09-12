@@ -3,7 +3,6 @@ title: ECON 412: Getting Started with Overleaf
 #subtitle: Hopefully everything you need and lots of things you hopefully won't
 # https://bookdown.org/yihui/rmarkdown/html-document.html#floating-toc
 layout: single
-toc: false
 ---
 
 
@@ -30,13 +29,17 @@ There are a lot of ways you can use Overleaf. In particular, you can sync your O
 4. Click "Menu" on the top left of the screen with the project showing in Overleaf, and then "Copy Project"
 
 ![Menu Button](assets/img/how-tos_images/ECON-412/overleaf_02.png)
-![Menu Button](assets/img/how-tos_images/ECON-412/overleaf_03.png)
+
+![Copy Project](assets/img/how-tos_images/ECON-412/overleaf_03.png)
+
+
 
 
 5. Rename to something like "ECON-412_your-name". This way you'll be able to use this same structure for all your ECON 412 stuff (including your research project). I'll continue adding files into the original template, but I'll include explanations for how to just copy those over into your stuff later on. You might not want to use just "ECON-412" the way I did here, because the most likely scenario if you're using Overleaf is that for your project, someone in your group will make *their* copy of this Overleaf into your group's Overleaf, and share it with all the meembers of your group. You'll all then be able to view and edit these files, a bit like using Google Docs but with a more professional output.
 
-![Menu Button](assets/img/how-tos_images/ECON-412/overleaf_04.png)
+![Rename and Create](assets/img/how-tos_images/ECON-412/overleaf_04.png)
 
 
 6. This should bring you to your own project page. You'll be able to access this folder any time you access Overleaf. Once you get to the research project stage, I'll show you how to share this project with your groupmates.
 
+![Test](figures/ECON-412/gdp_pc_le_1950.png)
