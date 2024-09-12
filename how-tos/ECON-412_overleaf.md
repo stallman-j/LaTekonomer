@@ -79,7 +79,7 @@ Assuming the reason you're still here is that you're planning on using Overleaf,
     <p class="caption">Rename and Create</p>
     </div> 
 
-6. This should bring you to your own project page. You'll be able to access this folder any time you access Overleaf. Click on the pdf `ECON-412_HW-01_guidance.pdf` in that project page for your next steps.
+6. This should bring you to your own project page. You'll be able to access this folder any time you access Overleaf. Click on the pdf `ECON-412_HW_guidance.pdf` in that project page for your next steps. This pdf is compiled from LaTex files within your Overleaf.
 
 # Adding New Files
 
