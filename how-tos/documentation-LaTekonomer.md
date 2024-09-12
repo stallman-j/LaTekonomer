@@ -4,6 +4,8 @@ title: LaTekonomer Documentation
 # https://bookdown.org/yihui/rmarkdown/html-document.html#floating-toc
 layout: single
 toc: true
+toc_label: "Contents"
+toc_sticky: true
 author_profile: true
 ---
 
