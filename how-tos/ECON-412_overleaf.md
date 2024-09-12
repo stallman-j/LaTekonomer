@@ -3,6 +3,7 @@ title: "ECON 412: Overleaf"
 layout: single
 toc: true
 toc_label: "Contents"
+toc_sticky: true
 author_profile: true
 ---
 
