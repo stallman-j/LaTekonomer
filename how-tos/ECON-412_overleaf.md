@@ -3,7 +3,6 @@ title: ECON 412: Getting Started with Overleaf
 #subtitle: Hopefully everything you need and lots of things you hopefully won't
 # https://bookdown.org/yihui/rmarkdown/html-document.html#floating-toc
 layout: single
-toc: true
 ---
 
 # Overview
@@ -33,8 +32,8 @@ There are a lot of ways you can use Overleaf. In particular, you can sync your O
     </div> 
 
     <div class="figure" align="center">
-    <img src="https://stallman-j.github.io/LaTekonomer/assets/img/how-tos_images/ECON-412/overleaf_01.png" alt="copy overleaf project" width="100%" />
-    <p class="caption">Join the ECON 412 Overleaf Project c</p>
+    <img src="https://stallman-j.github.io/LaTekonomer/assets/img/how-tos_images/ECON-412/overleaf_01.png" alt="join overleaf project" width="100%" />
+    <p class="caption">Join the ECON 412 Overleaf Project </p>
     </div> 
 
 
@@ -42,15 +41,27 @@ There are a lot of ways you can use Overleaf. In particular, you can sync your O
 
     ![Menu Button](assets/img/how-tos_images/ECON-412/overleaf_02.png)
     
+    <div class="figure" align="center">
+    <img src="https://stallman-j.github.io/LaTekonomer/assets/img/how-tos_images/ECON-412/overleaf_02.png" alt="menu button" width="100%" />
+    <p class="caption">Menu</p>
+    </div> 
+
     ![Copy Project](assets/img/how-tos_images/ECON-412/overleaf_03.png)
 
-
+    <div class="figure" align="center">
+    <img src="https://stallman-j.github.io/LaTekonomer/assets/img/how-tos_images/ECON-412/overleaf_03.png" alt="copy overleaf project" width="100%" />
+    <p class="caption">Copy the Overleaf Project</p>
+    </div> 
 
 
 5. Rename to something like "ECON-412_your-name". This way you'll be able to use this same structure for all your ECON 412 stuff (including your research project). I'll continue adding files into the original template, but I'll include explanations for how to just copy those over into your stuff later on. You might not want to use just "ECON-412" the way I did here, because the most likely scenario if you're using Overleaf is that for your project, someone in your group will make *their* copy of this Overleaf into your group's Overleaf, and share it with all the meembers of your group. You'll all then be able to view and edit these files, a bit like using Google Docs but with a more professional output.
 
     ![Rename and Create](assets/img/how-tos_images/ECON-412/overleaf_04.png)
 
+    <div class="figure" align="center">
+    <img src="https://stallman-j.github.io/LaTekonomer/assets/img/how-tos_images/ECON-412/overleaf_04.png" alt="rename and create" width="100%" />
+    <p class="caption">Rename and Create</p>
+    </div> 
 
 6. This should bring you to your own project page. You'll be able to access this folder any time you access Overleaf. Once you get to the research project stage, I'll show you how to share this project with your groupmates.
 
