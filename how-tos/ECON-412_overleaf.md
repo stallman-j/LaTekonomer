@@ -2,6 +2,7 @@
 layout: home
 title: "ECON 412: Overleaf Intro"
 toc: true
+toc_label: "Helpers"
 ---
 
 # Overview
