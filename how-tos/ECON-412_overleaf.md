@@ -64,7 +64,7 @@ Assuming the reason you're still reading is that you're planning on using overle
 
 6. This should bring you to your own project page. You'll be able to access this folder any time you access Overleaf. Click on the pdf `ECON-412_HW-01_guidance.pdf` in that project page for your next steps.
 
-Once you get to the research project stage, I'll show you how to share this project with your groupmates. I'll update the templates folder as the semester goes on, but I'll include instructions for using that as we go.
+    Once you get to the research project stage, I'll show you how to share this project with your groupmates. I'll update the templates folder as the semester goes on, but I'll include instructions for using that as we go.
 
 # Copying New Files in
 
