@@ -37,7 +37,7 @@ The LaTekonomer repository is linked with an Overleaf Project, so there are many
 I'll go over the install steps for a few of the options you may want to pursue and some considerations to help you decide which is right for you right now. There are many, many tutorials out there for different workflows. This is just what has worked well for me.
 
 
-## Option 1: Copyi the [LaTekonomer from Overleaf](https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598)
+## Option 1: Copy [LaTekonomer from Overleaf](https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598)
 
 I recommend doing this if either of the following apply to you:
 

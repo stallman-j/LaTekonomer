@@ -1,18 +1,22 @@
 ---
-title: "ECON 412: Overleaf Intro"
+title: "ECON 412: Overleaf"
 layout: single
 toc: true
 toc_label: "Contents"
 author_profile: true
 ---
 
-# Overview
+# Should I Use Overleaf?
 
-If you're interested in doing research projects in the future (like writing a senior thesis), I highly, highly recommend getting started with Overleaf. If you're not planning on writing a senior thesis and don't plan on doing research projects beyond this class, Microsoft Word or Markdown will do just fine.
+If you're interested in doing research projects in the future (like writing a senior thesis), I highly, highly recommend getting started with Overleaf. 
 
-In Microsoft Word, the `Alt+=` key combination will open up the equation editor. There, you can use shorthand for a lot of equations to write them quickly. It takes a little getting used to but is actually pretty quick. I'm not going to go over the key combinations here, but you can find them with a Google search.
+If you're not planning on writing a senior thesis and don't plan on doing research projects beyond this class, Microsoft Word or Markdown will do just fine.
 
-There are a lot of ways you can use Overleaf. In particular, you can sync your Overleaf repository with Github. Come talk to me (Jillian) if you're interested in this possibility. You can also download LaTex onto your machine and use local files. This is usually a pain to install, so let's not go over it for now.
+In Microsoft Word, the `Alt+=` key combination will open up the equation editor. There, you can use shorthand for a lot of equations to write them quickly. It takes a little getting used to but is actually pretty quick. I'm not going to go over the key combinations here because this is an Overleaf tutorial. Markdown uses the same equation syntax as what LaTex does.
+
+There are a lot of ways you can use Overleaf. In particular, you can sync your Overleaf repository with Github. Come talk to me (Jillian) if you're interested in this possibility. You can also download LaTex onto your machine and use local files. This is usually a pain to install, so let's not go over it for now. 
+
+Check out the [LaTekonomer documentation](https://stallman-j.github.io/LaTekonomer/how-tos/documentation-LaTekonomer/) if you're interested in those options.
 
 # Feedback
 
@@ -48,7 +52,7 @@ Assuming the reason you're still reading is that you're planning on using overle
     </div> 
 
     <div class="figure" align="center">
-    <img src="https://stallman-j.github.io/LaTekonomer/figures/how-tos/ECON-412/overleaf_03.png" alt="copy overleaf project" width="20%" />
+    <img src="https://stallman-j.github.io/LaTekonomer/figures/how-tos/ECON-412/overleaf_03.png" alt="copy overleaf project" width="30%" />
     <p class="caption">Copy the Overleaf Project</p>
     </div> 
 
@@ -66,8 +70,6 @@ Assuming the reason you're still reading is that you're planning on using overle
 
 6. This should bring you to your own project page. You'll be able to access this folder any time you access Overleaf. Click on the pdf `ECON-412_HW-01_guidance.pdf` in that project page for your next steps.
 
-    Once you get to the research project stage, I'll show you how to share this project with your groupmates. I'll update the templates folder as the semester goes on, but I'll include instructions for using that as we go.
-
 # Adding New Files
 
 I'll add this for project assignment 1 once it's up. Basically you'll create new files and folders and either copy and paste the files in or download the images and upload your own.
@@ -80,3 +82,10 @@ To add
 
 # Making Your Presentation
 
+To add
+
+# Writing a Rough Draft
+
+# Adding Bibliography
+
+Add link to Zotero guidance
