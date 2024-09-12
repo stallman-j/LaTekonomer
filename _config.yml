@@ -113,16 +113,16 @@ analytics:
 
 # Site Author
 author:
-  name             : "J Stallman"
+  name             : "Home"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : #"Frequent hearer of trees falling in forests, whimsical and geeky fledgeling economist."
-  location         : "Hamden CT"
-  email            :
+  location         : #"Hamden CT"
+  email            : 
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
       url: #"mailto:j.stallman@yale.edu"
-    - label: "Website"
+    - label: "J Stallman's Website"
       icon: "fas fa-fw fa-link"
       url: "https://stallman-j.github.io"
     - label: "Twitter"
@@ -131,9 +131,9 @@ author:
     - label: "Facebook"
       icon: "fab fa-fw fa-facebook-square"
       # url: "https://facebook.com/"
-    - label: "GitHub"
+    - label: "LaTekonomer GitHub"
       icon: "fab fa-fw fa-github"
-      url: "https://github.com/stallman-j"
+      url: "https://github.com/stallman-j/LaTekonomer"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       # url: "https://instagram.com/"

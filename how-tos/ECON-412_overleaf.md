@@ -2,7 +2,8 @@
 title: "ECON 412: Overleaf Intro"
 layout: single
 toc: true
-toc_label: "Helpers"
+toc_label: "Contents"
+author_profile: true
 ---
 
 # Overview

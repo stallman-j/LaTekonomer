@@ -4,11 +4,12 @@ title: LaTekonomer Documentation
 # https://bookdown.org/yihui/rmarkdown/html-document.html#floating-toc
 layout: single
 toc: true
+author_profile: true
 ---
 
 # Quick Links
 
-View [the GitHub Pages website](https://stallman-j.github.io/LaTekonomer) or directly on [GitHub](https://github.com/stallman-j/LaTekonomer)
+View [the LaTekonomer website](https://stallman-j.github.io/LaTekonomer) or access the repository directly on [GitHub](https://github.com/stallman-j/LaTekonomer)
 
 
 [Report Bug](https://github.com/stallman-j/LaTekonomer/issues/new?labels=bug&template=bug-report---.md)
@@ -29,14 +30,14 @@ This is where you can find that code for that three-part long table that stretch
 This is where students new to LaTex and R and GitHub and research can find easy templates to get going on their homework, so that they're spending their time thinking about interesting economics rather than playing the eye-watering game of "Where's the dollar sign I'm missing that's keeping my LaTex from compiling?" at 11:43pm.
 
 
-# Deciding How to Use LaTekonomer Resources
+# How to Use LaTekonomer
 
 The LaTekonomer repository is linked with an Overleaf Project, so there are many ways you might want to use it on your own machine. 
 
 I'll go over the install steps for a few of the options you may want to pursue and some considerations to help you decide which is right for you right now. There are many, many tutorials out there for different workflows. This is just what has worked well for me.
 
 
-## Option 1: Copying the [LaTekonomer Overleaf Template](https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598)
+## Option 1: Copyi the [LaTekonomer from Overleaf](https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598)
 
 I recommend doing this if either of the following apply to you:
 
@@ -51,7 +52,7 @@ You don't need to sync to GitHub the same time as you set up Overleaf, so if bot
 
 Get familiar with LaTex formatting, then start building out your Git skills when the limitations of an online-only repository start to bug you.
 
-## Option 2: Forking the Git Repository (to your local machine)
+## Option 2: Fork the Git Repository
 
 [Forking](https://docs.github.com/en/get-started/start-your-journey/downloading-files-from-github) means that you copy this LaTekonomer Github repository to your own Github repository with a (hopefully) different name, which you then take as the foundation for your own project.
 
@@ -73,7 +74,7 @@ You may be wondering... Why would you want to start using GitHub?
 
 If you're planning to just use this with Overleaf and not planning on having the files on your local system, instead follow the steps for **copying the Latekonomer Overleaf Template.** From there, it's easy to set up Overleaf with GitHub (if you have a premium account). That way you don't have to bother with Git bash and the Git terminal.
 
-## Option 3: Downloading the files into your local system
+## Option 3: Download the files
 
 You can download either from the [LaTekonomer Overleaf Template](https://www.overleaf.com/read/mpdhvnnjzsxq#7e6598) or from the [LaTekonomer Github Repository](https://github.com/stallman-j/LaTekonomer).
 
@@ -99,11 +100,11 @@ Eventually, you might want to mix and match the above solutions.
 - While I've linked to Mac-specific procedures where I know it's different, my workflow's mostly in Windows and these guides are biased towards Windows users. You might have to make platform-specific adjustments that I haven't accounted for. If you have Mac-specific suggestions, [make a feature request](https://github.com/stallman-j/LaTekonomer/issues/new?labels=enhancement&template=feature-request---.md).
 <!-- Installation -->
 
-# Installation
+# The Nitty Gritty
 
 Your prerequisites and installation steps will depend on how you're anticipating you'll use these templates. Let's go through the three main ways of doing this. There are tons of tutorials out there; this is just what has worked well for me.
 
-## Option 1: Copying the LaTekonomer Overleaf Template
+## Option 1: Copy the Overleaf Template
 
 1. You'll need an <a href = "https://www.overleaf.com/" > Overleaf account </a>.
 
@@ -138,7 +139,7 @@ I recommend trying this out if you're new to GitHub and you want to start gettin
 
 **To add: pulling a LaTekonomer repository that's been updated externally when you've already made a copy of your awesome project on your own Overleaf.**
 
-## Option 2: Forking the Git Repository
+## Option 2: Fork the Repo
 
 1. You'll need a [GitHub account](https://github.com/). I haven't found there to be an advantage to using an institutional email at this point, unless you're planning on setting up a private repository.
 
