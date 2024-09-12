@@ -11,8 +11,8 @@
  # Install Package: Color Highlight will make this a lot easier
  #f3f3f3
 $background-color: #f3f3f3 !default;
-
 */
+
 $background-color: #fbfbfb !default;
 $text-color: #292838 !default;
 $muted-text-color: mix(#fff, $text-color, 60%) !default;
@@ -30,7 +30,7 @@ $footer-background-color: #318243 !default;
 $link-color: #318243 !default;
 $link-color-hover: #8fcd92 !default;
 
-$masthead-background-color: #318243;
+$masthead-background-color: #318243 !default;
 $masthead-link-color: #fff !default;
 $masthead-link-color-hover: #8fcd92 !default;
 $navicon-link-color-hover: mix(#fff, #404040, 80%) !default;
