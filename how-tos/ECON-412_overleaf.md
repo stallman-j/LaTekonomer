@@ -3,6 +3,7 @@ title: ECON 412: Getting Started with Overleaf
 #subtitle: Hopefully everything you need and lots of things you hopefully won't
 # https://bookdown.org/yihui/rmarkdown/html-document.html#floating-toc
 layout: single
+toc: true
 ---
 
 # Overview
@@ -12,6 +13,10 @@ If you're interested in doing research projects in the future (like writing a se
 In Microsoft Word, the `Alt+=` key combination will open up the equation editor. There, you can use shorthand for a lot of equations to write them quickly. It takes a little getting used to but is actually pretty quick. I'm not going to go over the key combinations here, but you can find them with a Google search.
 
 There are a lot of ways you can use Overleaf. In particular, you can sync your Overleaf repository with Github. Come talk to me (Jillian) if you're interested in this possibility. You can also download LaTex onto your machine and use local files. This is usually a pain to install, so let's not go over it for now.
+
+# Feedback
+
+To give feedback, fill out [This ECON 412 Survey](https://docs.google.com/forms/d/e/1FAIpQLSfWYUyhNyq6OfDbsTyurtNOa1xjKZzi5CK36wMbdPHCRPVURQ/viewform?usp=sf_link). It's anonymous unless you want me to respond!
 
 # Getting Started 
 
@@ -28,7 +33,7 @@ Assuming the reason you're still reading is that you're planning on using overle
 3. Click on this <a href = "https://www.overleaf.com/read/wsrdjdckwmbz#f4467b" > share link </a>. You won't be able to edit my Overleaf folders, but you'll be able to see it and copy it into your own Overleaf account. Click `Join Project`.
 
     <div class="figure" align="center">
-    <img src="https://stallman-j.github.io/LaTekonomer/assets/img/how-tos_images/ECON-412/overleaf_01.png" alt="join overleaf project" width="100%" />
+    <img src="https://stallman-j.github.io/LaTekonomer/assets/img/how-tos_images/ECON-412/overleaf_01.png" alt="join overleaf project" width="80%" />
     <p class="caption">Join the ECON 412 Overleaf Project </p>
     </div> 
 
@@ -36,12 +41,12 @@ Assuming the reason you're still reading is that you're planning on using overle
 4. Click "Menu" on the top left of the screen with the project showing in Overleaf, and then "Copy Project"
     
     <div class="figure" align="center">
-    <img src="https://stallman-j.github.io/LaTekonomer/assets/img/how-tos_images/ECON-412/overleaf_02.png" alt="menu button" width="100%" />
+    <img src="https://stallman-j.github.io/LaTekonomer/assets/img/how-tos_images/ECON-412/overleaf_02.png" alt="menu button" width="80%" />
     <p class="caption">Menu</p>
     </div> 
 
     <div class="figure" align="center">
-    <img src="https://stallman-j.github.io/LaTekonomer/assets/img/how-tos_images/ECON-412/overleaf_03.png" alt="copy overleaf project" width="40%" />
+    <img src="https://stallman-j.github.io/LaTekonomer/assets/img/how-tos_images/ECON-412/overleaf_03.png" alt="copy overleaf project" width="20%" />
     <p class="caption">Copy the Overleaf Project</p>
     </div> 
 
