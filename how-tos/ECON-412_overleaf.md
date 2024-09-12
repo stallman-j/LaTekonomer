@@ -1,6 +1,6 @@
 ---
-layout: home
 title: "ECON 412: Overleaf Intro"
+layout: single
 toc: true
 toc_label: "Helpers"
 ---
