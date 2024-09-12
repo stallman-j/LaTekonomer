@@ -1,0 +1,15 @@
+---
+---
+// This work incorporates code from [iBug-source](https://github.com/iBug/iBug-source)
+// Copyright &copy; 2020-2021 iBug <git@ibugone.com>.
+// iBug-source is distributed under the terms of the Creative Commons Attribution-ShareAlike 4.0 International Public License ([CC BY-SA 4.0](https://creativecommons.org/licenses/by-sa/4.0/))
+
+
+@charset "utf-8";
+
+@import "_variables";
+
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+@import "_custom"; // iBug's customization
