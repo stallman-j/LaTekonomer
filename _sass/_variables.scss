@@ -16,6 +16,8 @@ $box-shadow: none;
      Colors
 ========================================================================== */
 
+$primary-color: #318243 !default;
+
 $background-color: #eff0f1 !default;
 
 $footer-background-color: #318243 !default;
@@ -25,6 +27,6 @@ $masthead-background-color: #318243 !default;
 $masthead-link-color: #ffffff !default;
 $masthead-link-color-hover: mix(#ffffff, $primary-color, 25%) !default;
 
-$primary-color: #318243 !default;
 
 $link-color: #318243 !default;
+$link-color-hover: mix(#fff, $link-color, 25%) !default;
