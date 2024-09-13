@@ -288,7 +288,7 @@ git pull
 
 [To add: Now the LaTekonomer repository has been updated, but I've already made a fork. Can I do another pull?]
 
-## Downloading the files to your local system
+## Option 3: Download
 
 I've put this last because if you're not going to Git, you're not going to Git, but you should really consider it. 
 
