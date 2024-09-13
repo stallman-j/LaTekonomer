@@ -1,0 +1,7 @@
+Steps:
+
+1) Add _data/navigation.yml file
+2) Edit Gemfile
+3) Add _config.yml file
+4) Add assets/css/main.scss to allow it to include custom css
+5) 
