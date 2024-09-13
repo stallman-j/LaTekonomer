@@ -1,4 +1,9 @@
 .masthead {
-  color: $masthead-background-color;
   background-color: $masthead-background-color;
+
+  &__inner-wrap {
+  background-color: $masthead-background-color;
+  }
+
+
   }
