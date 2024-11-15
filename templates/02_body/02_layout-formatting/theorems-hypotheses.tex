@@ -1,10 +1,10 @@
-\section{Creating Theorems, Hypotheses, and Lemmas}\label{theorems-hypotheses}
+\section{Creating Theorems, Hypotheses, and Lemmas}\label{sec:theorems-hypotheses}
 
 If you'd like to have something titled to which you can refer, like hypotheses 1-4, theorems, definitions, assumptions and so forth, you can create a command in the preamble that defines this new environment. 
 
 For an intro tutorial, see \url{https://www.overleaf.com/learn/latex/theorems_and_proofs}, which has most of what you should need. Many examples below have been taken from here.
 
-See \url{https://tex.stackexchange.com/questions/386905/hypothesis-with-amsthm-package}. You need \verb+amsthm+, and then check this preamble (the one in \verb+main-article+) in the area under the \verb+amsthm+ package. The high level of customization uses \verb+thmtools+, and the \verb+\cref+ uses the \verb+cleverref+ package, a package for fancy cross references. 
+See \url{https://tex.stackexchange.com/questions/386905/hypothesis-with-amsthm-package}. You need \verb+amsthm+, and then check this preamble (the one in \verb+preambles/preamble_article.sty+) in the area under the \verb+amsthm+ package. The high level of customization uses \verb+thmtools+, and the \verb+\cref+ uses the \verb+cleverref+ package, a package for fancy cross references. 
 
 Note, though, that \verb+cleverref+ can clash with the \verb+cases+ package: \url{https://tex.stackexchange.com/questions/201437/cleveref-and-cases-packages-clash}. 
 
