@@ -66,7 +66,7 @@ Do this if you:
 
 You may be wondering... Why would you want to start using GitHub?
 
-- GitHub is a standard method for making research code, inputs, and outputs transparent, replicable, well-documented, and sharable among many fields. Economics is catching up in this trend, but because there's only so much you can teach in a course, if there's teaching of something computer-related, it tends to be the use of R or Excel for statistical analyses.
+- GitHub is a standard method for making research inputs, and outputs transparent, replicable, well-documented, and sharable among many fields. Economics is catching up in this trend, but because there's only so much you can teach in a course, if there's teaching of something computer-related, it tends to be the use of R or Excel for statistical analyses.
 
 - If you're just starting a research project, starting it with Github allows you to maintain version control throughout your project and clearly monitor the changes you've made. Your future self will thank you for your clarity.
     

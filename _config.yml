@@ -121,7 +121,7 @@ author:
   links:
     - label: "Email"
       icon: "fas fa-fw fa-envelope-square"
-      url: #"mailto:j.stallman@yale.edu"
+      url: "mailto:j.stallman@yale.edu"
     - label: "J Stallman's Website"
       icon: "fas fa-fw fa-link"
       url: "https://stallman-j.github.io"

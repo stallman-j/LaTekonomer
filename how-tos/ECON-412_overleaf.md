@@ -105,7 +105,7 @@ To add
 
 # Making Your Presentation
 
-To add
+There are some presentation templates up in Overleaf; still need to write this up.
 
 # Writing a Rough Draft
 
